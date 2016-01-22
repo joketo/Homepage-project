@@ -1,0 +1,265 @@
+@font-face {
+    font-family: theFont;
+    src: url("KaushanScript-Regular.otf");
+}
+@font-face {
+    font-family: easyFont;
+    src: url("fonts/Nobile-Medi.ttf");
+}
+ul.paintings { /*maalauksia listaava taulukko*/
+	list-style: none;
+	font-size: 0px;
+}
+html {
+    margin:0;
+    padding:0;
+}
+body {
+    margin:0;
+    padding:0;
+}
+
+ul.paintings li {
+	display: inline-block;
+	padding: 10px;
+	background: #fff;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	font-size: 1rem;
+	vertical-align: top;
+	box-shadow: 0 0 5px #ddd;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+ul.paintings li img {
+	max-width: 100%;
+   /* height: auto;*/
+	margin: 0 0 10px;
+}
+
+ul.paintings li p {
+	font-size: .9em;
+	line-height: 1.5em;
+	color: #999;
+}
+ul.paintings {
+	list-style: none;
+   	font-size: 0px;
+   	margin-left: -2.5%; /* should match li left margin */
+}
+ul.paintings li {
+    display: inline-block;
+    padding: 10px;
+    margin: 0 0 2.5% 2.5%;
+    background: #fff;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    font-size: 1rem;
+    vertical-align: top;
+    box-shadow: 0 0 5px #ddd;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+/* class for 2 columns */
+ul.paintings.columns-2 li {
+	width: 47.5%; /* this value + 2.5 should = 50% */
+}
+/* class for 3 columns */
+ul.paintings.columns-3 li {
+	width: 30.83%; /* this value + 2.5 should = 33% */
+}
+/* class for 4 columns */
+ul.paintings.columns-4 li {
+	width: 22.5%; /* this value + 2.5 should = 25% */
+}
+ 
+ul.paintings div {
+    height: 100%;
+    width: 100%; 
+}
+
+@media (max-width: 480px) {
+	ul.grid-nav li {
+		display: block;
+		margin: 0 0 5px;
+	}
+	ul.grid-nav li a {
+		display: block;
+	}
+	ul.paintings {
+		margin-left: 0;
+	}
+	ul.paintings li {
+		/*width: 100% !important; /* over-ride all li styles */
+		margin: 0 0 20px;
+	}
+}
+
+div.project img {
+    display: inline-block;
+    width: 600px;
+    margin-left: 30px;
+    float: right;
+}
+div.project {
+    overflow: auto
+}
+ul.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   /* background-color: #333;*/
+}
+
+ul.navigation li {
+    float: right;
+}
+ul.navigation a:hover {
+    background-color: #111;
+}
+ul.navigation a {
+    font-family: theFont;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #333;
+    }
+div.pagetitle {
+    width: auto;
+    height: 534px;
+    min-width: 1300px; 
+   /* margin-top: 50px;
+    margin-bottom: 30px;*/
+    background-image: url("images/wahtera3.png");
+    background-repeat: no-repeat;
+    margin-top: 0px;
+}
+div.pagetitle h1{
+    padding: 310px;
+    font-family: theFont;
+    text-align: center;
+  /*s  vertical-align: middle;
+    /*margin-top: 300px;*/
+}
+img.titlephoto{
+    margin-top: 0px;
+    height: 480px;
+}
+body.frontpage{
+    background-image: url("images/smallback.png");
+   /* background-size:     cover;  */
+    background-size: cover;                  
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+body.codepage{
+    background-image: url("images/beigeback.png");
+   /* background-size: 100% 100*/
+    background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+div.introduction{
+    font-family: easyFont;
+    display: block;
+    text-align: center; 
+    margin-bottom: 30px;
+}
+p{
+    font-family: easyFont;
+}
+body.artpage{
+    background-image: url("images/beigeback.png");
+    background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+body.photographs{
+    background-image: url("images/lightback.png");
+    background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+body.paintingspage{
+    background-image: url("images/lightback.png");
+    background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+body.clothespage{
+    background-image: url("images/anotherback.png");
+    background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+img.banner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+div.buttons{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto 
+}
+h1.frontpagetext{ rikkoo etusivun muista
+    font-family: theFont;
+    text-align: center;
+}
+a.code{
+    display: inline-block;
+    width: 500px;
+    height: 480px;
+    background-image: url("images/smallcode.png");
+}
+a.code:hover{
+    background-image: url("images/codehover.png");    
+}
+a.art{
+    display: inline-block;
+    width: 500px;
+    height: 480px;
+    background-image: url("images/smallart.png");
+}
+a.art:hover{
+    background-image: url("images/arthover.png");    
+}
+a.clothes{
+    display: inline-block;
+    width: 500px;
+    height: 480px;
+    background-image: url("images/smallclothes.png");
+}
+a.clothes:hover{
+    background-image: url("images/clotheshover.png");    
+}
+	
+a.paint{
+    display: inline-block;
+    width: 420px;
+    height: 300px;
+    background-image: url("images/paint.png");
+}
+a.paint:hover{
+    display: inline-block;
+    width: 420px;
+    height: 300px;
+    background-image: url("images/hoverpaint.png");    
+}
+a.photos{
+    display: inline-block;
+    width: 420px;
+    height: 300px;
+    background-image: url("images/photos.png");
+}
+a.photos:hover{
+    display: inline-block;
+    width: 420px;
+    height: 300px;
+    background-image: url("images/photoshover.png");    
+}
