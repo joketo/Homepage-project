@@ -10,10 +10,7 @@ ul.paintings { /*maalauksia listaava taulukko*/
 	list-style: none;
 	font-size: 0px;
 }
-html {
-    margin:0;
-    padding:0;
-}
+
 body {
     margin:0;
     padding:0;
@@ -111,7 +108,12 @@ ul.navigation {
     margin: 0;
     padding: 0;
     overflow: hidden;
-   /* background-color: #333;*/
+    margin-bottom: 30px;
+    /*background-color: #333;
+    background-size: 5px;*/
+    background-image: url("images/line.png");
+    background-repeat: linear;
+  /*  background-size: 63px;*/
 }
 
 ul.navigation li {
@@ -128,10 +130,10 @@ ul.navigation a {
     padding: 14px 16px;
     text-decoration: none;
     background-color: #333;
-    }
+}
 div.pagetitle {
     width: auto;
-    height: 534px;
+    height: 488px;
     min-width: 1300px; 
    /* margin-top: 50px;
     margin-bottom: 30px;*/
@@ -140,14 +142,18 @@ div.pagetitle {
     margin-top: 0px;
 }
 div.pagetitle h1{
-    padding: 310px;
+    padding: 320px;
     font-family: theFont;
     text-align: center;
-  /*s  vertical-align: middle;
-    /*margin-top: 300px;*/
+    margin: 0;
+}
+div.pagetitle img.banner{
+    padding: 270px 0px 0px 380px;
+    font-family: theFont;
+    text-align: center;
+    margin: 0;
 }
 img.titlephoto{
-    margin-top: 0px;
     height: 480px;
 }
 body.frontpage{
@@ -197,17 +203,19 @@ body.clothespage{
     background-repeat:   no-repeat;
     background-position: center center;  
 }
+/*
 img.banner{
     display: block;
     margin-left: auto;
     margin-right: auto 
-}
+}*/
+
 div.buttons{
     text-align: center;
     margin-left: auto;
     margin-right: auto 
 }
-h1.frontpagetext{ rikkoo etusivun muista
+h1.frontpagetext{ 
     font-family: theFont;
     text-align: center;
 }
