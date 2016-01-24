@@ -2,11 +2,8 @@
     font-family: theFont;
     src: url("KaushanScript-Regular.otf");
 }
-@font-face {
-    font-family: easyFont;
-    src: url("fonts/Nobile-Medi.ttf");
-}
-ul.paintings { /*maalauksia listaava taulukko*/
+
+ul.works { /*maalauksia, kuvia ja vaatteita listaava taulukko*/
 	list-style: none;
 	font-size: 0px;
 }
@@ -16,7 +13,7 @@ body {
     padding:0;
 }
 
-ul.paintings li {
+ul.works li {
 	display: inline-block;
 	padding: 10px;
 	background: #fff;
@@ -29,23 +26,23 @@ ul.paintings li {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 }
-ul.paintings li img {
+ul.works li img {
 	max-width: 100%;
    /* height: auto;*/
 	margin: 0 0 10px;
 }
 
-ul.paintings li p {
+ul.works li p {
 	font-size: .9em;
 	line-height: 1.5em;
 	color: #999;
 }
-ul.paintings {
+ul.works {
 	list-style: none;
    	font-size: 0px;
    	margin-left: -2.5%; /* should match li left margin */
 }
-ul.paintings li {
+ul.works li {
     display: inline-block;
     padding: 10px;
     margin: 0 0 2.5% 2.5%;
@@ -60,19 +57,19 @@ ul.paintings li {
     -webkit-box-sizing: border-box;
 }
 /* class for 2 columns */
-ul.paintings.columns-2 li {
+ul.works.columns-2 li {
 	width: 47.5%; /* this value + 2.5 should = 50% */
 }
 /* class for 3 columns */
-ul.paintings.columns-3 li {
+ul.works.columns-3 li {
 	width: 30.83%; /* this value + 2.5 should = 33% */
 }
 /* class for 4 columns */
-ul.paintings.columns-4 li {
+ul.works.columns-4 li {
 	width: 22.5%; /* this value + 2.5 should = 25% */
 }
  
-ul.paintings div {
+ul.works div {
     height: 100%;
     width: 100%; 
 }
@@ -85,10 +82,10 @@ ul.paintings div {
 	ul.grid-nav li a {
 		display: block;
 	}
-	ul.paintings {
+	ul.works {
 		margin-left: 0;
 	}
-	ul.paintings li {
+	ul.works li {
 		/*width: 100% !important; /* over-ride all li styles */
 		margin: 0 0 20px;
 	}
@@ -98,11 +95,17 @@ div.project img {
     display: inline-block;
     width: 600px;
     margin-left: 30px;
+    margin-right: 5px;
     float: right;
 }
 div.project {
     overflow: auto
 }
+    
+.allprojects {
+    padding-left: 15px; 
+}
+
 ul.navigation {
     list-style-type: none;
     margin: 0;
@@ -134,7 +137,7 @@ ul.navigation a {
 div.pagetitle {
     width: auto;
     height: 488px;
-    min-width: 1300px; 
+    /*min-width: 1300px; 
    /* margin-top: 50px;
     margin-bottom: 30px;*/
     background-image: url("images/wahtera3.png");
@@ -142,8 +145,9 @@ div.pagetitle {
     margin-top: 0px;
 }
 div.pagetitle h1{
-    padding: 320px;
+    padding: 320px; /*to do: make theses center somehow and still 320 px from top*/
     font-family: theFont;
+    font-size: 250%;
     text-align: center;
     margin: 0;
 }
@@ -152,7 +156,21 @@ div.pagetitle img.banner{
     font-family: theFont;
     text-align: center;
     margin: 0;
+ 
 }
+li.divider { /*a line between programming-projects*/
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-image: url("images/linesmaller.png");
+    background-repeat: linear;
+}
+p.me { /*johanna who -page*/
+
+}
+img.me{
+
+}
+
 img.titlephoto{
     height: 480px;
 }
@@ -171,13 +189,11 @@ body.codepage{
     background-position: center center;  
 }
 div.introduction{
-    font-family: easyFont;
     display: block;
     text-align: center; 
     margin-bottom: 30px;
 }
 p{
-    font-family: easyFont;
 }
 body.artpage{
     background-image: url("images/beigeback.png");
@@ -221,8 +237,8 @@ h1.frontpagetext{
 }
 a.code{
     display: inline-block;
-    width: 500px;
-    height: 480px;
+    width: 400px;
+    height: 384px;
     background-image: url("images/smallcode.png");
 }
 a.code:hover{
@@ -230,8 +246,8 @@ a.code:hover{
 }
 a.art{
     display: inline-block;
-    width: 500px;
-    height: 480px;
+    width: 400px;
+    height: 384px;
     background-image: url("images/smallart.png");
 }
 a.art:hover{
@@ -239,8 +255,8 @@ a.art:hover{
 }
 a.clothes{
     display: inline-block;
-    width: 500px;
-    height: 480px;
+    width: 400px;
+    height: 384px;
     background-image: url("images/smallclothes.png");
 }
 a.clothes:hover{
