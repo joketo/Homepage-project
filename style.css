@@ -146,7 +146,7 @@ div.mapletree {
     margin-top: 0px;
 }
 div.title{ /*the title text*/
-    padding: 22% 25% 16% 25%; /*to do: make these center somehow and still 320 px from top*/
+    padding: 217px;
     font-family: theFont;
     font-size: 150%;
     text-align: center;    
@@ -169,7 +169,7 @@ hr.divider { /*a line between programming-projects*/
 }
 
 img.profilepic{
-    width: 50%;
+    max-width: 500px;
     float: left;
     border: 1px solid #ddd;
     margin-right: 4%;
@@ -184,6 +184,7 @@ a.cv {
     color: #333;
 }
 div.whoiam{ /*johanna who -page*/
+    overflow: auto;
     margin: 0 6% 3% 6%;
     padding: 4% 5% 4% 5%;
     background-color: #FFFFFF;
