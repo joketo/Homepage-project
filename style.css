@@ -121,11 +121,6 @@ ul.navigation {
     padding: 0;    
     overflow: hidden;
     margin-bottom: 30px;
-    /*background-color: #333;
-    background-size: 5px;
-    background-image: url("images/lline.png");   
-    background-repeat: linear;
-    background-size: 63px;*/
 }
 
 ul.navigation li {
@@ -143,29 +138,27 @@ ul.navigation a {
     text-decoration: none;
     background-color: #333;
 }
-div.pagetitle {
+div.mapletree {
     width: auto;
     height: 488px;
-    /*min-width: 1300px; 
-    margin-top: 50px;
-    margin-bottom: 30px;*/
-    background-image: url("images/wahtera3.png");
+    background-image: url("images/wahtera3.png"); /*the maple tree*/
     background-repeat: no-repeat;
     margin-top: 0px;
 }
-div.pagetitle h1{
-    padding: 320px; /*to do: make these center somehow and still 320 px from top*/
+div.title{ /*the title text*/
+    padding: 23% 25% 16% 25%; /*to do: make these center somehow and still 320 px from top*/
     font-family: theFont;
-    font-size: 250%;
-    text-align: center;
-    margin: 0;
+    font-size: 150%;
+    text-align: center;    
 }
-div.pagetitle img.banner{
+div.mapletree img.banner{
     padding: 270px 0px 0px 380px;
     font-family: theFont;
     text-align: center;
     margin: 0;
- 
+}
+img.titlephoto{
+    height: 480px;
 }
 hr.divider { /*a line between programming-projects*/
     height: 24px;
@@ -176,11 +169,10 @@ hr.divider { /*a line between programming-projects*/
 }
 
 img.profilepic{
-    width: 600px;
+    width: 50%;
     float: left;
     border: 1px solid #ddd;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-right: 4%;
     margin-bottom: 15px;
 }
 a.cv img{
@@ -192,15 +184,14 @@ a.cv {
     color: #333;
 }
 div.whoiam{ /*johanna who -page*/
-    padding: 30px 50px 15px 615px;
+    margin: 0 6% 3% 6%;
+    padding: 4% 5% 4% 5%;
+    background-color: #FFFFFF;
 }
 div.whoiam p {
     color: #111;
 }
 
-img.titlephoto{
-    height: 480px;
-}
 body.frontpage{
     background-image: url("images/smallback.png");
    /* background-size:     cover;  */
@@ -219,14 +210,17 @@ div.introduction{
     display: block;
     text-align: center; 
     background-color: #FFFFFF;
+    
 }
 div.introduction p {
     padding: 3%;
     margin: 3% 7% 3% 7%;
+    /*font-family: theFont;
+    font-size: 120%;*/
 }
 
 body.artpage{
-    background-image: url("images/beigeback.png");
+    background-image: url("images/lightback.png");
     background-size: cover;
     background-repeat:   no-repeat;
     background-position: center center;  
@@ -244,17 +238,11 @@ body.paintingspage{
     background-position: center center;  
 }
 body.clothespage{
-    background-image: url("images/anotherback.png");
+    background-image: url("images/lightback.png");
     background-size: cover;
     background-repeat:   no-repeat;
     background-position: center center;  
 }
-/*
-img.banner{
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
-}*/
 
 div.buttons{
     text-align: center;
@@ -281,7 +269,7 @@ a.art{
     background-image: url("images/smallart.png");
 }
 a.art:hover{
-    background-image: url("images/arthover.png");    
+    background-image: url("images/arthover.png"); 
 }
 a.clothes{
     display: inline-block;
@@ -301,10 +289,7 @@ a.paint{
     background-image: url("images/paint.png");
 }
 a.paint:hover{
-    display: inline-block;
-    width: 420px;
-    height: 300px;
-    background-image: url("images/hoverpaint.png");    
+    opacity: .7;  
 }
 a.photos{
     display: inline-block;
@@ -314,8 +299,5 @@ a.photos{
     background-image: url("images/photos.png");
 }
 a.photos:hover{
-    display: inline-block;
-    width: 420px;
-    height: 300px;
-    background-image: url("images/photoshover.png");    
+    opacity: .8;   
 }
