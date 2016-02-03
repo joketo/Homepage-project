@@ -10,7 +10,9 @@ ul.works { /*maalauksia, kuvia ja vaatteita listaava taulukko*/
 p{
     font-family: sans;
 }
-
+html{
+    min-height: 100%
+}
 body {
     margin:0;
     padding:0;
