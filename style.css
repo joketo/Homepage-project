@@ -260,28 +260,29 @@ a.code{
     display: inline-block;
     width: 400px;
     height: 384px;
-    background-image: url("images/smallcode.png");
+    background-image: url("images/code.png");
 }
 a.code:hover{
-    background-image: url("images/codehover.png");    
+    background-image: url("images/codeblue.png");    
 }
 a.art{
     display: inline-block;
     width: 400px;
     height: 384px;
-    background-image: url("images/smallart.png");
+    background-image: url("images/art.png");
 }
 a.art:hover{
-    background-image: url("images/arthover.png"); 
+    background-image: url("images/artblue.png"); 
 }
 a.clothes{
     display: inline-block;
     width: 400px;
     height: 384px;
-    background-image: url("images/smallclothes2.png");
+    background-image: url("images/clothes.png");
 }
+
 a.clothes:hover{
-    background-image: url("images/clotheshover2.png");    
+    background-image: url("images/clothesblue.png");    
 }
 	
 a.paint{
