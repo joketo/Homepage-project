@@ -196,14 +196,14 @@ div.whoiam p {
 }
 
 body.frontpage{
-    background-image: url("images/smallback.jpg");
+    background-image: url("images/clearbackground.JPG");
    /* background-size:     cover;  */
     background-size: cover;                  
     background-repeat:   no-repeat;
     background-position: center center;  
 }
 body.codepage{
-    background-image: url("images/smallback.jpg");
+    background-image: url("images/evenclearerbackground.JPG");
    /* background-size: 100% 100*/
     background-size: cover;
     background-repeat:   no-repeat;
@@ -229,25 +229,31 @@ div.introduction p {
 }
 
 body.artpage{
-    background-image: url("images/window.jpg");
+    background-image: url("images/clearbackground.JPG");
     background-size: cover;
     background-repeat:   no-repeat;
     background-position: center center;  
 }
 body.photographs{
-    background-image: url("images/lightback.jpg");
+    background-image: url("images/evenclearerbackground.JPG");
     background-size: cover;
     background-repeat:   no-repeat;
     background-position: center center;  
 }
 body.paintingspage{
-    background-image: url("images/lightback.jpg");
+    background-image: url("images/evenclearerbackground.JPG");
+    background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+body.aboutpage{
+    background-image: url("images/testbackleft.JPG");
     background-size: cover;
     background-repeat:   no-repeat;
     background-position: center center;  
 }
 body.clothespage{
-    background-image: url("images/lightback.jpg");
+    background-image: url("images/evenclearerbackground.JPG");
     background-size: cover;
     background-repeat:   no-repeat;
     background-position: center center;  
