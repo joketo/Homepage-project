@@ -221,9 +221,15 @@ div.introduction p {
     /*font-family: theFont;
     font-size: 120%;*/
 }
+.artintro {
+    background-image: url("images/window.jpg");
+    background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
 
 body.artpage{
-    background-image: url("images/lightback.jpg");
+    background-image: url("images/window.jpg");
     background-size: cover;
     background-repeat:   no-repeat;
     background-position: center center;  
@@ -284,8 +290,25 @@ a.clothes{
 a.clothes:hover{
     background-image: url("images/clothesblue.png");    
 }
-	
-a.paint{
+.photography {
+    margin-bottom:30px;
+    height: 80px;
+    background-image: url("images/photography.JPG");
+    background-position: center center;
+    background-repeat:   no-repeat;
+
+}
+.showpaintings {
+    margin-bottom:30px;
+    height: 80px;
+    background-image: url("images/paintingsand.JPG");
+    background-position: center center;
+    background-repeat:   no-repeat;
+
+}
+
+
+a.paint{ 
     margin-left: 15px;
     display: inline-block;
     width: 420px;
