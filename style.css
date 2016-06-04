@@ -81,6 +81,9 @@ ul.works div {
     height: 100%;
     width: 100%; 
 }
+ul.works.columns-2 li.bigPicture{
+    width: 97.5%;
+}
 
 @media (max-width: 480px) {
 	ul.grid-nav li {
