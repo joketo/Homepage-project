@@ -3,8 +3,17 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
-	<script src="jquery-1.11.2.min.js"></script>
+    
+	<!--<script src="jquery-1.11.2.min.js"></script>-->
+	
+	<script src="prettyPhoto_3.1.6/js/jquery-1.6.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="prettyPhoto_3.1.6/css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+    <script src="prettyPhoto_3.1.6/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+	<script src="prettyPhoto_3.1.6/js/myconfig.js" type="text/javascript" charset="utf-8"></script>
+	
+	
 	<title>Wahtera Webpage</title>
+	
 </head>
     <body class="clothespage">
         <div class="mapletree"> <!--the banner-->
@@ -21,113 +30,155 @@
         </ul>
       
 	    <div class="introduction">
-	        <p>I like to design and make clothes. Dresses are my speciality.</p>
+	        <p>I like to design and make clothes. Dresses are my speciality. </br>
+	        Bigger pictures and more information about every piece can be found by clicking the images. </br>
+	        Some of the dresses also have additional pictures.</p>
 	    </div>
-	    <div class = "worksgrid">
-	    <ul class="works columns-2">
-	        <li class ="bigPicture">
-	            <div>
-	                <img src="CLOTHES/blueskirt.JPG"/>
-	                <p>Black skirt with white and blue decorations - cotton</p>
-	            </div>
-	        </li>
+	    <div class = "worksgrid">	    
+	    <ul class="works columns-4">
 	        <li>
 	            <div>
-	                <img src="CLOTHES/wedding.png"/>
-	                <p>The wedding dress - silk, embroidery, pearls and flowers</p>
-	            </div>
-	        </li>
-	        <li>
-	            <div>
-	                <img src="CLOTHES/kimono.JPG"/>
-	                <p>Black and white dress - silk-taffeta with cotton suede printings</p>
+	                <img src="CLOTHES/thumbnails/ellinmekkoback.JPG" alt="wedding dress" class="openWeddingImage"/>
+	                <p>Wedding dress for my friend - lace, organza and other light fabrics</p>
 	            </div>
 	        </li>
 	         <li>
 	            <div>
-	                <img src="CLOTHES/blue_dress.JPG"/>
+	            <!--<a href="CLOTHES/blue_dress.JPG" rel="prettyPhoto" title="Blue dress with lace"><img src="CLOTHES/thumbnails/blue_dress.JPG" alt="Blue dress" /></a>-->
+	                <img src="CLOTHES/blue_dress.JPG" class="openBluedressImages"/>
 	                <p>Flower dress with lace - recycled fabric and handmade lace</p>
 	            </div>
 	        </li>
 	        
 	        <li>
+	            <div><!--
+	                <a href="CLOTHES/wedding.png" rel="prettyPhoto" title="The wedding dress">
+	                <img src="CLOTHES/thumbnails/wedding.png" alt="wedding dress" class="openImage"/></a>-->
+	                <img src="CLOTHES/wedding.png" class="openWeddingImages"/>
+	                <p>The wedding dress - silk, embroidery, pearls and flowers</p>
+	            </div>
+	        </li>
+	        <li>
 	            <div>
-	                <img src="CLOTHES/brownflowers.JPG"/>
+	                <a href="CLOTHES/kimono.JPG" rel="prettyPhoto" title="Black and white dress">
+	                <img src="CLOTHES/thumbnails/kimono.JPG" alt="kimono-like dress" class="openImage"/></a>
+	              <!--  <img src="CLOTHES/kimono.JPG"/> -->
+	                <p>Black and white dress - silk-taffeta with cotton suede printings</p>
+	            </div>
+	        </li>
+	        
+	        <li>
+	            <div>
+	                <a href="CLOTHES/blueskirt.JPG" rel="prettyPhoto" title="Black skirt with white and blue decorations">
+	                <img src="CLOTHES/thumbnails/blueskirt.JPG" alt="black and blue skirt" class="openImage"/></a>
+	                <!--<img src="CLOTHES/blueskirt.JPG"/>-->
+	                <p>Black skirt with white and blue decorations - cotton</p>
+	            </div>
+	        </li>
+	        <li>
+	            <div>
+	                <a href="CLOTHES/brownflowers.JPG" rel="prettyPhoto" title="Brown flower dress">
+	                <img src="CLOTHES/thumbnails/brownflowers.JPG" alt="brown dress" class="openImage"/></a>
+	               <!-- <img src="CLOTHES/brownflowers.JPG"/>-->
 	                <p>Laid-back dress for casual occasions - cotton</p>
 	            </div>
 	        </li>
 	        <li>
 	            <div>
-	                <img src="CLOTHES/bluecardigan.JPG"/>
+	                <a href="CLOTHES/bluecardigan.JPG" rel="prettyPhoto" title="Blue cardigan">
+	                <img src="CLOTHES/thumbnails/bluecardigan.JPG" alt="blue cargigan" class="openImage"/></a>
+	               <!-- <img src="CLOTHES/bluecardigan.JPG"/>-->
 	                <p>Knitted cardigan - mix of bamboo and cotton</p>
 	            </div>
 	        </li>
 	        
 	        <li>
 	            <div>
-	                <img src="CLOTHES/coat.JPG"/>
+	                 <a href="CLOTHES/coat.JPG" rel="prettyPhoto" title="Purple coat">
+	                <img src="CLOTHES/thumbnails/coat.JPG" alt="wool coat" class="openImage"/></a>
+	              <!--  <img src="CLOTHES/coat.JPG"/>-->
 	                <p>Warm coat - mix wool and cotton</p>
 	            </div>
 	        </li>
 	        <li>
 	            <div>
-	                <img src="CLOTHES/forestgod.JPG"/>
+	                <a href="CLOTHES/forestgod.JPG" rel="prettyPhoto" title="The forest goddess dress">
+	                <img src="CLOTHES/thumbnails/forestgod.JPG" alt="forest" class="openImage"/></a>
+	              <!--  <img src="CLOTHES/forestgod.JPG"/> -->
 	                <p>The forest goddess dress</p>
 	            </div>
 	        </li>
 	        <li>
 	            <div>
-	                <img src="CLOTHES/wanhojenmekko.JPG"/>
+	                 <a href="CLOTHES/wanhojenmekko.JPG" rel="prettyPhoto" title="Ball dress">
+	                <img src="CLOTHES/thumbnails/wanhojenmekko.JPG" alt="ball dress" class="openImage"/></a>
+	              <!--  <img src="CLOTHES/wanhojenmekko.JPG"/> -->
 	                <p>Ball dress - black taffeta with white pearls and blue organza</p>
 	            </div>
 	        </li>
 	        
 	        
 	        <li>
-	            <div>
-	                <img src="CLOTHES/takki.JPG"/>
+	            <div>  
+	                <a href="CLOTHES/takki.JPG" rel="prettyPhoto" title="Light jacket">
+	                <img src="CLOTHES/thumbnails/takki.JPG" alt="jacket" class="openImage"/></a>
+	               <!-- <img src="CLOTHES/takki.JPG"/> -->
 	                <p>Light jacket - hight quality cotton</p>
 	            </div>
 	        </li>
 	        <li>
 	            <div>
-	                <img src="CLOTHES/blueshirt.JPG"/>
+	                <a href="CLOTHES/blueshirt.JPG" rel="prettyPhoto" title="Blue shirt">
+	                <img src="CLOTHES/thumbnails/blueshirt.JPG" alt="blue shirt" class="openImage"/></a>
+	               <!-- <img src="CLOTHES/blueshirt.JPG"/> -->
 	                <p>Loose blue shirt - viscose</p>
 	            </div>
 	        </li>
 	        <li>
 	            <div>
-	                <img src="CLOTHES/teenagegoth.JPG"/>
+	                <a href="CLOTHES/teenagegoth.JPG" rel="prettyPhoto" title="Teenage goth">
+	                <img src="CLOTHES/thumbnails/teenagegoth.JPG" alt="teenage"/></a>
+	               <!-- <img src="CLOTHES/teenagegoth.JPG"/>-->
 	                <p>A dress I made as a teenager - mixed materials</p>
 	            </div>
 	        </li>
 	        <li>
 	            <div>
-	                <img src="CLOTHES/mapleleaves.JPG"/>
+	                <a href="CLOTHES/mapleleaves.JPG" rel="prettyPhoto" title="Maple leaf skirt">
+	                <img src="CLOTHES/thumbnails/mapleleaves.JPG" alt="maple leaf"/></a>
+	                <!-- <img src="CLOTHES/mapleleaves.JPG"/> -->
 	                <p>The maple leaf skirt - undyed cotton with handmade orange printings</p>
 	            </div>
 	        </li>
 	        <li>
 	            <div>
-	                <img src="CLOTHES/violettineule.JPG"/>
+	                <a href="CLOTHES/violettineule.JPG" rel="prettyPhoto" title="Purple cardigan">
+	                <img src="CLOTHES/thumbnails/violettineule.JPG" alt="purple cargigan"/></a>
+	               <!-- <img src="CLOTHES/violettineule.JPG"/> -->
 	                <p>Purple cardigan - wool</p>
 	            </div>
 	        </li>
 	        <li>
 	            <div>
-	                <img src="CLOTHES/sinimekko.JPG"/>
+	                <a href="CLOTHES/sinimekko.JPG" rel="prettyPhoto" title="Blue printed dress">
+	                <img src="CLOTHES/thumbnails/sinimekko.JPG" alt="blue printed" class="openImage"/></a>
+	               <!-- <img src="CLOTHES/sinimekko.JPG"/> -->
 	                <p>Printed dress - mixed cotton</p>
 	            </div>
 	        </li>
 	        <li>
 	            <div>
-	                <img src="CLOTHES/bluedresswithpockets.JPG"/>
+	                <a href="CLOTHES/bluedresswithpockets.JPG" rel="prettyPhoto" title="Blue dress with pockets">
+	                <img src="CLOTHES/thumbnails/bluedresswithpockets.JPG" alt="blue pockets" class="openImage"/></a>
+	              <!--  <img src="CLOTHES/bluedresswithpockets.JPG"/> -->
 	                <p>Blue dress with pockets - self-dyed cotton</p>
 	            </div>
 	        </li>
 	        <li>
 	            <div>
-	                <img src="CLOTHES/sheep.jpg"/>
+	                <a href="CLOTHES/sheep.jpg" rel="prettyPhoto" title="Sheep pillows">
+	                <img src="CLOTHES/thumbnails/sheep.jpg" alt="sheep pillows" class="openImage"/></a>
+	               <!-- <img src="CLOTHES/sheep.jpg"/> -->
 	                <p>The sheep pillows - fake fur and cotton suede.</p>
 	            </div>
 	        </li>
@@ -135,5 +186,11 @@
 	    <ul>
 	    </div>
 	    
+        <script type="text/javascript" charset="utf-8">
+         $(document).ready(function(){
+           $("a[rel^='prettyPhoto']").prettyPhoto();
+            });
+        </script>
+
 	</body>
 </html>
