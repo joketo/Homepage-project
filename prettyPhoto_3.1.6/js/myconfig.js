@@ -2,7 +2,7 @@ $(document).ready(function(){
     $(".openBlanketCoatImages").click(function(){
     api_images = ['CLOTHES/paivapeittotakki_front.JPG','CLOTHES/paivapeittotakki_sivu.JPG','CLOTHES/paivapeittotakki_sivu2.JPG','CLOTHES/paivapeittotakki_back.JPG'];
         api_titles = ['Coat from a blanket','','','',''];
-        api_descriptions = ['I made the pattern from scratch. The green fabric is recycled, I think it was used as a blanket before.','The size of the fabric made some restrictions on the design and how I can cut the patterns.','The folds in the back are one of my favourite parts of the coat.','I hope to get better pictures taken soon. I also made short cape that is supposed to be worn with the coat when the weather is colder.']
+        api_descriptions = ['I made the pattern from scratch. The green fabric is recycled, I think it was used as a blanket before.','The size of the fabric made some restrictions on the design and how I could cut the patterns.','The folds in the back are one of my favourite parts of the coat.','I hope to get better pictures taken soon. I also made short cape that is supposed to be worn with the coat when the weather is colder.']
         $.prettyPhoto.open(api_images,api_titles,api_descriptions);
     });
     $(".openElliWeddingImages").click(function(){

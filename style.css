@@ -331,29 +331,38 @@ a.code{
     display: inline-block;
     width: 400px;
     height: 384px;
-    background-image: url("images/code.png");
+    background-image: url("images/codeblue.png");
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 a.code:hover{
-    background-image: url("images/codeblue.png");    
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);    
 }
 a.art{
     display: inline-block;
     width: 400px;
     height: 384px;
-    background-image: url("images/art.png");
+    background-image: url("images/artblue.png");
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 a.art:hover{
-    background-image: url("images/artblue.png"); 
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
 }
 a.clothes{
     display: inline-block;
     width: 400px;
     height: 384px;
-    background-image: url("images/clothes.png");
+    background-image: url("images/clothesblue.png");
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
 a.clothes:hover{
-    background-image: url("images/clothesblue.png");    
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);    
 }
 .photography {
     margin-bottom:30px;
