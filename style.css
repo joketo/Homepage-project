@@ -200,11 +200,22 @@ div.mapletree {
     background-repeat: no-repeat;
     margin-top: 0px;
 }
+
 div.title{ /*the title text*/
     padding: 245px;
     font-family: theFont;
     font-size: 150%;
     text-align: center;    
+}
+@media(max-width: 600px){
+    div.title{
+   	padding: 124px;
+   	font-size: 50%;
+    }
+    div.mapletree {
+   	height: 225px;
+   	background-image: url("images/wahtera3smaller.png"); /*the maple tree*/
+   }
 }
 div.mapletree img.banner{
     padding: 270px 0px 0px 380px;
