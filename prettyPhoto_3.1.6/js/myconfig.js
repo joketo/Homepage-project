@@ -1,4 +1,10 @@
 $(document).ready(function(){
+    $(".openVioletDressImages").click(function(){
+    api_images = ['CLOTHES/violet.jpg', 'CLOTHES/violet2.jpg', 'CLOTHES/violet3.jpg'];
+    api_titles = ['Velvet dress with pearl embroidery', '', ''];
+    api_descriptions = ['I originally made this dress for Halloween but it can also be worn as a short evening dress.', 'I sewed different class pearls to highlight the pattern of the fabric.', 'The dress has a corset back to give it shape.']
+    $.prettyPhoto.open(api_images,api_titles,api_descriptions);
+    });
     $(".openBlanketCoatImages").click(function(){
     api_images = ['CLOTHES/paivapeittotakki_front.jpg','CLOTHES/paivapeittotakki_sivu.jpg','CLOTHES/paivapeittotakki_sivu2.jpg','CLOTHES/paivapeittotakki_back.jpg'];
         api_titles = ['Coat from a blanket','','','',''];
