@@ -24,9 +24,9 @@ $(document).ready(function(){
         $.prettyPhoto.open(images,titles,descriptions);
     });
     $(".openWeddingImages").click(function(){
-        wimages = ['CLOTHES/wedding.png','CLOTHES/weddinghem.jpg','CLOTHES/wedding2.png','CLOTHES/wedding3.png'];
+        wimages = ['CLOTHES/wedding.png','CLOTHES/weddinginside.jpg','CLOTHES/weddinghem.jpg','CLOTHES/wedding2.png','CLOTHES/wedding3.png'];
         wtitles = ['The wedding dress','',''];
-        wdescriptions = ['The green lace makes this wedding dress less traditional.','The hem has pearls and real flowers.','Organza cape made of silk is part of the dress','The hem has many layers but is still light to wear.']
+        wdescriptions = ['The green lace makes this wedding dress less traditional.','','The hem has pearls and real flowers.','Organza cape made of silk is part of the dress','The hem has many layers but is still light to wear.']
         $.prettyPhoto.open(wimages,wtitles,wdescriptions);
     });
     $(".openLightJacketImages").click(function(){
