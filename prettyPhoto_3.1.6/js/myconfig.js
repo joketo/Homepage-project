@@ -5,36 +5,49 @@ $(document).ready(function(){
     api_descriptions = ['I originally made this dress for Halloween but it can also be worn as a short evening dress.', 'I sewed different class pearls to highlight the pattern of the fabric.', 'The dress has a corset back to give it shape.']
     $.prettyPhoto.open(api_images,api_titles,api_descriptions);
     });
+    
+    $(".openForestDressImages").click(function(){
+    api_images = ['CLOTHES/metsamekko_edesta.jpg','CLOTHES/metsamekko_takaa2.jpg','CLOTHES/metsamekko_sivu.jpg','CLOTHES/metsamekko_takaa.jpg','CLOTHES/metsamekko_rungolla.jpg'];
+        api_titles = ['Dress inspired by summer forest','','','','',''];
+        api_descriptions = ['This dress is almost zero-waste. I managed to use an old tablecloth almost entirely on it.','The dress closes with beautiful hook buckle on the back of the neck and lacing on the waist.','The material is probably cotton. Although pretty thick, it\'s soft to the touch.','The open back is perfect for hot summers.','Just like forest in summer, the dress has a natural and relaxed feel to it.']
+        $.prettyPhoto.open(api_images,api_titles,api_descriptions);
+    });
+    
     $(".openBlanketCoatImages").click(function(){
     api_images = ['CLOTHES/paivapeittotakki_front.jpg','CLOTHES/paivapeittotakki_sivu.jpg','CLOTHES/paivapeittotakki_sivu2.jpg','CLOTHES/paivapeittotakki_back.jpg'];
         api_titles = ['Coat from a blanket','','','',''];
         api_descriptions = ['I made the pattern from scratch. The green fabric is recycled, I think it was used as a blanket before.','The size of the fabric made some restrictions on the design and how I could cut the patterns.','The folds in the back are one of my favourite parts of the coat.','I hope to get better pictures taken soon. I also made short cape that is supposed to be worn with the coat when the weather is colder.']
         $.prettyPhoto.open(api_images,api_titles,api_descriptions);
     });
+    
     $(".openElliWeddingImages").click(function(){
         api_images = ['CLOTHES/ellinmekkofull.jpg','CLOTHES/ellinmekkofullback.jpg','CLOTHES/ellinmekkofront.jpg','CLOTHES/ellinmekkoback.jpg','CLOTHES/ellinmekkofront2.jpg'];
         api_titles = ['Wedding dress','','','',''];
         api_descriptions = ['The dress is made with my friends measurements. It\'s supposed to be really light and delicate like her.','The hem is slightly fuller from behind.','Part of the lace is appliqued by hand. The neckline is hand-stitched.','The lace in the back is mostly hand appliqued. The buttons are made from the same fabric as the hem.','The sleeves are one of my favourite part of the dress.']
         $.prettyPhoto.open(api_images,api_titles,api_descriptions);
     });
+    
     $(".openBluedressImages").click(function(){
         images = ['CLOTHES/blue_dress.jpg','CLOTHES/blue_dress_2.jpg'];
         titles = ['Blue dress','Blue dress'];
         descriptions = ['Front','Back']
         $.prettyPhoto.open(images,titles,descriptions);
     });
+    
     $(".openWeddingImages").click(function(){
         wimages = ['CLOTHES/wedding.png','CLOTHES/weddinginside.jpg','CLOTHES/weddinghem.jpg','CLOTHES/wedding2.png','CLOTHES/wedding3.png'];
         wtitles = ['The wedding dress','',''];
         wdescriptions = ['The green lace makes this wedding dress less traditional.','','The hem has pearls and real flowers.','Organza cape made of silk is part of the dress','The hem has many layers but is still light to wear.']
         $.prettyPhoto.open(wimages,wtitles,wdescriptions);
     });
+    
     $(".openLightJacketImages").click(function(){
         wimages = ['CLOTHES/takki1.jpg','CLOTHES/takki2.jpg','CLOTHES/takki_kaulus.jpg','CLOTHES/takki_hiha.jpg'];
         wtitles = ['Light jacket','',''];
         wdescriptions = ['Cotton jacket for light workout such as biking in the city.','','Detail of the neckline.','The inside of the sleeves are gray fabric.']
         $.prettyPhoto.open(wimages,wtitles,wdescriptions);
     });
+    
     $(".openKataCoatImages").click(function(){
         wimages = ['CLOTHES/katatakki_front.jpg','CLOTHES/katatakki_sivusta.jpg','CLOTHES/katatakki_takaa.jpg','CLOTHES/katatakki_kaulus.jpg','CLOTHES/katatakki_nappi.jpg'];
         wtitles = ['Wool coat','',''];
