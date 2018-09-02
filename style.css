@@ -301,6 +301,17 @@ div.introduction p {
     /*font-family: theFont;
     font-size: 120%;*/
 }
+
+div.introduction .firstP {
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+}
+
+div.introduction .secondP {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
 .artintro {
     background-image: url("images/window.jpg");
     background-size: cover;
