@@ -6,6 +6,13 @@ $(document).ready(function(){
     $.prettyPhoto.open(api_images,api_titles,api_descriptions);
     });
     
+    $(".openWaterfallImages").click(function(){
+    api_images = ['CLOTHES/vesiputous_1.jpg', 'CLOTHES/vesiputous_2.jpg'];
+    api_titles = ['A shirt with waterfall neckline.', ''];
+    api_descriptions = ['I wanted to make a shirt that was light and could be worn with a high waisted skirt.', 'I found the fabric on sale and just fell in love with it.']
+    $.prettyPhoto.open(api_images,api_titles,api_descriptions);
+    });
+    
     $(".openForestDressImages").click(function(){
     api_images = ['CLOTHES/metsamekko_edesta.jpg','CLOTHES/metsamekko_takaa2.jpg','CLOTHES/metsamekko_sivu.jpg','CLOTHES/metsamekko_takaa.jpg','CLOTHES/metsamekko_rungolla.jpg'];
         api_titles = ['Dress inspired by summer forest','','','','',''];
