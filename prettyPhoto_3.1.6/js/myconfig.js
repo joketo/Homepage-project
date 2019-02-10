@@ -7,7 +7,7 @@ $(document).ready(function(){
     });
     
     $(".openWaterfallImages").click(function(){
-    api_images = ['CLOTHES/vesiputous_1.jpg', 'CLOTHES/vesiputous_2.jpg'];
+    api_images = ['CLOTHES/vesiputous_2.jpg', 'CLOTHES/vesiputous_1.jpg'];
     api_titles = ['A shirt with waterfall neckline.', ''];
     api_descriptions = ['I wanted to make a shirt that was light and could be worn with a high waisted skirt.', 'I found the fabric on sale and just fell in love with it.']
     $.prettyPhoto.open(api_images,api_titles,api_descriptions);
