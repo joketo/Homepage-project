@@ -295,7 +295,7 @@ div.introduction p {
     padding: 3%;
     margin: 3% 7% 3% 7%;
     font-weight: 300;
-     font-family: Georgia;
+    font-family: Georgia;
     font-style: italic;
     font-size: 20px;
     /*font-family: theFont;
@@ -310,6 +310,20 @@ div.introduction .firstP {
 div.introduction .secondP {
     padding-top: 0 !important;
     margin-top: 0 !important;
+}
+
+.clothespage-introduction p{
+    margin-bottom: 0px !important;
+    padding-bottom: 5px !important;
+}
+
+.logo {
+    width: 210px;
+    margin-bottom: 3px;
+    /*color: cea762*/
+}
+.logo.mobile {
+    width: 125px;
 }
 
 .artintro {
