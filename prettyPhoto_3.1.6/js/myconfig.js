@@ -1,4 +1,12 @@
 $(document).ready(function(){
+
+    $(".openOfficeImages").click(function(){
+    api_images = ['CLOTHES/office_3.jpg', 'CLOTHES/office_1.png', 'CLOTHES/office_2.png'];
+    api_titles = ['Velvet dress with pearl embroidery', '', ''];
+    api_descriptions = ['Two of my latest projects that go very nicely together. The fabric for the shirt was taken from my old dress.', 'Black pencil skirt is always needed. This one has two buttons instead of a zipper. The plates are created when you close the skirt.', 'The skirt has some nice pockets too.']
+    $.prettyPhoto.open(api_images,api_titles,api_descriptions);
+    });
+    
     $(".openVioletDressImages").click(function(){
     api_images = ['CLOTHES/violet.jpg', 'CLOTHES/violet2.jpg', 'CLOTHES/violet3.jpg'];
     api_titles = ['Velvet dress with pearl embroidery', '', ''];
@@ -7,7 +15,7 @@ $(document).ready(function(){
     });
     
     $(".openWaterfallImages").click(function(){
-    api_images = ['CLOTHES/vesiputous_2.jpg', 'CLOTHES/vesiputous_1.jpg'];
+    api_images = ['CLOTHES/vesiputous_1.jpg', 'CLOTHES/vesiputous_3.jpg'];
     api_titles = ['A shirt with waterfall neckline.', ''];
     api_descriptions = ['I wanted to make a shirt that was light and could be worn with a high waisted skirt.', 'I found the fabric on sale and just fell in love with it.']
     $.prettyPhoto.open(api_images,api_titles,api_descriptions);
