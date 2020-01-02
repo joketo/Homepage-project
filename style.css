@@ -406,7 +406,7 @@ footer img {
     padding-left: 10px;
 }
 
-@media(max-width: 700px){
+@media(max-width: 1080px){
    div.title{
    	padding: 124px;
    	font-size: 50%;
@@ -447,7 +447,7 @@ footer img {
     }
 }
 
-@media(min-width: 701px){
+@media(min-width: 1081px){
    img.mobile {
    	display: none
    }
