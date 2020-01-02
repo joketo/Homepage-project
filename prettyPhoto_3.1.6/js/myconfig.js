@@ -1,9 +1,44 @@
-$(document).ready(function(){
+$(document).ready(function () {
+    
+     $(".openWool2019Images").click(function(){
+    api_images = ['CLOTHES/wool2019-1.jpg', 'CLOTHES/takki-rajattu.png', 'CLOTHES/takki.png'];
+    api_titles = ['Coat from a cordudoy from the 70\'s', 'Coat from a cordudoy from the 70\'s', 'Coat from a cordudoy from the 70\'s'];
+    api_descriptions = ['', ,'', 'The small buttons are so cute.']
+    $.prettyPhoto.open(api_images,api_titles,api_descriptions);
+    });
 
+    $(".openQueenImages").click(function(){
+    api_images = ['CLOTHES/queen.jpg', 'CLOTHES/takki-rajattu.png', 'CLOTHES/takki.png'];
+    api_titles = ['Coat from a cordudoy from the 70\'s', 'Coat from a cordudoy from the 70\'s', 'Coat from a cordudoy from the 70\'s'];
+    api_descriptions = ['', ,'', 'The small buttons are so cute.']
+    $.prettyPhoto.open(api_images,api_titles,api_descriptions);
+    });
+    
+    $(".open2019coatImages").click(function(){
+    api_images = ['CLOTHES/takkitakaa.png', 'CLOTHES/takki-rajattu.png', 'CLOTHES/takki.png'];
+    api_titles = ['Coat from a cordudoy from the 70\'s', 'Coat from a cordudoy from the 70\'s', 'Coat from a cordudoy from the 70\'s'];
+    api_descriptions = ['', ,'', 'The small buttons are so cute.']
+    $.prettyPhoto.open(api_images,api_titles,api_descriptions);
+    });
+    
+    $(".openFlowerDressImages").click(function(){
+    api_images = ['CLOTHES/dress2.png', 'CLOTHES/dress1.png'];
+    api_titles = ['Dress from old cotton curtains', 'Dress from old cotton curtains'];
+    api_descriptions = ['This fabric was made in Finland a long time ago. It was used in curtains and after that - this dress!', 'The small buttons are so cute.']
+    $.prettyPhoto.open(api_images,api_titles,api_descriptions);
+    });
+    
+    $(".openBlackSkirtImages").click(function(){
+        wimages = ['CLOTHES/mustahame-edesta.png','CLOTHES/mustahame-takaa.png'];
+        wtitles = ['Black skirt from recycled fabric','Black skirt from recycled fabric'];
+        wdescriptions = ['This Flowy skirt is mafe from recycled fabric. It has a lining and pockets. The shirt is also made from recycled fabric.','The skirt is fastened with a beautiful ribbon.']
+        $.prettyPhoto.open(wimages,wtitles,wdescriptions);
+    });
+    
     $(".openOfficeImages").click(function(){
     api_images = ['CLOTHES/office_3.jpg', 'CLOTHES/office_1.png', 'CLOTHES/office_2.png'];
-    api_titles = ['Velvet dress with pearl embroidery', '', ''];
-    api_descriptions = ['Two of my latest projects that go very nicely together. The fabric for the shirt was taken from my old dress.', 'Black pencil skirt is always needed. This one has two buttons instead of a zipper. The plates are created when you close the skirt.', 'The skirt has some nice pockets too.']
+    api_titles = ['Black skirt with golden buttons and cotton shirt', 'Black skirt with golden buttons and cotton shirt', 'Black skirt with golden buttons and cotton shirt'];
+    api_descriptions = ['Two of my projects that go very nicely together. The fabric for the shirt was taken from my old dress.', 'Black pencil skirt is always needed. This one has two buttons instead of a zipper. The plates are created when you close the skirt.', 'The skirt has some nice pockets too.']
     $.prettyPhoto.open(api_images,api_titles,api_descriptions);
     });
     
@@ -31,14 +66,14 @@ $(document).ready(function(){
     $(".openBlanketCoatImages").click(function(){
     api_images = ['CLOTHES/paivapeittotakki_front.jpg','CLOTHES/paivapeittotakki_sivu.jpg','CLOTHES/paivapeittotakki_sivu2.jpg','CLOTHES/paivapeittotakki_back.jpg'];
         api_titles = ['Coat from a blanket','','','',''];
-        api_descriptions = ['I made the pattern from scratch. The green fabric is recycled, I think it was used as a blanket before.','The size of the fabric made some restrictions on the design and how I could cut the patterns.','The folds in the back are one of my favourite parts of the coat.','I hope to get better pictures taken soon. I also made short cape that is supposed to be worn with the coat when the weather is colder.']
+        api_descriptions = ['I made the pattern for this coat from scratch. The main fabric is recycled, I think it was used as a blanket before.','The size of the fabric made some restrictions on the design and how I could cut the patterns.','The folds in the back are one of my favourite parts of the coat.','This unique coat is sure to get attention.']
         $.prettyPhoto.open(api_images,api_titles,api_descriptions);
     });
     
     $(".openElliWeddingImages").click(function(){
         api_images = ['CLOTHES/ellinmekkofull.jpg','CLOTHES/ellinmekkofullback.jpg','CLOTHES/ellinmekkofront.jpg','CLOTHES/ellinmekkoback.jpg','CLOTHES/ellinmekkofront2.jpg'];
         api_titles = ['Wedding dress','','','',''];
-        api_descriptions = ['The dress is made with my friends measurements. It\'s supposed to be really light and delicate like her.','The hem is slightly fuller from behind.','Part of the lace is appliqued by hand. The neckline is hand-stitched.','The lace in the back is mostly hand appliqued. The buttons are made from the same fabric as the hem.','The sleeves are one of my favourite part of the dress.']
+        api_descriptions = ['This custom wedding dress is is made in collaboration with the bride. It\'s really light and delicate.','The hem is slightly fuller from behind.','Part of the lace is appliqued by hand. The neckline is hand-stitched.','The lace in the back is mostly hand appliqued. The buttons are made from the same fabric as the hem.','The sleeves are one of my favourite part of the dress.']
         $.prettyPhoto.open(api_images,api_titles,api_descriptions);
     });
     
@@ -49,6 +84,13 @@ $(document).ready(function(){
         $.prettyPhoto.open(images,titles,descriptions);
     });
     
+    $(".openVioletCoatImages").click(function(){
+        images = ['CLOTHES/takkiedestavioletti.jpg','CLOTHES/coat.jpg'];
+        titles = ['Violet wool coat','Violet wool coat'];
+        descriptions = ['Front','In use']
+        $.prettyPhoto.open(images,titles,descriptions);
+    });
+    
     $(".openWeddingImages").click(function(){
         wimages = ['CLOTHES/wedding.png','CLOTHES/weddinginside.jpg','CLOTHES/weddinghem.jpg','CLOTHES/wedding2.png','CLOTHES/wedding3.png'];
         wtitles = ['The wedding dress','',''];
@@ -56,17 +98,10 @@ $(document).ready(function(){
         $.prettyPhoto.open(wimages,wtitles,wdescriptions);
     });
     
-    $(".openLightJacketImages").click(function(){
-        wimages = ['CLOTHES/takki1.jpg','CLOTHES/takki2.jpg','CLOTHES/takki_kaulus.jpg','CLOTHES/takki_hiha.jpg'];
-        wtitles = ['Light jacket','',''];
-        wdescriptions = ['Cotton jacket for light workout such as biking in the city.','','Detail of the neckline.','The inside of the sleeves are gray fabric.']
-        $.prettyPhoto.open(wimages,wtitles,wdescriptions);
-    });
-    
     $(".openKataCoatImages").click(function(){
-        wimages = ['CLOTHES/katatakki_front.jpg','CLOTHES/katatakki_sivusta.jpg','CLOTHES/katatakki_takaa.jpg','CLOTHES/katatakki_kaulus.jpg','CLOTHES/katatakki_nappi.jpg'];
-        wtitles = ['Wool coat','',''];
-        wdescriptions = ['My friend designed this wool coat for herself. I made the pattern and technical choices based on her drawing.','The model of the coat is really unique. It took many fittings to get it just right.','The back has the same black pattern as the front.','The neckline can be worn in two different ways.','The buttons are gorgeous.']
+        var wimages = ['CLOTHES/katatakki_front.jpg','CLOTHES/katatakki_sivusta.jpg','CLOTHES/katatakki_takaa.jpg','CLOTHES/katatakki_kaulus.jpg','CLOTHES/katatakki_nappi.jpg'];
+        var wtitles = ['Wool coat','',''];
+        var wdescriptions = ['My friend designed this wool coat for herself. I made the pattern and technical choices based on her drawing.','The model of the coat is really unique. It took many fittings to get it just right.','The back has the same black pattern as the front.','The neckline can be worn in two different ways.','The buttons are gorgeous.']
         $.prettyPhoto.open(wimages,wtitles,wdescriptions);
     });
     
@@ -77,7 +112,7 @@ $(document).ready(function(){
 			autoplay_slideshow: false, /* true/false */
 			opacity: 0.80, /* Value between 0 and 1 */
 			show_title: true, /* true/false */
-			allow_resize: true, /* Resize the photos bigger than viewport. true/false */
+			allow_resize: false, /* Resize the photos bigger than viewport. true/false */
 			default_width: 500,
 			default_height: '700px',
 			counter_separator_label: '/', /* The separator for the gallery counter 1 "of" 2 */

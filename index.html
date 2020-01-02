@@ -1,29 +1,98 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
 <html>
-<head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-	<script src="jquery/jquery-1.11.2.min.js"></script>
-	<title>Wahtera Webpage</title>
-</head>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="jquery/jquery-1.11.2.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet"> 
+        <title>Wahtera Webpage</title>
+    </head>
     <body class="frontpage">
-    <div class="mapletree"> <!--the banner-->
-        <div class = "title">
-            <img src="images/banner.svg" height = 200px />
+        <!--Start smartphone / tablet navigation-->
+        <div class="mobile-container">
+             <div class="mapletree"></div>
+            <!-- Top Navigation Menu -->
+            <div class="topnav">
+                <img src="images/wahtera1.svg" height = 70px />
+                <div id="myLinks">
+                    <a href="index.html" style="color: #d68f33;"><span style="font-size: 20px;">A</span>bout</a>
+                    <a href="gallery.html"><span style="font-size: 20px;">G</span>allery</a>
+                    <a href="commissions.html"><span style="font-size: 20px;">C</span>ommissions</a>
+                    <a href="shop.html"><span style="font-size: 20px;">S</span>hop</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <img class="hamburger" src="images/hamburger.png"/>
+                </a>
+            </div>
         </div>
-    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+    <!-- End smartphone / tablet look for navigation -->
+
+
+    <div class="desktop-view">
+        <div class="mapletree"> <!--the banner-->
+            <div class = "title">
+                <img src="images/wahtera1.svg" height = 200px />
+            </div>
+        </div>
+
         <ul class ="navigation">
-            <li><a href="clothes.html">Clothing</a></li>
-            <li><a href="art.html">Art</a></li>
-            <li><a href="code.html">Code</a></li> 
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="index.html">Home</a></li>   
+            <li><a href="index.html" style="color: #d68f33;"><span style="font-size: 40px;">A</span>bout</a></li>
+            <li><a href="gallery.html"><span style="font-size: 40px;">G</span>allery</a></li>
+            <li><a href="commissions.html"><span style="font-size: 40px;">C</span>ommissions</a></li>
+            <li><a href="shop.html"><span style="font-size: 40px;">S</span>hop</a></li>  
         </ul>
-	   
-	    <div class="buttons">
-	        <a class="code" href="code.html"></a>
-	        <a class="art" href="art.html"></a>
-	        <a class="clothes" href="clothes.html"></a>
-	    </div>
-	</body>
+    </div>
+
+
+    <div class="me">
+
+        <div class ="profilepic">
+            <img src="images/author.png"/>
+            <div>Me and an old curtain turned into dress.</div>
+        </div>
+
+        <div class ="whoiam">
+            <h3>Ecological Enchantment</h3>	
+
+            <p style="margin-top: 0; font-weight: 700;">About the Maker</p>
+
+            <p>
+                My name is Johanna Wahtera, lovely to meet you! I have admired beautiful clothes as long as I remember. I'm a qualified sewing teacher and enjoy creating clothes with a magical touch. I'm currently living in Finland.
+            </p>
+
+            <p style="margin-top: 0; font-weight: 700;">Individual Designs</p>
+            <p>
+                I get inspiration for my pieces from fairy tales, history and nature. However, what drives my designs the most are the materials I find. All my clothes are unique because I aspire to use materials that have already been used once.
+            </p>
+
+            <p style="margin-top: 0; font-weight: 700;">Why Recycled Materials</p>
+            <p>Let's face it, textile production is not good for our planet. To reduce environmental impact the produced materials should be used as long as possible. This is the reason why I use mostly recycled fabrics on my clothes. I hunt down materials from second hand stores with love. Old home textiles are a great example of re-usable materials. 
+            </p>
+            <p>I always check the fabric’s condition with care before sewing. To assure their freshness and color resistance I freeze and wash them after acquiring them. As a bonus this makes sure that the finished product is not going to shrink when the customer washes it.
+            </p>
+            <p>I include care instructions for every clothing I sell. I hope that the new owner will handle the product with care so that the materials used in it will have a long, happy life.</p>
+
+            <p>This is my small contribution in the fight against the fast-fashion industry and harmful consumption. With my clothes, I hope to make the world a slightly better place. </p>
+
+
+        </div>  
+    </div>
+    </body>
+   <footer>
+        <div>
+        johanna@wahtera.fi
+        <a href="https://www.instagram.com/jkwahtera/" title="Wahtera on instagram"><img src="glyph-logo_May2016.png"/></a>
+        </div>
+    </footer>
 </html>
