@@ -508,11 +508,7 @@ margin-right: 3% !important;
         line-height: 23px !important;
         font-weight: 300 !important;
     }
-    .pp_close {
-        width: 60px !important;
-        height: 60px !important;
-        background: url(prettyPhoto_3.1.6/images/prettyPhoto/x.png) no-repeat !important;
-    }
+   
 }
 
 @media(min-width: 1081px){
