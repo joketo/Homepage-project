@@ -445,10 +445,10 @@ footer img {
     vertical-align: top;
     box-shadow: 0 0 5px #ddd;
     box-sizing: border-box;
-    max-width: 441px;
+    max-width: 541px;
     }
     .mobile-profilepic img {
-        max-width: 420px;
+        max-width: 520px;
         width: 100%;
     }
     .mobile-profilepic div {
@@ -481,8 +481,12 @@ footer img {
         font-size: 2em;
     
     }
+    .me {
+        margin-left: 3% !important;
+margin-right: 3% !important;
+    }
     p {
-        font-size: 2em;
+        font-size: 1.4em;
     }
     footer {
         font-size: 2em;
@@ -494,7 +498,20 @@ footer img {
         font-size: 2em;
     }
     .project ul {
-        font-size: 1.6em;
+        font-size: 1.3em;
+    }
+    .ppt {
+        font-size: 1.8em !important;
+    }
+    .pp_description {
+        font-size: 1.2em !important;
+        line-height: 23px !important;
+        font-weight: 300 !important;
+    }
+    .pp_close {
+        width: 60px !important;
+        height: 60px !important;
+        background: url(prettyPhoto_3.1.6/images/prettyPhoto/x.png) no-repeat !important;
     }
 }
 

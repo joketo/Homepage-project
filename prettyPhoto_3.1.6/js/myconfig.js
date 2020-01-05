@@ -94,7 +94,7 @@ $(document).ready(function () {
     $(".openKataCoatImages").click(function(){
         var wimages = ['CLOTHES/katatakki_front.jpg','CLOTHES/katatakki_sivusta.jpg','CLOTHES/katatakki_takaa.jpg','CLOTHES/katatakki_kaulus.jpg','CLOTHES/katatakki_nappi.jpg'];
         var wtitles = ['Wool coat','',''];
-        var wdescriptions = ['My friend designed this wool coat for herself. I made the pattern and technical choices based on her drawing.','The model of the coat is really unique. It took many fittings to get it just right.','The back has the same black pattern as the front.','The neckline can be worn in two different ways.','The buttons are gorgeous.']
+        var wdescriptions = ['My friend designed this wool coat for themself. I made the pattern and technical choices based on their drawing.','The model of the coat is really unique. It took many fittings to get it just right.','The back has the same black pattern as the front.','The neckline can be worn in two different ways.','The buttons are gorgeous.']
         $.prettyPhoto.open(wimages,wtitles,wdescriptions);
     });
     
