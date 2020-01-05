@@ -1,9 +1,9 @@
 $(document).ready(function () {
     
      $(".openWool2019Images").click(function(){
-    api_images = ['CLOTHES/wool2019-1.jpg', 'CLOTHES/wool2019-3.jpg', 'CLOTHES/wool2019-2.jpg', 'CLOTHES/wool2019-4.jpg'];
+    api_images = ['CLOTHES/wool2019-1.JPG', 'CLOTHES/wool2019-3.JPG', 'CLOTHES/wool2019-2.JPG', 'CLOTHES/wool2019-4.JPG'];
     api_titles = ['Wool skirt from cut waste', 'Wool skirt from cut waste', 'Wool skirt from cut waste', 'Wool skirt from cut waste'];
-    api_descriptions = ['This wool skirt is made from cut waste. Long strips of fabric are sewn together to create larger surface.', 'The skirt is warm and swirly.', '', '']
+    api_descriptions = ['This wool skirt is made from cut waste. Long strips of fabric are sewn together to create a larger surface.', 'The skirt is warm and swirly.', '', '']
     $.prettyPhoto.open(api_images,api_titles,api_descriptions);
     });
 
@@ -98,6 +98,12 @@ $(document).ready(function () {
         $.prettyPhoto.open(wimages,wtitles,wdescriptions);
     });
     
+      $(".openWanhatImages").click(function(){
+    api_images = ['CLOTHES/wanhojenmekko.png', 'CLOTHES/wanhojenmekko2.jpg'];
+    api_titles = ['Ball dress', 'Ball dress'];
+    api_descriptions = ['A ball dress I made for a school dance.', '']
+    $.prettyPhoto.open(api_images,api_titles,api_descriptions);
+    });
     
 		$("a[rel^='prettyPhoto']").prettyPhoto({
 			animation_speed: 'fast', /* fast/slow/normal */

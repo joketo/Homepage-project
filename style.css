@@ -78,11 +78,11 @@ body {
   position: absolute;
   top: 0;
   width: 100%;
-    z-index: 3;
+  z-index: 3;
 }
 
 .wahtera-icon-mobile {
-    height: 7em;
+    height: 10em;
 }
 
 .topnav #myLinks {
@@ -91,28 +91,30 @@ body {
 
 .topnav a {
   color: black;
-  padding: 16px 16px 12px 16px;
+  padding: 21px 18px 21px 18px;
   text-decoration: none;
-  font-size: 1.7em;
+  font-size: 2em;
   display: block;
     text-align: center;
 }
 
 .topnav a.icon {
-  background: black;
+  background: #472914;
   display: block;
   position: absolute;
-  right: 5px;
-  top: 5px;
+  right: 15px;
+  top: 15px;
   border-radius: 4px;
 }
-
-.topnav .hamburger {
-    height: 22px;
+.topnav i {
+  color: #a6a6a6;
+  font-size: 1.6em;
 }
 
+
+
 .topnav a:hover {
-  background-color: #fefdf8;
+  background-color: #eeefef;/*#fefdf8;*/
   color: #d68f33;
 }
 
@@ -252,6 +254,7 @@ h3{
     font-weight: 300;
     font-size: 1.5em;
     margin-top: 0px;
+    color: #472914;
 }
 
 img.multiple-image {
@@ -391,9 +394,11 @@ footer div {
     float: right;
     padding: 0 24px 20px 0;
     color: #d68f33;
+    font-size: 1.3em;
+    font-family: 'Cormorant Garamond', serif;
 }
 footer img {
-    max-width: 43px;
+    max-width: 53px;
     min-width: 29px;
     padding-left: 10px;
 }
@@ -404,7 +409,7 @@ footer img {
    	font-size: 50%;
    }
    div.mapletree {
-   	height: 225px;
+   	height: 275px;
    	background-image: url("images/wahtera3smaller.png"); /*the maple tree*/
    }
    img.notMobile{
@@ -428,6 +433,25 @@ footer img {
     .profilepic {
         display: none !important;
     }
+    .mobile-profilepic {
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12%;
+    background:#fff;
+    border: 1px solid#ddd;
+    font-size: 16px;
+    font-size: 1rem;
+    vertical-align: top;
+    box-shadow: 0 0 5px #ddd;
+    box-sizing: border-box;
+    max-width: 441px;
+    }
+    .mobile-profilepic img {
+        max-width: 420px;
+        width: 100%;
+    }
 
     .project {
         width: 100% !important;
@@ -440,12 +464,31 @@ footer img {
         margin-top: 15px;
         display: block;
     }
+    h3 {
+        font-size: 2em;
+    }
+    div.project img{
+        height: 44px;
+    }
+    div.whoiam {
+        font-size: 1.4em;
+    
+    }
+    p {
+        font-size: 1.4em;
+    }
+    footer img {
+        max-width: 70px;
+    }
 }
 
 @media(min-width: 1081px){
    img.mobile {
    	display: none
    }
+    .mobile-profilepic {
+        display: none;
+    }
     
     .mobile-container {
         display: none;
