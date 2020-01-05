@@ -1,16 +1,16 @@
 $(document).ready(function () {
     
      $(".openWool2019Images").click(function(){
-    api_images = ['CLOTHES/wool2019-1.jpg', 'CLOTHES/takki-rajattu.png', 'CLOTHES/takki.png'];
-    api_titles = ['Coat from a cordudoy from the 70\'s', 'Coat from a cordudoy from the 70\'s', 'Coat from a cordudoy from the 70\'s'];
-    api_descriptions = ['', ,'', 'The small buttons are so cute.']
+    api_images = ['CLOTHES/wool2019-1.jpg', 'CLOTHES/wool2019-3.jpg', 'CLOTHES/wool2019-2.jpg', 'CLOTHES/wool2019-4.jpg'];
+    api_titles = ['Wool skirt from cut waste', 'Wool skirt from cut waste', 'Wool skirt from cut waste', 'Wool skirt from cut waste'];
+    api_descriptions = ['This wool skirt is made from cut waste. Long strips of fabric are sewn together to create larger surface.', 'The skirt is warm and swirly.', '', '']
     $.prettyPhoto.open(api_images,api_titles,api_descriptions);
     });
 
     $(".openQueenImages").click(function(){
-    api_images = ['CLOTHES/queen.jpg', 'CLOTHES/takki-rajattu.png', 'CLOTHES/takki.png'];
-    api_titles = ['Coat from a cordudoy from the 70\'s', 'Coat from a cordudoy from the 70\'s', 'Coat from a cordudoy from the 70\'s'];
-    api_descriptions = ['', ,'', 'The small buttons are so cute.']
+    api_images = ['CLOTHES/queen.jpg', 'CLOTHES/queen2.png', 'CLOTHES/queen3.png'];
+    api_titles = ['Costume from old curtains', 'Costume from old curtains', 'Costume from old curtains'];
+    api_descriptions = ['I got the idea for this dress when I was planning to start my enterprise journey. It’s made from old curtains.', 'The whole thing is made without zippers. The long sleeves can be gathered up with buttons. Top part is wrap-based, and the waist can be accentuated with a black corset belt.', '']
     $.prettyPhoto.open(api_images,api_titles,api_descriptions);
     });
     
@@ -43,30 +43,23 @@ $(document).ready(function () {
     });
     
     $(".openVioletDressImages").click(function(){
-    api_images = ['CLOTHES/violet.jpg', 'CLOTHES/violet2.jpg', 'CLOTHES/violet3.jpg'];
+    api_images = ['CLOTHES/violet-etu.jpg', 'CLOTHES/violet.jpg', 'CLOTHES/violet2.jpg', 'CLOTHES/violet3.jpg'];
     api_titles = ['Velvet dress with pearl embroidery', '', ''];
-    api_descriptions = ['I originally made this dress for Halloween but it can also be worn as a short evening dress.', 'I sewed different class pearls to highlight the pattern of the fabric.', 'The dress has a corset back to give it shape.']
-    $.prettyPhoto.open(api_images,api_titles,api_descriptions);
-    });
-    
-    $(".openWaterfallImages").click(function(){
-    api_images = ['CLOTHES/vesiputous_1.jpg', 'CLOTHES/vesiputous_3.jpg'];
-    api_titles = ['A shirt with waterfall neckline.', ''];
-    api_descriptions = ['I wanted to make a shirt that was light and could be worn with a high waisted skirt.', 'I found the fabric on sale and just fell in love with it.']
+    api_descriptions = ['I originally made this dress for Halloween but it can also be worn as a short evening dress.', 'The dress has a corset back to give it shape.', 'I sewed different class pearls to highlight the pattern of the fabric.', '']
     $.prettyPhoto.open(api_images,api_titles,api_descriptions);
     });
     
     $(".openForestDressImages").click(function(){
-    api_images = ['CLOTHES/metsamekko_edesta.jpg','CLOTHES/metsamekko_takaa2.jpg','CLOTHES/metsamekko_sivu.jpg','CLOTHES/metsamekko_takaa.jpg','CLOTHES/metsamekko_rungolla.jpg'];
-        api_titles = ['Dress inspired by summer forest','','','','',''];
-        api_descriptions = ['This dress is almost zero-waste. I managed to use an old tablecloth almost entirely on it.','The dress closes with beautiful hook buckle on the back of the neck and lacing on the waist.','The material is probably cotton. Although pretty thick, it\'s soft to the touch.','The open back is perfect for hot summers.','Just like forest in summer, the dress has a natural and relaxed feel to it.']
+    api_images = ['CLOTHES/metsamekko_takaa.jpg','CLOTHES/metsamekko_edesta.jpg','CLOTHES/metsamekko_takaa2.jpg','CLOTHES/metsamekko_rungolla.jpg'];
+        api_titles = ['Dress inspired by summer forest','','','',''];
+        api_descriptions = ['This dress is almost zero-waste. I managed to use an old tablecloth almost entirely on it.','The feel of the dress changes when paired with different accessories.','The dress closes with beautiful hook buckle on the back of the neck and lacing on the waist.','Inspired by summer forest, the dress has a natural and relaxed feel.']
         $.prettyPhoto.open(api_images,api_titles,api_descriptions);
     });
     
     $(".openBlanketCoatImages").click(function(){
     api_images = ['CLOTHES/paivapeittotakki_front.jpg','CLOTHES/paivapeittotakki_sivu.jpg','CLOTHES/paivapeittotakki_sivu2.jpg','CLOTHES/paivapeittotakki_back.jpg'];
         api_titles = ['Coat from a blanket','','','',''];
-        api_descriptions = ['I made the pattern for this coat from scratch. The main fabric is recycled, I think it was used as a blanket before.','The size of the fabric made some restrictions on the design and how I could cut the patterns.','The folds in the back are one of my favourite parts of the coat.','This unique coat is sure to get attention.']
+        api_descriptions = ['I made the pattern for this coat from scratch. The main fabric is recycled, I think it was used as a blanket before.','The size of the fabric made some restrictions on the design and how I could cut the patterns.','The folds in the back are one of my favourite parts of the coat.','This unique coat is sure to get the attention.']
         $.prettyPhoto.open(api_images,api_titles,api_descriptions);
     });
     
