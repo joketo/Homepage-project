@@ -82,7 +82,7 @@ body {
 }
 
 .wahtera-icon-mobile {
-    height: 10em;
+    height: 14em;
 }
 
 .topnav #myLinks {
@@ -93,9 +93,9 @@ body {
   color: black;
   padding: 21px 18px 21px 18px;
   text-decoration: none;
-  font-size: 2em;
+  font-size: 3em;
   display: block;
-    text-align: center;
+  text-align: center;
 }
 
 .topnav a.icon {
@@ -452,6 +452,9 @@ footer img {
         max-width: 420px;
         width: 100%;
     }
+    .mobile-profilepic div {
+        font-size: 2em;
+    }
 
     .project {
         width: 100% !important;
@@ -462,20 +465,25 @@ footer img {
     }
     .leaf-line {
         margin-top: 15px;
+        height: 62px;
+        margin-bottom: 30px;
         display: block;
     }
     h3 {
-        font-size: 2em;
+        font-size: 2.8em;
     }
     div.project img{
         height: 44px;
     }
     div.whoiam {
-        font-size: 1.4em;
+        font-size: 2.4em;
     
     }
     p {
-        font-size: 1.4em;
+        font-size: 2.2em;
+    }
+    footer {
+        font-size: 2em;
     }
     footer img {
         max-width: 70px;
