@@ -417,7 +417,6 @@ footer img {
    }
     .worksgrid {
         padding-left: 0 !important;
-      /*  padding-right: 0 !important;*/
     }
     img.multiple-image {
         margin-left: -98%;
@@ -470,13 +469,15 @@ footer img {
         display: block;
     }
     h3 {
-        font-size: 2.8em;
+        font-size: 2.5em;
     }
     div.project img{
         height: 44px;
+        float: none;
+        margin-left: 10px;
     }
     div.whoiam {
-        font-size: 2.4em;
+        font-size: 2.2em;
     
     }
     p {
@@ -487,6 +488,12 @@ footer img {
     }
     footer img {
         max-width: 70px;
+    }
+    .allprojects {
+        font-size: 2.2em;
+    }
+    .project ul {
+        font-size: 1.6em;
     }
 }
 
