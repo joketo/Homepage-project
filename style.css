@@ -470,18 +470,19 @@ footer img {
     }
     h3 {
         font-size: 2.5em;
+        font-weight: 600;
     }
     div.project img{
         height: 44px;
         float: none;
-        margin-left: 10px;
+        margin-left: 20px;
     }
     div.whoiam {
-        font-size: 2.2em;
+        font-size: 2em;
     
     }
     p {
-        font-size: 2.2em;
+        font-size: 2em;
     }
     footer {
         font-size: 2em;
@@ -490,7 +491,7 @@ footer img {
         max-width: 70px;
     }
     .allprojects {
-        font-size: 2.2em;
+        font-size: 2em;
     }
     .project ul {
         font-size: 1.6em;
