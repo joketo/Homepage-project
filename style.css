@@ -319,12 +319,9 @@ div.profilepic {
     vertical-align: top;
     box-shadow: 0 0 5px #ddd;
     box-sizing: border-box;
-    max-width: 43%;
 }
-div.profilepic img{
+div.profilepic img {
     max-width: 500px;
-    height: 100%;
-    width: 100%;
 }
 a.cv img{
     display:block;
@@ -338,18 +335,22 @@ div.me {
     margin-left: 7%;
     margin-right: 7%;
     padding: 10px 15px 20px 15px;
+    display: flex;
+    align-items: flex-start;
 }
 div.whoiam{ /*johanna who -page*/
     display: inline-block;
     padding-left: 3%;
     font-weight: 300;
     font-size: 1.3em;
-    width: 51%;
 }
-div.whoiam p {
-    color: #111;
+p {
     font-family: 'Cormorant Garamond', serif;
+    font-size: 1.3em;
+    
+    color: #111;
 }
+
 div {
     font-family: 'Cormorant Garamond', serif;
 }
@@ -483,7 +484,7 @@ footer img {
     }
     .me {
         margin-left: 3% !important;
-margin-right: 3% !important;
+        margin-right: 3% !important;
     }
     p {
         font-size: 1.4em;
