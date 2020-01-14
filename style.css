@@ -84,6 +84,7 @@ body {
 
 .wahtera-icon-mobile {
     height: 14em;
+    margin-left: 20px;
 }
 
 .topnav #myLinks {
@@ -229,7 +230,7 @@ ul.navigation {
     position: absolute;
     margin-left: auto;
     margin-right: auto;
-    top: 223px;
+    top: 250px;
     left: 0;
     right: 0;
     width: 882px;
@@ -291,6 +292,17 @@ div.title{ /*the title text*/
     padding-right: 3%;
 }
 
+.brand-text-container {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 0.8em;
+    color: #432a18;
+    margin-top: -10px;
+    margin-right: 25px;
+}
+
+.brand-text-2 {
+    padding-right: 61px;
+}
 
 div.mapletree img.banner{
     padding: 270px 0px 0px 380px;
@@ -348,7 +360,6 @@ div.whoiam{ /*johanna who -page*/
 p {
     font-family: 'Cormorant Garamond', serif;
     font-size: 1.3em;
-    
     color: #111;
 }
 
@@ -509,6 +520,15 @@ footer img {
         font-size: 1.2em !important;
         line-height: 23px !important;
         font-weight: 300 !important;
+    }
+    .brand-text-container {
+        font-size: 1.5em !important;
+        margin-left: 12px;
+        margin-top: -20px !important;
+        margin-bottom: 12px
+    }
+    .brand-text-2 {
+        padding-left: 58px;
     }
    
 }
