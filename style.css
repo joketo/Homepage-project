@@ -207,6 +207,10 @@ div.project {
     width: 43%;
     font-family: 'Cormorant Garamond', serif;
 }
+
+.project div {
+    margin-top: 10px;
+}
     
 .allprojects {
     margin-left: 7%;
@@ -356,6 +360,9 @@ div.whoiam{ /*johanna who -page*/
     padding-left: 3%;
     font-weight: 300;
     font-size: 1.3em;
+}
+.whoiam div {
+    margin-top: 10px;
 }
 p {
     font-family: 'Cormorant Garamond', serif;
