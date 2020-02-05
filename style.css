@@ -225,26 +225,25 @@ div.project {
   /* Then we define how is distributed the remaining space */
   justify-content: space-around;
 }
+
 .language-selector {
     float: right;
     margin: 10px 21px 0 0;
 }
-.language-selector button {
-    padding: 6px;
-    width: 25px;
-    border: none;
+.language-selector a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    width: 18px;
+    display: inline-block;
     border-radius: 5px;
 }
-.language-selector button:hover {
+.language-selector a:hover {
     border-radius: 5px;
     background-color: #efbe7f;
     cursor: pointer;
     border: 1px solid black;
     padding: 4px;
-}
-.no-link-style {
-    text-decoration: none;
-    color: black;
 }
 
 ul.navigation {
