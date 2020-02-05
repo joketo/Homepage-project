@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="jquery/jquery-1.11.2.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet"> 
+        <title>Wahtera Webpage</title>
+    </head>
+
+    <body class="frontpage">
+
+        <!--Start smartphone / tablet navigation-->
+        <div class="mobile-container">
+            <div class="mapletree"></div>
+            <!-- Top Navigation Menu -->
+            <div class="topnav">
+                <img src="images/wahtera_colorful.png" class="wahtera-icon-mobile"/>
+                <div class="brand-text-container">
+                       <div class="brand-text-1">Custom clothes from reused fabrics</div>
+                       <div class="brand-text-2">with a magical touch</div>
+                </div>
+                <div id="myLinks">
+                    <a href="index.html" style="color: #d68f33;">About</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="commissions.html">Commissions</a>
+                    <a href="shop.html">Shop</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
+        <!-- End smartphone / tablet look for navigation -->
+        <div class="desktop-view">
+
+            <div class="mapletree"> <!--the banner-->
+                <div class = "title">
+                    <img src="images/wahtera_colorful.png" height = 200px />
+                    <div class="brand-text-container">
+                       <div class="brand-text-1">Custom clothes from reused fabrics</div>
+                       <div class="brand-text-2">with a magical touch</div>
+                    </div>
+                </div>
+            </div>
+            <ul class ="navigation">
+                <li><a href="index.html" style="color: #d68f33;"><span style="font-size: 40px;">A</span>bout</a></li>
+                <li><a href="gallery.html"><span style="font-size: 40px;">G</span>allery</a></li>
+                <li><a href="commissions.html"><span style="font-size: 40px;">C</span>ommissions</a></li>
+                <li><a href="shop.html"><span style="font-size: 40px;">S</span>hop</a></li>  
+            </ul>
+
+        </div>
+
+
+        <div class="me">
+
+            <div class ="profilepic">
+                <img src="images/author2.jpg"/>
+                <div>Me wearing an old curtain turned into dress.</div>
+            </div>
+
+            <div class ="whoiam">
+                <h3>Ecological Enchantment</h3>	
+                <div class ="mobile-profilepic">
+                    <img src="images/author2.jpg"/>
+                    <div>Me wearing an old curtain turned into dress.</div>
+                </div>
+                <div style="margin: 0; font-weight: 700;">About the Maker</div>
+
+                <div>
+                    My name is Johanna Wahtera, lovely to meet you! I'm a qualified sewing teacher and enjoy creating clothes with an enchanted twist. I craft them in a pet and smoke free workroom in Finland.
+                </div>
+                <img src="images/lehdet1.png" class="leaf-line"/>
+                <div style="margin: 0; font-weight: 700;">Individual Designs</div>
+                <div>
+                    I get inspiration for my pieces from fairy tales, history and nature. However, what drives my designs the most are the materials I find. Because I mainly use recycled fabrics, I usually have enough material for only a one piece of clothing. This results to unique, one of a kind designs.
+                </div>
+                
+                <img src="images/lehdet1.png" class="leaf-line"/>
+                <div style="margin-top: 0; font-weight: 700;">Why Reused Materials</div>
+                <div>Let's face it, textile production is not good for our planet. To reduce environmental impact the produced materials should be used as long as possible. My way of reinforcing this is to reuse old fabrics on my clothes.
+                </div>
+                <!-- I hunt down materials from second hand stores with love.  Old home textiles are a great example of re-usable materials. -->
+                
+                <div>I always check the fabric’s condition with care before sewing. To assure their freshness and color resistance I freeze and wash them after acquiring them. As a bonus this makes sure that the finished product is not going to shrink when the new owner washes it.
+                </div>
+                
+                
+             <!--   <div>I include care instructions for every clothing I sell. I hope that the new owner will handle the product with care so that the materials used in it will have a long, happy life.</div>-->
+
+                <div>This is my small contribution in the fight against the fast-fashion industry and harmful consumption. With my clothes, I hope to bring joy to my customers and prolong the life of otherwise wasted fabrics. </div>
+                <img src="images/lehdet1.png" class="leaf-line"/>
+
+            </div>  
+        </div>
+
+    </body>
+
+    <footer>
+        <div>
+            johanna@wahtera.fi
+            <a href="https://www.instagram.com/jkwahtera/" title="Wahtera on instagram"><img src="glyph-logo_May2016.png"/></a>
+        </div>
+    </footer>
+
+</html>
