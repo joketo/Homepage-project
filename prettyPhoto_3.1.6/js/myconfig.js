@@ -1,5 +1,12 @@
 $(document).ready(function () {
     
+    $(".openOrder1Images").click(function(){
+    api_images = ['CLOTHES/order1-1.png', 'CLOTHES/order1-2.jpg', 'CLOTHES/order1-3.jpg', 'CLOTHES/order1-4.png', 'CLOTHES/order1-5.png', 'CLOTHES/order1-6.png', 'CLOTHES/order1-7.png'];
+    api_titles = ['', '', '', '', '', '', '',];
+    api_descriptions = ['', '', '', '', '', '', '',]
+    $.prettyPhoto.open(api_images,api_titles,api_descriptions);
+    });
+    
      $(".openWool2019Images").click(function(){
     api_images = ['CLOTHES/wool2019-1.JPG', 'CLOTHES/wool2019-3.JPG', 'CLOTHES/wool2019-2.JPG', 'CLOTHES/wool2019-4.JPG'];
     api_titles = ['Wool skirt from cut waste', 'Wool skirt from cut waste', 'Wool skirt from cut waste', 'Wool skirt from cut waste'];
