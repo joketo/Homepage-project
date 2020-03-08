@@ -1,8 +1,15 @@
 $(document).ready(function () {
     
+    $(".openOrder2Images").click(function(){
+    api_images = ['CLOTHES/order2-1.jpg', 'CLOTHES/order2-2.png'];
+    api_titles = ['Gray full circle skirt', 'Gray full circle skirt'];
+    api_descriptions = ['Front', 'Back']
+    $.prettyPhoto.open(api_images,api_titles,api_descriptions);
+    });
+    
     $(".openOrder1Images").click(function(){
     api_images = ['CLOTHES/order1-1.png', 'CLOTHES/order1-2.jpg', 'CLOTHES/order1-3.jpg', 'CLOTHES/order1-4.png', 'CLOTHES/order1-5.png', 'CLOTHES/order1-6.png', 'CLOTHES/order1-7.png'];
-    api_titles = ['', '', '', '', '', '', '',];
+    api_titles = ['Wool coat', 'Wool coat', 'Wool coat', 'Wool coat', 'Wool coat', 'Wool coat', 'Wool coat',];
     api_descriptions = ['', '', '', '', '', '', '',]
     $.prettyPhoto.open(api_images,api_titles,api_descriptions);
     });
