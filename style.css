@@ -113,8 +113,6 @@ body {
   font-size: 1.6em;
 }
 
-
-
 .topnav a:hover {
   background-color: #eeefef;/*#fefdf8;*/
   color: #d68f33;
@@ -331,7 +329,7 @@ div.title{ /*the title text*/
     padding-right: 61px;
 }
 .brand-text-2-fin {
-    padding-right: 67px;
+    padding-right: 75px;
 }
 
 div.mapletree img.banner{
@@ -381,7 +379,7 @@ div.me {
     display: flex;
     align-items: flex-start;
 }
-div.whoiam{ /*johanna who -page*/
+div.whoiam{
     display: inline-block;
     padding-left: 3%;
     font-weight: 300;
@@ -406,15 +404,6 @@ body {
     background-repeat:   no-repeat;
     background-position: center center;  
 }
-
-/* 
-body.clothespage{
-    background-image: url("images/evenclearerbackground.JPG");
-    background-size: cover;
-    background-repeat:   no-repeat;
-    background-position: center center;  
-}*/
-
 
 .logo {
     width: 210px;
@@ -447,6 +436,72 @@ footer img {
     max-width: 53px;
     min-width: 29px;
     padding-left: 10px;
+}
+
+.commission-page {
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 10px 15px 20px 15px;
+}
+.commission-block {
+    padding-left: 3%;
+    padding-right: 3%;
+    font-weight: 300;
+    font-size: 1.3em;
+}
+
+.buttonToFabrics {
+    cursor: hand;
+    padding: 5px 10px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    background-color: #cc9146;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+}
+.buttonToFabrics a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.buttonToFabrics:hover {
+    background-color: #e9b472;
+    color: black;
+}
+
+.pricing-table {
+    margin: 20px auto;
+}
+.pricing-table div {
+    line-height: 30px;
+}
+.table-heading {
+    font-weight: 600;
+    color: #7c5729;
+}
+.pricing-cell-1 {
+    display: inline-block;
+    width: 28%;
+}
+.pricing-cell-2 {
+    display: inline-block;
+    width: 15%;
+}
+.pricing-cell-3 {
+    display: inline-block;
+    width: 15%;
+}
+.price-cell {
+    font-family: 'Cinzel Decorative', monospace !important;
+    font-size: 0.8em;
+}
+.plusmaterials {
+    margin-top: 10px;
+    color: #cc9146;
 }
 
 @media(max-width: 1080px){
@@ -525,7 +580,6 @@ footer img {
     }
     div.whoiam {
         font-size: 2em;
-    
     }
     .me {
         margin-left: 3% !important;
@@ -561,7 +615,7 @@ footer img {
         margin-bottom: 12px
     }
     .brand-text-2 {
-        padding-left: 58px;
+       padding-left: 75px;
     }
    
 }
