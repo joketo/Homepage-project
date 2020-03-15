@@ -451,10 +451,8 @@ footer img {
 }
 
 .buttonToFabrics {
-    cursor: hand;
-    padding: 5px 10px;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 18px;
+    font-size: 1em;
     background-color: #cc9146;
     display: block;
     margin-left: auto;
@@ -462,6 +460,7 @@ footer img {
     margin-top: 45px;
 }
 .buttonToFabrics a {
+    padding: 10px 15px;
     text-decoration: none;
     color: white;
     display: inline-block;
@@ -471,6 +470,7 @@ footer img {
 .buttonToFabrics:hover {
     background-color: #e9b472;
     color: black;
+    cursor: hand;
 }
 
 .pricing-table {
@@ -489,11 +489,11 @@ footer img {
 }
 .pricing-cell-2 {
     display: inline-block;
-    width: 15%;
+    width: 18%;
 }
 .pricing-cell-3 {
     display: inline-block;
-    width: 15%;
+    width: 18%;
 }
 .price-cell {
     font-family: 'Cinzel Decorative', monospace !important;
@@ -529,6 +529,7 @@ footer img {
     .whoiam {
         width: 100% !important;
         padding: 0 !important;
+        font-size: 2em !important;
     }
     .profilepic {
         display: none !important;
@@ -578,8 +579,18 @@ footer img {
         float: none;
         margin-left: 20px;
     }
-    div.whoiam {
-        font-size: 2em;
+    .commission-block {
+        font-size: 2em !important;
+        padding: 0 !important;
+    }
+    .commission-block h3 {
+        margin-bottom: 30px;
+    }
+    .pricing-cell-2 {
+        width: 25%;
+    }
+    .pricing-cell-3 {
+        width: 25%;
     }
     .me {
         margin-left: 3% !important;
