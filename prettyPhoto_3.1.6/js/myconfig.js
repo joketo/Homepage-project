@@ -1,5 +1,19 @@
 $(document).ready(function () {
     
+    $(".openTuomiProtoImages").click(function(){
+    api_images = ['CLOTHES/tuomiproto4.JPG', 'CLOTHES/tuomiproto1.JPG', 'CLOTHES/tuomiproto2.JPG', 'CLOTHES/tuomiproto3.JPG', 'CLOTHES/tuomiproto5.JPG', 'CLOTHES/tuomiproto6.JPG'];
+    api_titles = ['Prototype for Hukkapuku skirt', 'Prototype for Hukkapuku skirt', 'Prototype for Hukkapuku skirt', 'Prototype for Hukkapuku skirt', 'Prototype for Hukkapuku skirt', 'Prototype for Hukkapuku skirt'];
+    api_descriptions = ['', '', '', '', '', '']
+    $.prettyPhoto.open(api_images,api_titles,api_descriptions);
+    });
+    
+    $(".openElfCoatImages").click(function(){
+    api_images = ['CLOTHES/haltiatakki-auki-sivu.JPG', 'CLOTHES/haltiatakki-etusivu.JPG', 'CLOTHES/haltiatakki-etu.JPG', 'CLOTHES/haltiatakki-sivu.JPG', 'CLOTHES/haltiatakki-detail.JPG', 'CLOTHES/haltiatakkitakaa-kaukaa.JPG'];
+    api_titles = ['Linen cape coat', 'Linen cape coat', 'Linen cape coat', 'Linen cape coat', 'Linen cape coat', 'Linen cape coat'];
+    api_descriptions = ['', '', '', '', '', '']
+    $.prettyPhoto.open(api_images,api_titles,api_descriptions);
+    });
+    
     $(".openOrder2Images").click(function(){
     api_images = ['CLOTHES/order2-1.jpg', 'CLOTHES/order2-2.png'];
     api_titles = ['Gray full circle skirt', 'Gray full circle skirt'];
