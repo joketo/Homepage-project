@@ -446,6 +446,7 @@ footer img {
 .commission-block {
     padding-left: 3%;
     padding-right: 3%;
+    text-align: center;
     font-weight: 300;
     font-size: 1.3em;
 }
@@ -475,6 +476,7 @@ footer img {
 
 .pricing-table {
     margin: 20px auto;
+    text-align: left;
 }
 .pricing-table div {
     line-height: 30px;
@@ -508,11 +510,11 @@ footer img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%
+    width: 50%
 }
 .orderProcessPic {
     padding: 20px 0;
-    max-width: 1400px;
+    max-width: 2000px;
     width: 100%;
     display: block;
     margin-left: auto;
@@ -523,6 +525,15 @@ footer img {
 }
 .centerText {
     text-align: center;
+}
+.pricing {
+    text-align: left !important;
+}
+.listItem {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 @media(max-width: 1080px){
