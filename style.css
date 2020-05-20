@@ -530,10 +530,10 @@ footer img {
     text-align: left !important;
 }
 .listItem {
-    text-align: left;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 90%;
+    font-weight: 600;
 }
 
 @media(max-width: 1080px){
