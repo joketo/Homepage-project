@@ -1,5 +1,12 @@
 $(document).ready(function () {
     
+    $(".openJakkupukuImages").click(function(){
+    api_images = ['CLOTHES/jakkupuku1.jpg', 'CLOTHES/jakkupuku2.jpg', 'CLOTHES/jakkupuku3.jpg', 'CLOTHES/jakkupuku4.jpg', 'CLOTHES/jakkupuku-studio.jpg'];
+    api_titles = ['Power suit, light wool crepe', 'Power suit, light wool crepe', 'Power suit, light wool crepe', 'Power suit, light wool crepe', 'Power suit, light wool crepe'];
+    api_descriptions = ['', '', '', '', '']
+    $.prettyPhoto.open(api_images,api_titles,api_descriptions);
+    });
+    
     $(".openTuomiProtoImages").click(function(){
     api_images = ['CLOTHES/tuomiproto4.JPG', 'CLOTHES/tuomiproto1.JPG', 'CLOTHES/tuomiproto2.JPG', 'CLOTHES/tuomiproto3.JPG', 'CLOTHES/tuomiproto5.JPG', 'CLOTHES/tuomiproto6.JPG'];
     api_titles = ['Prototype for Hukkapuku skirt', 'Prototype for Hukkapuku skirt', 'Prototype for Hukkapuku skirt', 'Prototype for Hukkapuku skirt', 'Prototype for Hukkapuku skirt', 'Prototype for Hukkapuku skirt'];
