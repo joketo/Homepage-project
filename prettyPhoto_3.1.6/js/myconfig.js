@@ -1,7 +1,7 @@
 $(document).ready(function () {
     
     $(".openJakkupukuImages").click(function(){
-    api_images = ['CLOTHES/jakkupuku1.jpg', 'CLOTHES/jakkupuku2.jpg', 'CLOTHES/jakkupuku3.jpg', 'CLOTHES/jakkupuku4.jpg', 'CLOTHES/jakkupuku-studio.jpg'];
+    api_images = ['CLOTHES/jakkupuku-studio.jpg', 'CLOTHES/jakkupuku1.jpg', 'CLOTHES/jakkupuku2.jpg', 'CLOTHES/jakkupuku3.jpg', 'CLOTHES/jakkupuku4.jpg'];
     api_titles = ['Power suit, light wool crepe', 'Power suit, light wool crepe', 'Power suit, light wool crepe', 'Power suit, light wool crepe', 'Power suit, light wool crepe'];
     api_descriptions = ['', '', '', '', '']
     $.prettyPhoto.open(api_images,api_titles,api_descriptions);
