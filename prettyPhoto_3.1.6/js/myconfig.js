@@ -1,5 +1,12 @@
 $(document).ready(function () {
     
+     $(".openImpiImages").click(function(){
+    api_images = ['CLOTHES/impi-proto.jpg'];
+    api_titles = ['Prototype for Hukkapuku dress model'];
+    api_descriptions = ['I made this dress to test out dress model I had had in my head for some time. It\'s made from old cotton curtains and vintage lace.']
+    $.prettyPhoto.open(api_images,api_titles,api_descriptions);
+    });
+    
     $(".openJakkupukuImages").click(function(){
     api_images = ['CLOTHES/jakkupuku-studio.jpg', 'CLOTHES/jakkupuku1.jpg', 'CLOTHES/jakkupuku2.jpg', 'CLOTHES/jakkupuku3.jpg', 'CLOTHES/jakkupuku4.jpg'];
     api_titles = ['Power suit, light wool crepe', 'Power suit, light wool crepe', 'Power suit, light wool crepe', 'Power suit, light wool crepe', 'Power suit, light wool crepe'];
