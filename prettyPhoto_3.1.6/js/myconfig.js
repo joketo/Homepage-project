@@ -1,6 +1,13 @@
 $(document).ready(function () {
     
-     $(".openImpiImages").click(function(){
+     $(".openUniImages").click(function(){
+    api_images = ['CLOTHES/unitakaa.png', 'CLOTHES/uniedesta.png', 'CLOTHES/unitakayksityiskohta.png'];
+    api_titles = ['Prototype for Hukkapuku skirt model', 'Prototype for Hukkapuku skirt model', 'Prototype for Hukkapuku skirt model'];
+    api_descriptions = ['This old curtain got a new life as a skirt. Back.', 'Front', 'Detail of the back']
+    $.prettyPhoto.open(api_images,api_titles,api_descriptions);
+    });
+    
+    $(".openImpiImages").click(function(){
     api_images = ['CLOTHES/impi-proto.jpg'];
     api_titles = ['Prototype for Hukkapuku dress model'];
     api_descriptions = ['I made this dress to test out dress model I had had in my head for some time. It\'s made from old cotton curtains and vintage lace.']
