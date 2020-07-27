@@ -1,6 +1,13 @@
 $(document).ready(function () {
     
-     $(".openUniImages").click(function(){
+    $(".open006Images").click(function(){
+    api_images = ['CLOTHES/tilaus006etu.jpeg', 'CLOTHES/tilaus006taka.jpeg'];
+    api_titles = ['Cape for a customer for a Star Wars themed larp.', 'Cape for a customer for a Star Wars themed larp.'];
+    api_descriptions = ['Front', 'Back',]
+    $.prettyPhoto.open(api_images,api_titles,api_descriptions);
+    });
+    
+    $(".openUniImages").click(function(){
     api_images = ['CLOTHES/unitakaa.png', 'CLOTHES/uniedesta.png', 'CLOTHES/unitakayksityiskohta.png'];
     api_titles = ['Prototype for Hukkapuku skirt model', 'Prototype for Hukkapuku skirt model', 'Prototype for Hukkapuku skirt model'];
     api_descriptions = ['This old curtain got a new life as a skirt. Back.', 'Front', 'Detail of the back']
