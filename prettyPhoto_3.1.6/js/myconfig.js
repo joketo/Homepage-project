@@ -1,5 +1,12 @@
 $(document).ready(function () {
     
+     $(".openUniProto2Images").click(function(){
+    api_images = ['CLOTHES/uniproto2etu.JPG', 'CLOTHES/uniproto2taka.JPG'];
+    api_titles = ['Updated version of Hukkapuku model Uni', 'Updated version of Hukkapuku model Uni'];
+    api_descriptions = ['Front', 'The back still closes with lacing, but is much easier to close.',]
+    $.prettyPhoto.open(api_images,api_titles,api_descriptions);
+    });
+    
     $(".open006Images").click(function(){
     api_images = ['CLOTHES/tilaus006etu.jpeg', 'CLOTHES/tilaus006taka.jpeg'];
     api_titles = ['Cape for a customer for a Star Wars themed larp.', 'Cape for a customer for a Star Wars themed larp.'];
@@ -9,7 +16,7 @@ $(document).ready(function () {
     
     $(".openUniImages").click(function(){
     api_images = ['CLOTHES/unitakaa.png', 'CLOTHES/uniedesta.png', 'CLOTHES/unitakayksityiskohta.png'];
-    api_titles = ['Prototype for Hukkapuku skirt model', 'Prototype for Hukkapuku skirt model', 'Prototype for Hukkapuku skirt model'];
+    api_titles = ['Prototype for Hukkapuku skirt model - Uni', 'Prototype for Hukkapuku skirt model - Uni', 'Prototype for Hukkapuku skirt model - Uni'];
     api_descriptions = ['This old curtain got a new life as a skirt. Back.', 'Front', 'Detail of the back']
     $.prettyPhoto.open(api_images,api_titles,api_descriptions);
     });
