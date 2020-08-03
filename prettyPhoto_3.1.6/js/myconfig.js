@@ -1,6 +1,14 @@
 $(document).ready(function () {
+    $(".open004Images").click(function(){
+    api_images = ['CLOTHES/004sivusini.png', 'CLOTHES/004takasateenvarjo.png', 'CLOTHES/004takaaliehu.png', 'CLOTHES/004etu2.png',
+                 'CLOTHES/004etu.png', 'CLOTHES/004takaasilta.png', 'CLOTHES/004lahi1.png', 'CLOTHES/004tuotemerkki.png'];
+    api_titles = ['Custom coat for a customer', 'Custom coat for a customer', 'Custom coat for a customer', 'Custom coat for a customer'
+                 , 'Custom coat for a customer', 'Custom coat for a customer', 'Custom coat for a customer', 'Custom coat for a customer'];
+    api_descriptions = ['', '', '', '', '', '', '', '']
+    $.prettyPhoto.open(api_images,api_titles,api_descriptions);
+    });
     
-     $(".openUniProto2Images").click(function(){
+    $(".openUniProto2Images").click(function(){
     api_images = ['CLOTHES/uniproto2etu.JPG', 'CLOTHES/uniproto2taka.JPG'];
     api_titles = ['Updated version of Hukkapuku model Uni', 'Updated version of Hukkapuku model Uni'];
     api_descriptions = ['Front', 'The back still closes with lacing, but is much easier to close.',]
