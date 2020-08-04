@@ -144,7 +144,7 @@ $(document).ready(function () {
     $(".openBluedressImages").click(function(){
         images = ['CLOTHES/blue_dress.jpg','CLOTHES/blue_dress_2.jpg'];
         titles = ['Blue dress','Blue dress'];
-        descriptions = ['Front','Back']
+        descriptions = ['A dress from recycled fabric with vintage lace.','Back']
         $.prettyPhoto.open(images,titles,descriptions);
     });
     
