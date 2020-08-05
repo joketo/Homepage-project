@@ -86,9 +86,9 @@ $(document).ready(function () {
     });
     
     $(".open2019coatImages").click(function(){
-    api_images = ['CLOTHES/takkitakaa.png', 'CLOTHES/takki-rajattu.png', 'CLOTHES/takki.png'];
-    api_titles = ['Coat from a cordudoy from the 70\'s', 'Coat from a cordudoy from the 70\'s', 'Coat from a cordudoy from the 70\'s'];
-    api_descriptions = ['', ,'', 'The small buttons are so cute.']
+    api_images = ['CLOTHES/takkitakaa.png', 'CLOTHES/takki-rajattu.png', 'CLOTHES/takki.png', 'CLOTHES/tulipyrsto1.JPG', 'CLOTHES/tulipyrsto2.JPG'];
+    api_titles = ['Coat from a cordudoy from the 70\'s', 'Coat from a cordudoy from the 70\'s', 'Coat from a cordudoy from the 70\'s', 'Coat from a cordudoy from the 70\'s', 'Coat from a cordudoy from the 70\'s'];
+    api_descriptions = ['', '', '', 'Upgraded version', '']
     $.prettyPhoto.open(api_images,api_titles,api_descriptions);
     });
     
