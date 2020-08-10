@@ -1,4 +1,11 @@
 $(document).ready(function () {
+    $(".open005Images").click(function(){
+    api_images = ['CLOTHES/005etu.jpg', 'CLOTHES/005taka.jpg', 'CLOTHES/005nappi.jpg'];
+    api_titles = ['Blue circle skirt', 'Blue circle skirt', 'Blue circle skirt'];
+    api_descriptions = ['', '', '']
+    $.prettyPhoto.open(api_images,api_titles,api_descriptions);
+    });
+    
     $(".open004Images").click(function(){
     api_images = ['CLOTHES/004sivusini.png', 'CLOTHES/004takasateenvarjo.png', 'CLOTHES/004takaaliehu.png', 'CLOTHES/004etu2.png',
                  'CLOTHES/004etu.png', 'CLOTHES/004takaasilta.png', 'CLOTHES/004lahi1.png', 'CLOTHES/004tuotemerkki.png'];
