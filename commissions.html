@@ -73,24 +73,42 @@
         <div class = "commission-page">
 
             <div class="commission-block">
-                <h3>Your fantasy project</h3>	        	        
+                <h3>Your project</h3>	        	        
 
                 <div>Do you have a material that you love but don't yet know what to make of it? Or do you have a specific idea of your dream garment? </div>
 
-                <div>I offer custom costumes for special occasions and festivals. I also offer single costumes for theatre or help with the overall costuming. </div>
-
-                <div>Price for this service varies on the project. When you contact me, please tell me the following so I can give you an estimate of the price:
-                </div>
-                <ul>
-                    <li class="listItem">What is your project about?</li>
-                    <li class="listItem">On what schedule you want the project to be completed?</li>
-                    <li class="listItem">Do you have a specific material you want to use?</li>
-                    <li class="listItem">Instead of traditional order, do you want to order private sewing classes and implement the sewing together? </li>
-                </ul>
-
-                <div>Commission service is available only in Finland, since it requires face-to-face meetings and fittings. Please understand that for travel reasons I only accept inquiries in the Helsinki-Espoo-Vantaa -area.</div>
-
-                <div class="marginTop20px">For more information, please contact me by email: <span style="font-weight: 600;">johanna@wahtera.fi</span>.</div>
+                <div class="marginTop10px">I sew high-quality garments and costumes for all your needs. I also offer single costumes for theatre or help with the overall costuming. </div>
+                
+                 <div class="marginTop10px">I work in Helsinki, Finland and most commissions require meeting face to face. However, simple designs like skirts or capes are possible to make completely remotely.</div>
+                
+                <div class="marginTop10px">For more information, please contact me by email <span style="font-weight: 600;">johanna@wahtera.fi</span> or by filling the form below.</div>
+                    <form action="https://formspree.io/xaypzpgd" method="POST" class="contact-form">
+                        <div class=centerMe>
+                        <label for="_name" class="name-label">Name</label>
+                        <input type="text" name="_name" class="name-input"><br>
+                        
+                        <label for="_replyto" class="name-label">Email</label>
+                        <input type="email" name="_replyto" class="name-input"><br>
+                     
+                        <label class="textarea-label">
+                            What would you like to order?
+                            <textarea name="project"></textarea>
+                        </label>
+                        <label class="textarea-label">
+                            On what schedule you want the project to be completed?
+                            <textarea name="schedule"></textarea>
+                        </label>
+                        <label class="textarea-label">
+                            Do you have a specific material you want to use?
+                            <textarea name="material"></textarea>
+                        </label>
+                        
+                         <input type="radio" id="traditional" name="ordertype" value="traditional" checked="true"><label for="traditional">I want the traditional commission.</label><br>
+                        <input type="radio" id="female" name="ordertype" value="teaching"><label for="teaching">I want to order private sewing classes and implement the sewing together.</label><br>
+                
+                        <button type="submit">Lähetä</button>
+                        </div>
+                </form>
             </div>
 
             <div class="commission-block">
@@ -152,9 +170,12 @@
         </div>
     </body>
 
-    <footer>
+      <footer>
         <div>
-            johanna@wahtera.fi
+            <p>Ateljee Wahtera, Helsinki</p>
+            <p>johanna@wahtera.fi</p>
+        </div>
+        <div>
             <a href="https://www.instagram.com/jkwahtera/" title="Wahtera on instagram"><img src="glyph-logo_May2016.png"/></a>
         </div>
     </footer>

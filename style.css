@@ -355,6 +355,64 @@ hr.divider { /*a line between programming-projects*/
     background-image: url("images/smallerline.png");
 }
 
+.hukkapukupic {
+    display: inline-block;
+    padding: 10px;
+    margin: 0 0 2.5% 2.5%;
+    background:#fff;
+    border: 1px solid#ddd;
+    font-size: 16px;
+    font-size: 1rem;
+    vertical-align: top;
+    box-shadow: 0 0 5px #ddd;
+    box-sizing: border-box;
+}
+.hukkapukupic img {
+    max-width: 380px;
+}
+.centerMe {
+     margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.contact-form {
+    background-color: #fff;
+    text-align: start;
+    padding: 20px 0px;
+    border: 3px #cc9146 solid;
+    margin: 1em 7em;
+}
+.contact-form label {
+    display: inline-block;
+    min-width: 110px;
+}
+.name-input {
+    display: inline-block;
+    width: 300px;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+}
+.textarea-label {
+    display: block !important;
+}
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    min-height: 80px;
+    line-height: 1.5em;
+}
+.contact-form button {
+    font-size: 15px;
+background-color: #cc9146;
+    padding: 6px;
+    margin-top: 5px;
+text-decoration: none;
+color: white;
+display: inline-block;
+border-radius: 5px;
+}
+
 div.profilepic {
     display: inline-block;
     padding: 10px;
@@ -368,7 +426,7 @@ div.profilepic {
     box-sizing: border-box;
 }
 div.profilepic img {
-    max-width: 500px;
+    max-width: 450px;
 }
 a.cv img{
     display:block;
@@ -432,8 +490,20 @@ footer {
     overflow: hidden;
 }
 footer div {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+footer p {
+    margin: 5px 0;
+    color: #d68f33;
+    font-size: 1.3em;
+    font-family: 'Cormorant Garamond', serif;
+}
+footer a {
     float: right;
     padding: 0 24px 20px 0;
+    margin-top: -60px;
     color: #d68f33;
     font-size: 1.3em;
     font-family: 'Cormorant Garamond', serif;
@@ -452,7 +522,7 @@ footer img {
 .commission-block {
     padding-left: 3%;
     padding-right: 3%;
-    text-align: center;
+    //text-align: center;
     font-weight: 300;
     font-size: 1.3em;
 }
@@ -529,6 +599,9 @@ footer img {
 .marginTop20px {
     margin-top: 20px;
 }
+.marginTop10px {
+    margin-top: 10px;
+}
 .centerText {
     text-align: center;
 }
@@ -554,6 +627,9 @@ footer img {
    img.notMobile{
    	display: none
    }
+    .contact-form {
+        margin: 1em 1em !important;
+    }
     .showOnDesktop {
         display: none;
     }
