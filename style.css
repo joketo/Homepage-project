@@ -355,6 +355,14 @@ hr.divider { /*a line between programming-projects*/
     background-image: url("images/smallerline.png");
 }
 
+.hukkapuku-first {
+    display: flex;
+}
+
+.hukkupuku-first-text {
+    margin-left: 20px;
+}
+
 .hukkapukupic {
     display: inline-block;
     padding: 10px;
@@ -368,8 +376,15 @@ hr.divider { /*a line between programming-projects*/
     box-sizing: border-box;
 }
 .hukkapukupic img {
-    max-width: 380px;
+    max-width: 300px;
 }
+
+.hukkapuku-text-next-to-image {
+    display: inline-block;
+    width: 47%;
+    margin-left: 10px;
+}
+
 .centerMe {
      margin-left: auto;
     margin-right: auto;
@@ -443,6 +458,14 @@ div.me {
     display: flex;
     align-items: flex-start;
 }
+
+.hukkapukucontainer {
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 10px 15px 20px 15px;
+    font-size: 1.3em;
+}
+
 div.whoiam{
     display: inline-block;
     padding-left: 3%;
@@ -684,6 +707,9 @@ footer img {
     .me {
         padding-top: 0px !important;
     }
+    .hukkapukucontainer {
+        padding-top: 0px !important;
+    }
     .leaf-line {
         margin-top: 15px;
         height: 62px;
@@ -713,6 +739,10 @@ footer img {
         width: 25%;
     }
     .me {
+        margin-left: 3% !important;
+        margin-right: 3% !important;
+    }
+    .hukkapukucontainer {
         margin-left: 3% !important;
         margin-right: 3% !important;
     }
