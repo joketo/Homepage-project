@@ -84,7 +84,7 @@ body {
 
 .wahtera-icon-mobile {
     height: 14em;
-    margin-left: 20px;
+    margin-left: 84px;
 }
 
 .topnav #myLinks {
@@ -375,7 +375,7 @@ hr.divider { /*a line between programming-projects*/
     box-sizing: border-box;
 }
 .hukkapukupic img {
-    max-width: 300px;
+    max-width: 550px;
 }
 
 .hukkapuku-text-next-to-image {
@@ -608,7 +608,7 @@ footer img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%
+    width: 74%
 }
 .orderProcessPic {
     padding: 20px 0;
@@ -684,6 +684,12 @@ footer img {
     .hukkapukucontainer {
         font-size: 2em !important;
     }
+    .hukkapukucontainer h3 {
+        margin-bottom: 0;
+    }
+    .hukkapukupic img{
+        max-width: 790px;
+    }
     .mobile-profilepic {
     display: block;
     padding: 10px;
@@ -705,7 +711,12 @@ footer img {
     .mobile-profilepic div {
         font-size: 2em;
     }
-
+    .marginTop20px {
+    margin-top: 3%;
+    }
+    .marginTop10px {
+    margin-top: 2%;
+    }
     .project {
         width: 100% !important;
         margin-bottom: 10px;
@@ -776,13 +787,13 @@ footer img {
         font-weight: 300 !important;
     }
     .brand-text-container {
-        font-size: 1.5em !important;
+        font-size: 2em !important;
         margin-left: 12px;
         margin-top: -20px !important;
         margin-bottom: 12px
     }
     .brand-text-2 {
-       padding-left: 75px;
+        padding-left: 107px;
     }
    
 }
