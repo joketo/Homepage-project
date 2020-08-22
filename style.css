@@ -369,7 +369,6 @@ hr.divider { /*a line between programming-projects*/
     margin: 0 0 2.5% 2.5%;
     background:#fff;
     border: 1px solid#ddd;
-    font-size: 16px;
     font-size: 1rem;
     vertical-align: top;
     box-shadow: 0 0 5px #ddd;
@@ -463,7 +462,7 @@ div.me {
     margin-left: 7%;
     margin-right: 7%;
     padding: 10px 15px 20px 15px;
-    font-size: 1.3em;
+    font-size: 1.6em;
 }
 
 div.whoiam{
@@ -473,7 +472,7 @@ div.whoiam{
     font-size: 1.3em;
 }
 .whoiam div {
-    margin-top: 10px;
+    margin-top: 2%;
 }
 p {
     font-family: 'Cormorant Garamond', serif;
@@ -677,6 +676,14 @@ footer img {
     .profilepic {
         display: none !important;
     }
+    .hukkapuku-text-next-to-image {
+        width: 100% !important;
+        margin-left: 2.5%;
+        margin-bottom: 20px;
+    }
+    .hukkapukucontainer {
+        font-size: 2em !important;
+    }
     .mobile-profilepic {
     display: block;
     padding: 10px;
@@ -685,7 +692,6 @@ footer img {
     margin-bottom: 12%;
     background:#fff;
     border: 1px solid#ddd;
-    font-size: 16px;
     font-size: 1rem;
     vertical-align: top;
     box-shadow: 0 0 5px #ddd;
