@@ -417,14 +417,15 @@ hr.divider { /*a line between programming-projects*/
     line-height: 1.5em;
 }
 .contact-form button {
-    font-size: 15px;
-background-color: #cc9146;
+    font-size: 1em;
+    background-color: #cc9146;
     padding: 6px;
     margin-top: 5px;
-text-decoration: none;
-color: white;
-display: inline-block;
-border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
+    border: none;
 }
 
 div.profilepic {
@@ -650,7 +651,10 @@ footer img {
    	display: none
    }
     .contact-form {
-        margin: 1em 1em !important;
+        margin: 2% 0 !important;
+    }
+    .name-input {
+        line-height: 3em !important;
     }
     .showOnDesktop {
         display: none;
