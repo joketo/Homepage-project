@@ -331,11 +331,15 @@ div.title{ /*the title text*/
     margin-right: 27px;
 }
 
+.brand-text-1 {
+    padding-right: 37px;
+}
+
 .brand-text-2 {
-    padding-right: 61px;
+    padding-right: 52px;
 }
 .brand-text-2-fin {
-    padding-right: 75px;
+    padding-right: 72px;
 }
 
 div.mapletree img.banner{
