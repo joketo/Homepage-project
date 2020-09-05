@@ -495,6 +495,31 @@ body {
     background-repeat:   no-repeat;
     background-position: center center;  
 }
+.hukkapukupage .me {
+     background-image: url("images/tuomilahi.JPG");
+    background-size: cover;                  
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+.hukkapukupage .profilepic {
+    margin: 0 0 0 2.5%;
+}
+.hukkapukupage .me {
+    padding: 15px;
+}
+.hukkapukuh3 {
+    font-family: 'Cinzel Decorative', cursive;
+    color: #333;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #ffffffd1;
+    width: 696px;
+}
+.hukkapukudiv {
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #ffffffd1;
+}
 
 .logo {
     width: 210px;
@@ -703,7 +728,7 @@ footer img {
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 12%;
+    margin-bottom: 5%;
     background:#fff;
     border: 1px solid#ddd;
     font-size: 1rem;
@@ -802,6 +827,12 @@ footer img {
     }
     .brand-text-2 {
         padding-left: 107px;
+    }
+    .hukkapukuh3 {
+        width: unset;
+        font-size: 2em;
+        margin-top: 3%;
+        text-align: center;
     }
    
 }
