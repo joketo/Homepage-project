@@ -921,6 +921,10 @@ label {
         font-size: 1.5em !important;
         
     }
+    
+    .example-coats img {
+        max-width: 490px;
+    }
    
 }
 
