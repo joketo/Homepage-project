@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style-v4.css">
+
+        <link rel="icon" type="image/png" href="favicon.png">
+        <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet"> 
+        <script src="jquery-1.11.2.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <title>Wahtera Ateljee</title>
+    </head>
+    <body>
+        <!--Start smartphone / tablet navigation-->
+        <div class="mobile-container">
+            <div class="mapletree"></div>
+            <!-- Top Navigation Menu -->
+            <div class="topnav">
+                <img src="images/wahtera_colorful.png" class="wahtera-icon-mobile"/>
+                <div class="brand-text-container">
+                    <div class="brand-text-1">Uniikit mittatilausvaatteet</div>
+                       <div class="brand-text-2-fin">Ompelun yksityisopetusta</div>
+                    <div class="brand-text-2">Hukkapuvun koti</div>
+                </div>
+                <div id="myLinks">
+                    <a href="index.html">Tarina</a>
+                    <a href="coats-fin.html" style="color: #d68f33;">Mittatilaustakit</a>
+                    <a href="lessons-fin.html">Yksityisopetus</a>
+                    <a href="hukkapuku.html">Hukkapuku</a>
+                    <!--   <a href="commissions.html" style="background-color: #f6f6f6c2;"><img src="images/Flag_of_the_United_Kingdom.png" height="30px;"> In English</a>-->
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
+        <!-- End smartphone / tablet look for navigation -->
+
+        
+        <div class="desktop-view">
+
+            <div class="mapletree"> <!--the banner-->
+                
+               <!-- <div class="language-selector">
+                    <a href="index-en.html">En</a>
+                    <a href="index.html" style="background-color: #efbe7f;">Fi</a>
+                </div>-->
+                
+                <div class = "title">
+                    <img src="images/wahtera_colorful.png" height = 180px />
+                    <div class="brand-text-container">
+                       <div class="brand-text-1">Uniikit mittatilausvaatteet</div>
+                       <div class="brand-text-2-fin">Ompelun yksityisopetusta</div>
+                       <div class="brand-text-2-fin">Hukkapuvun koti</div>
+                    </div>
+                </div>
+            </div>
+            <ul class ="navigation fin-navigation">
+                <li><a href="index.html"><span style="font-size: 29px;">T</span>arina</a></li>
+                <li><a href="coats-fin.html" style="color: #d68f33;"><span style="font-size: 29px;">M</span>ittatilaustakit</a></li>
+                <li><a href="lessons-fin.html"><span style="font-size: 29px;">Y</span>ksityisopetus</a></li>
+                <li><a href="hukkapuku.html"><span style="font-size: 29px;">H</span>ukkapuku</a></li>  
+            </ul>
+        </div>
+        
+        <div class = "commission-page">
+
+            <div class="commission-block col-md-12"> 
+                <h2 >Takin tilaaminen</h2>	  
+             
+                <div class="col-md-8 col-sm-12 col-xs-12 order-coat-text">
+                    <div>Takin valmistus alkaa suunnittelupalaverilla, jonka voimme pitää työhuoneellani tai etänä. Suunnitelman teon, mittojen oton ja materiaalien hankkimisen jälkeen tapaamme seuraavan kerran ensimmäisen ja toisen sovituskerran merkeissä. Prosessille kannattaa varata aikaa 2 kk.</div>
+                
+                    <div class="marginTop10px">Ota rohkeasti yhteyttä oheisella lomakkeella tai sähköpostilla <span style="font-weight: 600;">johanna@wahtera.fi</span>, niin kerron lisää. Yhteydenotto ei sido sinua mihinkään.</div>
+                
+                    <form action="https://formspree.io/xaypzpgd" method="POST" class="contact-form">
+                        <div class=centerMe>
+                        <label for="_name" class="name-label col-sm-12">Nimesi</label>
+                        <input type="text" name="_name" class="name-input col-sm-12"><br>
+                        
+                        <label for="_replyto" class="name-label col-sm-12">Sähköpostiosoitteesi</label>
+                        <input type="email" name="_replyto" class="name-input col-sm-12"><br>
+                     
+                        <label class="textarea-label">
+                            Viestisi
+                            <textarea name="project"></textarea>
+                        </label>        
+
+                        <button type="submit">Lähetä</button>
+                        </div>
+                    </form>
+                </div>
+                
+                <div class="col-md-4 hidden-sm hidden-xs">
+                        <img style="height: 100%; max-height: 550px" class=" center-image" src="images/kauluskuva.jpg"/>
+                </div>
+           
+            </div>
+
+
+            <div class="commission-block col-md-12">
+                
+              <!--  <div class="col-md-4">
+                        <img width="300px" src="images/takkipohja.png"/>
+                </div>-->
+                <div class="col-md-12 col-sm-12 pricing-table">
+                <h2>Ompelun hinnasto</h2>
+                    <div class="col-md-12 col-sm-12  dotted-bottom">
+                        <div class="col-md-10 col-sm-8">Viitta hupulla</div>
+                        <div class="col-md-2 col-sm-4 price">120 €</div>
+                    </div>
+                    
+                    <div class="col-md-12 col-sm-12 dotted-bottom">
+                        <div class="col-md-10 col-sm-8">Mittatilaustakki *</div>
+                        <div class="col-md-2 col-sm-4 price">430 €</div>
+                    </div>
+                        
+                    <div class="col-md-12 col-sm-12 dotted-bottom">
+                        <div class="col-md-8 col-sm-8 add-on">Huivi- tai herrainkauluksen lisä</div>
+                        <div class="col-md-4 col-sm-4 price add-on-price">30 € €</div>
+                    </div>
+                    
+                    <div class="col-md-12 col-sm-12 dotted-bottom">
+                        <div class="col-md-8 col-sm-8 add-on">Läpällisten kaitaletaskujen lisä</div>
+                        <div class="col-md-4 col-sm-4 price add-on-price">25 €</div>
+                    </div>
+                    
+                    <div class="col-md-12 col-sm-12 dotted-bottom">
+                        <div class="col-md-8 col-sm-8 add-on">Povitaskun lisä</div>
+                        <div class="col-md-4 col-sm-4 price add-on-price">20 €</div>
+                    </div>
+                    
+                    <div class="col-md-12 col-sm-12 dotted-bottom">
+                        <div class="col-md-8 col-sm-8 add-on">Takahalkion lisä</div>
+                        <div class="col-md-4 col-sm-4 price add-on-price">15 €</div>
+                    </div>
+                        
+                    <div class="col-md-12 col-sm-12 dotted-bottom">
+                        <div class="col-md-8 col-sm-8 add-on">Kaitalenapinläpien lisä</div>
+                        <div class="col-md-4 col-sm-4 price add-on-price">5 € / kpl</div>
+                    </div>
+                    
+                    <div class="col-md-12 col-sm-12 dotted-bottom">
+                        <div class="col-md-8 col-sm-8 add-on">Soljellisen vyön lisä</div>
+                        <div class="col-md-4 col-sm-4 price add-on-price">32 €</div>
+                    </div>
+                    
+                    
+                    <div class="col-md-12 col-sm-12 dotted-bottom">
+                        <div class="col-md-8 col-sm-8 add-on">Käsin ommeltavan tuennan lisä alkaen</div>
+                        <div class="col-md-4 col-sm-4 price add-on-price">80 €</div>
+                    </div>
+                    
+                    <div class="col-md-12 col-sm-12 dotted-bottom">
+                        <div class="col-md-8 col-sm-8">Yksillöllisen mallin suunnittelu **</div>
+                        <div class="col-md-4 col-sm-4 price">20 € / h</div>
+                    </div>
+                    <div class="col-md-12 col-sm-12 total"> + materiaalikulut</div>
+                <div class="col-md-12 add-on-price marginTop15px">*   Vuoritettu takki valitsemistasi materiaaleista, klassisella leikkauksella, napeilla, pysty- tai paitakauluksella ja sivusaumataskuilla. </div>
+                <div class="col-md-12 add-on-price">** Jos haluat jotain erityistä, kuten esimerkiksi steampunk-tyylisen takin</div>
+                </div>
+
+            </div>
+            
+            
+            <div class="commission-block col-md-12">
+                <h2>Mitä materiaalit maksavat?</h2>	
+                <div class="col-md-12">Takkiin tulevien kankaiden ja muiden materiaalien kustannukset tulevan oheisen hinnaston eli työn hinnan päälle. Materiaalit voi käydä joko itse hankkimassa tai voimme mennä kangaskauppaan yhdessä. Toisinaan <span style="font-weight: 600; color: #d68f33;"><a href="https://drive.google.com/drive/folders/1nfEyGHIWvqB0faqr4NtQ11mf0fDybcbm?usp=sharing">varastostani</a></span> löytyy myös muutamia kerrätyskankaita, jotka soveltuvat takkeihin. Kierrätyskankaita käytettäessä suunnittelu tulee kuitenkin tehdä materiaalin ehdoilla. Sen värit, kuvioinnit ja määrä ohjaavat lopullisen takin mallia toisinaan paljonkin.</div>
+                
+                <div class="col-md-12 marginTop20px centerText">Tässä esimerkkinä muutaman ompelemani takin materiaalien kustannukset.</div>
+                
+                <div class="col-md-12 example-coats">
+                    <div class="col-md-4">
+                        <img src="images/paivapeittotakki.jpg"/>
+                        <div class="col-md-12 col-sm-12 example-material-price-list">
+                            <div class="col-md-8 col-sm-8">Kierrätetty päiväpeitto</div>
+                            <div class="col-md-4 col-sm-4 price">15 €</div>
+                            <div class="col-md-8 col-sm-8">Kierrätetty villakangas</div>
+                            <div class="col-md-4 col-sm-4 price">5 €</div>
+                            <div class="col-md-8 col-sm-8">Vuorikangas</div>
+                            <div class="col-md-4 col-sm-4 price">26 €</div>
+                            <div class="col-md-8 col-sm-8">Napit</div>
+                            <div class="col-md-4 col-sm-4 price">10 €</div>
+                            <div class="col-md-8 col-sm-8">Tukimateriaalit</div>
+                            <div class="col-md-4 col-sm-4 price">8 €</div>
+                            <div class="col-md-12 col-sm-12 total">yht. 64 €</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/marionmustavalko.jpg"/>
+                        <div class="col-md-12 col-sm-12 example-material-price-list">
+                            <div class="col-md-8 col-sm-8">Ital. laatuvillakangas</div>
+                            <div class="col-md-4 col-sm-4 price">140 €</div>
+                            <div class="col-md-8 col-sm-8">Satiinivuorikangas</div>
+                            <div class="col-md-4 col-sm-4 price">35 €</div>
+                            <div class="col-md-8 col-sm-8">Napit</div>
+                            <div class="col-md-4 col-sm-4 price">20 €</div>
+                            <div class="col-md-8 col-sm-8">Käsinom. tukikankaat</div>
+                            <div class="col-md-4 col-sm-4 price">25 €</div>
+                            <div class="col-md-8 col-sm-8 empty-cell">-</div>
+                            <div class="col-md-4 col-sm-4 price empty-cell">-</div>
+                            <div class="col-md-12 col-sm-12 total">yht. 220 €</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/puuvillatakkitakaa.jpg"/>
+                        <div class="col-md-12 col-sm-12 example-material-price-list">
+                            <div class="col-md-8 col-sm-8">Vahattu puuvillakangas</div>
+                            <div class="col-md-4 col-sm-4 price">42 €</div>
+                            <div class="col-md-8 col-sm-8">Vuorikangas</div>
+                            <div class="col-md-4 col-sm-4 price">28 €</div>
+                            <div class="col-md-8 col-sm-8">Napit</div>
+                            <div class="col-md-4 col-sm-4 price">15 €</div>
+                            <div class="col-md-8 col-sm-8">Tukimateriaalit</div>
+                            <div class="col-md-4 col-sm-4 price">5 €</div>
+                            <div class="col-md-8 col-sm-8 empty-cell">-</div>
+                            <div class="col-md-4 col-sm-4 price empty-cell">-</div>
+                            <div class="col-md-12 col-sm-12 total">yht. 90 €</div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="commission-block col-md-12">
+                <h2>Jotain muuta?</h2>	
+                <div class="col-md-12 centerText">Minulla on kokemusta monenlaisista vaateprojekteista, mutta keskityn nykyään projektien selkeyden ja ennustettavuuden vuoksi takkeihin. Älä kuitenkaan epäröi ottaa yhteyttä, jos haluat tilata jotain muuta kuin takin. Kerro projektistasi niin minä puolestani kerron, onko se toteutettavissa ja mitä arvioin sen maksavan!</div>
+            </div>
+
+        </div>
+    </body>
+
+     <footer>
+        <div>
+            <p>Ateljee Wahtera, Helsinki</p>
+            <p>johanna@wahtera.fi</p>
+        </div>
+        <div>
+            <a href="https://www.instagram.com/jkwahtera/" title="Wahtera on instagram"><img src="glyph-logo_May2016.png"/></a>
+        </div>
+    </footer>
+</html>

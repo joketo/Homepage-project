@@ -2,9 +2,12 @@
 <meta charset="UTF-8">
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="style-v3.css">
+        <link rel="stylesheet" type="text/css" href="style-v4.css">
         <link rel="icon" type="image/png" href="favicon.png">
         <script src="jquery/jquery-1.11.2.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet"> 
@@ -15,21 +18,22 @@
     <body class="frontpage">
 
        <!--Start smartphone / tablet navigation-->
-        <div class="mobile-container">
-             <div class="mapletree"></div>
+         <div class="mobile-container">
+            <div class="mapletree"></div>
             <!-- Top Navigation Menu -->
             <div class="topnav">
                 <img src="images/wahtera_colorful.png" class="wahtera-icon-mobile"/>
                 <div class="brand-text-container">
-                       <div class="brand-text-1">Uniikit mittatilausvaatteet</div>
-                       <div class="brand-text-2">Hukkapuvun koti</div>
+                    <div class="brand-text-1">Uniikit mittatilausvaatteet</div>
+                       <div class="brand-text-2-fin">Ompelun yksityisopetusta</div>
+                    <div class="brand-text-2">Hukkapuvun koti</div>
                 </div>
                 <div id="myLinks">
                     <a href="index.html" style="color: #d68f33;">Tarina</a>
-                    <a href="gallery-fin.html">Galleria</a>
-                    <a href="commissions-fin.html">Tilaustyöt</a>
-                    <a href="shop-fin.html">Hukkapuku</a>
-                    <a href="index-en.html" style="background-color: #f6f6f6c2;"><img src="images/Flag_of_the_United_Kingdom.png" height="30px;"> In English</a>
+                    <a href="coats-fin.html">Mittatilaustakit</a>
+                    <a href="lessons-fin.html">Yksityisopetus</a>
+                    <a href="hukkapuku.html">Hukkapuku</a>
+                    <!--   <a href="commissions.html" style="background-color: #f6f6f6c2;"><img src="images/Flag_of_the_United_Kingdom.png" height="30px;"> In English</a>-->
                 </div>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
@@ -53,57 +57,73 @@
 
             <div class="mapletree"> <!--the banner-->
                 
-                <div class="language-selector">
+               <!-- <div class="language-selector">
                     <a href="index-en.html">En</a>
                     <a href="index.html" style="background-color: #efbe7f;">Fi</a>
-                </div>
+                </div>-->
                 
                 <div class = "title">
-                    <img src="images/wahtera_colorful.png" height = 200px />
+                    <img src="images/wahtera_colorful.png" height = 180px />
                     <div class="brand-text-container">
                        <div class="brand-text-1">Uniikit mittatilausvaatteet</div>
+                       <div class="brand-text-2-fin">Ompelun yksityisopetusta</div>
                        <div class="brand-text-2-fin">Hukkapuvun koti</div>
                     </div>
                 </div>
             </div>
             <ul class ="navigation fin-navigation">
-                <li><a href="index.html" style="color: #d68f33;"><span style="font-size: 40px;">T</span>arina</a></li>
-                <li><a href="gallery-fin.html" ><span style="font-size: 40px;">G</span>alleria</a></li>
-                <li><a href="commissions-fin.html"><span style="font-size: 40px;">T</span>ilaustyöt</a></li>
-                <li><a href="shop-fin.html"><span style="font-size: 40px;">H</span>ukkapuku</a></li>  
+                <li><a href="index.html" style="color: #d68f33;"><span style="font-size: 29px;">T</span>arina</a></li>
+                <li><a href="coats-fin.html"><span style="font-size: 29px;">M</span>ittatilaustakit</a></li>
+                <li><a href="lessons-fin.html"><span style="font-size: 29px;">Y</span>ksityisopetus</a></li>
+                <li><a href="hukkapuku.html"><span style="font-size: 29px;">H</span>ukkapuku</a></li>  
             </ul>
-
         </div>
-
-        <div class="me">
-
-            <div class ="profilepic">
-                <img src="images/author-p.png"/>
-                <div>Tekijä Johanna Wahtera ateljeessaan</div>
+        
+        <div class = "commission-page">
+            
+            <div class="commission-block col-md-12">  
+                   
+                <div class ="col-md-4 hidden-sm hidden-xs">
+                    <img class="big-coat-frontpage"  src="CLOTHES/order1-6.png"/>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12" style="max-width: 1100px;">
+                    <h2 style="text-align: start;">Näytä tyylisi maailmalle</h2>	 
+                    <div>  Mittojesi mukaan tehdyn laadukkaan takin vetäminen päälle oikaisee selän ja saa kulkemaan hyvässä ryhdissä. Voit tuoda persoonasi esiin kutkuttavilla kuoseilla, väriyhdistelmillä tai jännittävillä leikkauksilla.</div>
+                
+                    <div style="margin-top:2%;">Hyvin istuva uniikki takki on kuin tavaramerkkisi, jolla tuot tyylisi kaikkien näkyville. Tutustu tilausprosessiin ja hinnastoon osiossa <a href="coats-fin.html">Takit</a>.
+                    </div>
+                  <div style="margin-top: 20px;">
+                        <img style="width:100%; max-height: 300px;" class="center-image" src="images/steampunk-coat.png"/>
+                    </div>
+                </div>
+                    
+                
+           
             </div>
-
-            <div class ="whoiam">
-                <h3>Haltioidu vaatteista ympäristöystävällisesti</h3>	
-                <div class ="mobile-profilepic">
-                    <img src="images/author-p.png"/>
-                    <div>Tekijä Johanna Wahtera ateljeessaan</div>
+            
+ 
+           <div class="commission-block col-md-12" style="max-width: 1900px;">   
+       
+                <div class="col-md-8 col-sm-12 col-xs-12 order-coat-text" style="margin-top:20px;">
+                <h2>Wahteran tarina</h2>	
+                    <div> Perustin Wahteran vuoden 2020 alussa, koska haluan luoda ihmisille omalaatuisia ja ekologisia vaatteita. Tehtyäni jonkun aikaa kaikkia tilaustöitä häämekoista kasvomaskeihin päätin erikoistua takkeihin. Takit ovat aina kiehtoneet minua, sillä niillä saa aikaan monikäyttöisen, kokonaisen asukokonaisuuden vain yhden vaatteen voimalla. Hyvä takki on myös ekologinen valinta, sillä se kestää käyttöä vuodesta toiseen.</div>
+                
+                    <div class="marginTop10px">Olen koulutukseltani käsityönopettaja, ja tarjoan mielelläni perinteisten tilaustöiden lisäksi käsityön yksityisopetusta tai näiden sekoitusta. Uskon käsityötaitojen lisäävän vaatteiden arvostusta ja niiden käyttöikää. Lisää yksityisopetuksesta voit lukea osiosta <a href="lessons-fin.html">Yksityisopetus</a>.
+                    </div>
+                    
+                    <div class="marginTop10px">
+                     Haluan aina kohdata asiakkaani yksilöinä ja toteuttaa yhdessä takin, josta on todella iloa ja hyötyä käyttäjälleen. Eräs asiakas totesi, että sovituksissa käyminen on kuin kauneushoitoa, koska kaikki huomio keskittyy häneen ja hänen yllään olevaan vaatteeseen. Toivottavasti sinäkin nautit unelmiesi takin luontiprosessista!</div>
+                    <img style="width:100%; max-width: 130px;" class="marginTop10px" src="images/allekirjoitus2.png"/>
+                 
                 </div>
-                <div style="margin: 0; font-weight: 700;">Tekijästä</div>
-
-                <div>
-                    Tervetuloa yritykseni Wahteran sivuille! Perustin Wahteran vuoden 2020 alussa, koska haluan luoda ihmisille omalaatuisia ja ekologisia vaatteita. Olen koulutukseltani käsityönopettaja, ja tarjoan mielelläni perinteisten tilaustöiden lisäksi käsityön yksityisopetusta tai näiden sekoitusta.
+                  <div class="col-md-4 col-sm-12">
+                        <img style="width:100%; max-width: 450px;" class="center-image" src="images/author-p.png"/>
                 </div>
-                <img src="images/lehdet1.png" class="leaf-line"/>
-                <div style="margin: 0; font-weight: 700;">Mittatilaustöitä ja pienmallistoja</div>
-                <div>Haluan Wahteran kautta osaltani vaikuttaa pikamuodin ja turhan kuluttamisen vähentämiseen. Toivon vaatteideni tuovan asiakkailleni kestävää, tarpeeseen tehtyä iloa lukuisten käyttökertojen kautta.</div>
-                <div>
-                    Mittatilausvaatteiden hinnasto ja tilausohjeet löytyvät sivulta <a href="commissions-fin.html">Tilaustyöt</a>.
-                </div>
-                <div>
-                    Kierrätyskankaista valmistettuja valmisvaatteita julkaisen pieniä uniikkeja eriä merkin Hukkapuku alla. Lisää tietoa sivulta <a href="shop-fin.html">Kauppa</a>.
-                </div>
-                <img src="images/lehdet1.png" class="leaf-line"/>
-            </div>  
+            
+           
+            </div>
+        
+       
         </div>
 
     </body>

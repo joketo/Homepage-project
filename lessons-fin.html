@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style-v4.css">
+
+        <link rel="icon" type="image/png" href="favicon.png">
+        <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet"> 
+        <script src="jquery-1.11.2.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <title>Wahtera Ateljee</title>
+    </head>
+    <body>
+        <!--Start smartphone / tablet navigation-->
+        <div class="mobile-container">
+            <div class="mapletree"></div>
+            <!-- Top Navigation Menu -->
+            <div class="topnav">
+                <img src="images/wahtera_colorful.png" class="wahtera-icon-mobile"/>
+                <div class="brand-text-container">
+                    <div class="brand-text-1">Uniikit mittatilausvaatteet</div>
+                       <div class="brand-text-2-fin">Ompelun yksityisopetusta</div>
+                    <div class="brand-text-2">Hukkapuvun koti</div>
+                </div>
+                <div id="myLinks">
+                    <a href="index.html">Tarina</a>
+                    <a href="coats-fin.html">Mittatilaustakit</a>
+                    <a href="lessons-fin.html" style="color: #d68f33;">Yksityisopetus</a>
+                    <a href="hukkapuku.html">Hukkapuku</a>
+                    <!--   <a href="commissions.html" style="background-color: #f6f6f6c2;"><img src="images/Flag_of_the_United_Kingdom.png" height="30px;"> In English</a>-->
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
+        <!-- End smartphone / tablet look for navigation -->
+
+
+        <div class="desktop-view">
+
+            <div class="mapletree"> <!--the banner-->
+
+                <!--<div class="language-selector">
+                    <a href="commissions.html" class="no-link-style">En</a>
+                    <a href="commissions-fin.html"  style="background-color: #efbe7f;">Fi</a>
+                </div>-->
+
+                 <div class = "title">
+                    <img src="images/wahtera_colorful.png" height = 180px />
+                    <div class="brand-text-container">
+                       <div class="brand-text-1">Uniikit mittatilausvaatteet</div>
+                       <div class="brand-text-2-fin">Ompelun yksityisopetusta</div>
+                       <div class="brand-text-2-fin">Hukkapuvun koti</div>
+                    </div>
+                </div>
+            </div>
+            <ul class ="navigation fin-navigation">
+                <li><a href="index.html"><span style="font-size: 29px;">T</span>arina</a></li>
+                <li><a href="coats-fin.html"><span style="font-size: 29px;">M</span>ittatilaustakit</a></li>
+                <li><a href="lessons-fin.html" style="color: #d68f33;"><span style="font-size: 29px;">Y</span>ksityisopetus</a></li>
+                <li><a href="hukkapuku.html"><span style="font-size: 29px;">H</span>ukkapuku</a></li>  
+            </ul>
+
+        </div>
+        <div class = "commission-page">
+
+            <div class="commission-block col-md-12"> 
+             
+                
+                    <h2 >Opi tekemään itse</h2>	 
+                <div class="col-md-4 hidden-sm hidden-xs">
+                        <img style="width:100%; max-width: 450px;" class="center-image" src="images/prosessi.jpg"/>
+                </div>
+                
+                <div class="col-md-8 col-sm-12 col-xs-12 order-coat-text">
+                     
+                    <div>Oletko aina halunnut oppia korjaamaan vaatteitasi tai ompelemaan ne alusta asti itse? Henkilökohtaisten oppituntien avulla voimme keskittyä juuri sinun oppimistarpeisiisi ja tyyliisi. Palvelu on oivallinen myös silloin, jos haluat tehdä jonkun tietyn projektin itse, mutta et ole ihan varma, miten sen kannattaisi toteuttaa.</div>
+                
+                    <div class="marginTop15px">Jos olet kiinnostunut nimenomaan takin valmistusprosessista, voit yhdistää oppitunnit takkitilaukseesi, jolloin opit samalla kun oma takkisi valmistuu. Tällöin opetuksen tuntihinta on huomattavasti alhaisempi.
+                    </div>
+                    
+                    <div class="marginTop15px">
+                    Opetuksen minimitilaus on kaksi tuntia opetusta (jaettuna yhdelle tai kahdelle opetuskerralle), mutta opetan myös pidempiä sessioita. Voimme sopia tarpeidesi mukaan juuri sinulle sopivan opetusaikataulun.</div>
+                
+                    <div class="marginTop15px">Voit ottaa opetukseen mukaan myös ystäväsi. Maksimikoko opetusryhmälle on työvälinerajoituksen vuoksi kolme henkilöä.</div>
+                     <form action="https://formspree.io/xaypzpgd" method="POST" class="contact-form">
+                        <div class=centerMe>
+                        <label for="_name" class="name-label col-sm-12">Nimesi</label>
+                        <input type="text" name="_name" class="name-input"><br>
+                        
+                        <label for="_replyto" class="name-label col-sm-12">Sähköpostiosoitteesi</label>
+                        <input type="email" name="_replyto" class="name-input"><br>
+                     
+                        <label class="textarea-label">
+                            Mitä haluat oppia ja millä aikataululla?
+                            <textarea name="lessons-goal"></textarea>
+                        </label>        
+
+                        <button type="submit">Lähetä</button>
+                        </div>
+                    </form>
+                </div>
+           
+            </div>
+
+
+            <div class="commission-block col-md-12">
+                <h2>Yksityisopetuksen hinnasto</h2>
+                
+                <div class="col-md-12 col-sm-12 pricing-table">
+                    <div class="col-md-12 col-sm-12  dotted-bottom">
+                        <div class="col-md-10 col-sm-8">Yksityisopetus työhuoneella tai kotonasi *</div>
+                        <div class="col-md-2 col-sm-4 price">35 € / h</div>
+                    </div>
+                    
+                    <div class="col-md-12 col-sm-12 dotted-bottom">
+                        <div class="col-md-10 col-sm-8">Yksityisopetus takkisi teon yhteydessä</div>
+                        <div class="col-md-2 col-sm-4 price">15 € / h</div>
+                    </div>
+                        
+                    <div class="col-md-12 col-sm-12 dotted-bottom">
+                        <div class="col-md-8 col-sm-8">Lisäoppilas</div>
+                        <div class="col-md-4 col-sm-4 price">+8 € / h / hlö</div>
+                    </div>
+           
+                <div class="col-md-12 add-on-price marginTop15px">*   Kotiopetusta on tarjolla vain Helsinki-Vantaa-Espoo -alueella. Valitettavasti minulla ei ole mahdollisuutta kuljettaa ompelukonetta, joten sellainen tulee löytyä kotoasi omasta takaa.</div>
+               
+                </div>
+            </div>
+            
+            
+            
+            <div class="commission-block col-md-12">
+                <h2>Covid-19:n vaikutus yksityisopetukseen</h2>	
+                <div class="col-md-12 centerText">Koronan leviämisen riskin vuoksi suosin tällä hetkellä etäopetusta, eli videopuheluiden kautta tehtäviä opetussessioita. Etäopetuksen hinta on <span style="color: #d68f33; font-size: larger;">-20%</span> normaalista yksityisopetuksesta.</div>
+            </div>
+
+        </div>
+    </body>
+
+     <footer class="">
+        <div>
+            <p>Ateljee Wahtera, Helsinki</p>
+            <p>johanna@wahtera.fi</p>
+        </div>
+        <div>
+            <a href="https://www.instagram.com/jkwahtera/" title="Wahtera on instagram"><img src="glyph-logo_May2016.png"/></a>
+        </div>
+    </footer>
+</html>
