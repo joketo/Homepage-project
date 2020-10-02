@@ -745,6 +745,18 @@ label {
     font-weight: 600;
 }
 
+.rekisteriseloste-button {
+    cursor: pointer;
+    color: #9A6503;
+}
+.rekisteriseloste-button:hover {
+    color: #d5b286;
+}
+
+.modal-body {
+    text-align: start;
+}
+
 .lesson-form {
     margin-left: 5% !important;
      margin-right: 5% !important;

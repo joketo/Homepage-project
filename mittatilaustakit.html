@@ -9,10 +9,10 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet"> 
-        <script src="jquery-1.11.2.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
         
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <title>Wahtera Ateljee - mittatilaustakki, takki omilla mitoilla, uniikki takki</title>
     </head>
     <body>
@@ -29,7 +29,7 @@
                 </div>
                 <div id="myLinks">
                     <a href="index.html">Tarina</a>
-                    <a href="coats-fin.html" style="color: #d68f33;">Mittatilaustakit</a>
+                    <a href="mittatilaustakit.html" style="color: #d68f33;">Mittatilaustakit</a>
                     <a href="lessons-fin.html">Yksityisopetus</a>
                     <a href="hukkapuku.html">Hukkapuku</a>
                     <!--   <a href="commissions.html" style="background-color: #f6f6f6c2;"><img src="images/Flag_of_the_United_Kingdom.png" height="30px;"> In English</a>-->
@@ -72,7 +72,7 @@
             </div>
             <ul class ="navigation fin-navigation">
                 <li><a href="index.html"><span style="font-size: 29px;">T</span>arina</a></li>
-                <li><a href="coats-fin.html" style="color: #d68f33;"><span style="font-size: 29px;">M</span>ittatilaustakit</a></li>
+                <li><a href="mittatilaustakit.html" style="color: #d68f33;"><span style="font-size: 29px;">M</span>ittatilaustakit</a></li>
                 <li><a href="lessons-fin.html"><span style="font-size: 29px;">Y</span>ksityisopetus</a></li>
                 <li><a href="hukkapuku.html"><span style="font-size: 29px;">H</span>ukkapuku</a></li>  
             </ul>
@@ -245,10 +245,64 @@
         </div>
     </body>
 
-     <footer>
+       <footer>
         <div>
             <p>Ateljee Wahtera, Helsinki</p>
-            <p>johanna@wahtera.fi</p>
+            <p style="display: inline-block">johanna@wahtera.fi</p>
+            <p type="button" style="display: inline-block;" class="rekisteriseloste-button" data-toggle="modal" data-target="#myModal">| Rekisteriseloste</p> 
+         
+            <!-- Modal -->
+            <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+
+                <!-- Modal content-->
+                    <div class="modal-content" style="text-align: start;">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title">Rekisteriseloste</h3>
+                        </div>
+                        <div class="modal-body">
+                            <p>Henkilötietolain (523/1999) 10§:n mukainen rekisteriseloste.</p>
+                            <h3>Rekisterinpitäjä</h3>
+                            Wahtera tmi<br>
+                            Y-tunnus 3108132-5<br>
+                            Sähköposti johanna@wahtera.fi<br>
+                            
+                            <h3>Rekisteriasioita hoitava henkilö</h3>
+                            Johanna Wahtera<br>
+                            Sähköposti johanna@wahtera.fi
+                            
+                            <h3>Rekisterin nimi</h3>
+                            Wahteran asiakasrekisteri
+
+                            <h3>Rekisterin pitämisen peruste</h3>
+                            Henkilö on tilannut Wahteralta tuotteita tai palveluita tai muuten antanut yhteystietonsa yhteydenpitoa varten.
+                            
+                            <h3>Rekisterin käyttötarkoitus</h3>
+                            Rekisterin käyttötarkoitus on mahdollistaa Wahteran asiakkaiden tilausten arkistointi ja yhteydenpito asiakkaiden kanssa koskien heidän tilaustaan tai tilauksiaan. Tietoja ei luovuteta ulkopuolisille tahoille eikä niitä käytetä mainontaan.
+                            
+                            <h3>Rekisterin sisältämät tiedot</h3>
+                            <ul>
+                            <li>Henkilön etu- ja sukunimi</li>
+                            <li>Sähköpostiosoite</li>
+                            <li>Tiedot käsitellyistä tilauksista</li>
+                            <li>Mittatilaustuotteiden asiakasmitat</li>
+                            </ul>
+                            
+                            <h3>Tietojen luovutus</h3>
+                            Tietoja ei luovuteta Wahteran ulkopuoliseen käyttöön. Henkilötiedot hävitetään henkilön pyynnöstä.
+
+                            <h3>Rekisterin suojaus</h3>
+                            Rekisteriä ei luovuteta sivullisille. Rekisteriä, joka ei ole sähköisessä muodossa, säilytetään lukitussa tilassa, johon pääsy on rajattu vain välttämättömille henkilöille heidän työtehtäviensä edellyttämässä laajuudessa.
+                            
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
         </div>
         <div>
             <a href="https://www.instagram.com/jkwahtera/" title="Wahtera on instagram"><img src="glyph-logo_May2016.png"/></a>
