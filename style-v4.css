@@ -453,7 +453,7 @@ div.profilepic img {
 
 .big-coat-frontpage {
     height: 100%;
-    max-height: 505px;
+    max-height: 535px;
     display: block;
     border: 1px solid gray;
     margin: 7px auto;
@@ -650,6 +650,9 @@ footer img {
     font-weight: 300;
     overflow: hidden;
 }
+.frontpage-image-mobile {
+    margin-bottom: 15px;
+}
 .commission-block h2 {
     color: #9A6503;
     margin-bottom: 20px;
@@ -661,13 +664,14 @@ footer img {
     font-size: 1em;
     background-color: #cc9146;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 45px;
+    border-radius: 5px;
+    border: none;
+  
+    margin: 14px auto 20px auto;
 }
 .buttonToFabrics a {
     padding: 10px 15px;
-    text-decoration: none;
+    text-decoration: none !important;
     color: white;
     display: inline-block;
     border-radius: 5px;
@@ -814,6 +818,9 @@ label {
     }
     .hukkapukucontainer h3 {
         margin-bottom: 0;
+    }
+    .buttonToFabrics {
+          margin: 45px auto;
     }
   
     .mobile-profilepic {
@@ -968,7 +975,7 @@ label {
 @media(max-width: 1540px) {
     
     .big-coat-frontpage {
-        max-height: 400px;
+        max-height: 420px;
     }
     
     .hukkapukupic{
@@ -980,7 +987,7 @@ label {
         padding: 0 8% !important;
     }
     .big-coat-frontpage {
-        max-height: 540px;
+        max-height: 562px;
     }
     .commission-page {
         margin-left: 10%;
