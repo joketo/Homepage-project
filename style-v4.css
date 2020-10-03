@@ -453,7 +453,7 @@ div.profilepic img {
 
 .big-coat-frontpage {
     height: 100%;
-    max-height: 535px;
+    max-height: 478px;
     display: block;
     border: 1px solid gray;
     margin: 7px auto;
@@ -659,16 +659,24 @@ footer img {
     text-align: center;
 }
 
-.buttonToFabrics {
+button {
     font-family: 'Cormorant Garamond', serif;
     font-size: 1em;
-    background-color: #cc9146;
-    display: block;
-    border-radius: 5px;
+    background-color: #9a6503;
+    border-radius: 10px;
     border: none;
-  
-    margin: 14px auto 20px auto;
 }
+button:hover {
+    background-color: #e9b472;
+    color: black;
+    cursor: hand;
+}
+
+.buttonToFabrics {
+    display: block;
+    margin: 14px 0 20px 0;
+}
+
 .buttonToFabrics a {
     padding: 10px 15px;
     text-decoration: none !important;
@@ -677,10 +685,9 @@ footer img {
     border-radius: 5px;
     font-weight: 600;
 }
-.buttonToFabrics:hover {
-    background-color: #e9b472;
+
+.buttonToFabrics a:hover {
     color: black;
-    cursor: hand;
 }
 
 .pricing-table {
@@ -972,22 +979,32 @@ label {
     }
 }
 
+@media(min-width: 979px) {
+    @media(max-width: 1354px) {
+     .big-coat-frontpage {
+        max-height: 352px;
+    }
+        
+}
+@media(min-width: 1355px) {
+
 @media(max-width: 1540px) {
     
     .big-coat-frontpage {
-        max-height: 420px;
+        max-height: 440px;
     }
     
     .hukkapukupic{
     max-height: 410px;
     }
 }
+    }
 @media(min-width: 1781px){
     .example-material-price-list {
         padding: 0 8% !important;
     }
     .big-coat-frontpage {
-        max-height: 562px;
+        max-height: 495px;
     }
     .commission-page {
         margin-left: 10%;
