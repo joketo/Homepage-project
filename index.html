@@ -2,7 +2,7 @@
 <meta charset="UTF-8">
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="style-v4.css">
+        <link rel="stylesheet" type="text/css" href="style-v5.css">
 
         <link rel="icon" type="image/png" href="favicon.png">
         <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet"> 
@@ -25,9 +25,11 @@
             <div class="topnav">
                 <img src="images/wahtera_colorful.png" class="wahtera-icon-mobile"/>
                 <div class="brand-text-container">
-                    <div class="brand-text-1">Uniikit mittatilaustakit</div>
-                       <div class="brand-text-2-fin">Ompelun yksityisopetusta</div>
-                    <div class="brand-text-2">Hukkapuvun koti</div>
+                    <div style="width: 40%; text-align: center;">
+                        Uniikit mittatilaustakit<br>
+                        Ompelun yksityisopetusta<br>
+                        Hukkapuvun koti
+                    </div>
                 </div>
                 <div id="myLinks">
                     <a href="index.html" style="color: #d68f33;">Etusivu</a>
@@ -55,23 +57,14 @@
 
 
         <div class="desktop-view">
-
-            <div class="mapletree"> <!--the banner-->
-                
-               <!-- <div class="language-selector">
-                    <a href="index-en.html">En</a>
-                    <a href="index.html" style="background-color: #efbe7f;">Fi</a>
-                </div>-->
-                
-                <div class = "title">
-                    <img src="images/wahtera_colorful.png" height = 180px />
-                    <div class="brand-text-container">
-                       <div class="brand-text-1">Uniikit mittatilaustakit</div>
-                       <div class="brand-text-2-fin">Ompelun yksityisopetusta</div>
-                       <div class="brand-text-2-fin">Hukkapuvun koti</div>
-                    </div>
-                </div>
+            <div>
+                <img src="images/lehtia-left.png" height = 210px />
+                <img style="float: right;" src="images/lehtia-right.png" height = 210px />
             </div>
+             <div class = "logo"  style="position: absolute; left: 48%; top: 8px;">
+                    <img style="position: relative; left: -50%;" src="images/wahtera_colorful.png" height = 180px /> 
+            </div>
+
             <ul class ="navigation fin-navigation">
                 <li><a href="index.html" style="color: #d68f33;"><span style="font-size: 29px;">E</span>tusivu</a></li>
                 <li><a href="mittatilaustakit.html"><span style="font-size: 29px;">M</span>ittatilaustakit</a></li>
@@ -80,32 +73,47 @@
             </ul>
         </div>
         
+        
         <div class = "commission-page">
-             
             
-            <div class="commission-block col-md-12 col-sm-12 col-xs-12">  
-                
-                <h2>Näytä tyylisi maailmalle</h2>
-                <div class="hidden-md hidden-lg col-sm-12 col-xs-12 frontpage-image-mobile">
-                    <img style="width: 100%;" class=" center-image" src="images/marion.kaulus-vaaka.jpg"/>
+           <!-- <div class="commission-block show-your-style hidden-sm hidden-xs">
+                <div>
+                        <img style="width: 100%; min-height: 371px;" class="center-image" src="images/hero-without-text.jpg"/>
                 </div>
-                <div class ="col-md-4 hidden-sm hidden-xs">
-                    <img class="big-coat-frontpage" src="CLOTHES/order1-6.png"/>
-                </div>
-                	
-                <div class="col-md-8 col-sm-12 col-xs-12" style="max-width: 1100px;">
+                <div class="show-your-style-text">
+                 <h2>Näytä tyylisi maailmalle</h2>
                     <div>Mittojesi mukaan tehdyn laadukkaan takin vetäminen päälle oikaisee selän ja saa kulkemaan hyvässä ryhdissä. Voit tuoda persoonasi esiin kutkuttavilla kuoseilla, väriyhdistelmillä tai jännittävillä leikkauksilla.</div>
                 
                     <div style="margin-top:2%;">Hyvin istuva uniikki takki on kuin tavaramerkkisi, jolla tuot tyylisi kaikkien näkyville.
                        <button class="buttonToFabrics"><a href="mittatilaustakit.html">Tutustu tilausprosessiin ja hinnastoon</a></button>
                     </div>
-                  <div style="margin-top: 20px;">
-                        <img style="width:100%; max-height: 300px;" class="center-image" src="images/steampunk-coat-bw.jpg"/>
+                </div>
+            </div>
+             -->
+            
+           <div class="commission-block  show-your-style"> 
+                
+              <!--  <div class="hidden-md hidden-lg col-sm-12 col-xs-12 frontpage-image-mobile">
+                    <img style="width: 100%;" class=" center-image" src="images/marion.kaulus-vaaka.jpg"/>
+                </div>
+                	
+               <!--  <div class="col-md-6" style="margin-top: 20px;">
+                        <img style="max-height: 300px;" class="center-image" src="images/steampunk-coat-bw.jpg"/>
+                    </div>-->
+                    <div class="col-md-4 no-padding" style="margin-top: 15px;">
+                        <img class="center-image frontpage-image" src="images/nappi.jpg"/>
+                    </div>
+                <div class="col-md-8 col-sm-12 col-xs-12 show-your-style-text">
+                <h2>Näytä tyylisi maailmalle</h2>
+                    <div>Mittojesi mukaan tehdyn laadukkaan takin vetäminen päälle oikaisee selän ja saa kulkemaan hyvässä ryhdissä. Voit tuoda persoonasi esiin kutkuttavilla kuoseilla, väriyhdistelmillä tai jännittävillä leikkauksilla.</div>
+                
+                    <div style="margin-top:2%;">Hyvin istuva uniikki takki on kuin tavaramerkkisi, jolla tuot tyylisi kaikkien näkyville.
+                       <button class="buttonToFabrics"><a href="mittatilaustakit.html">Tutustu tilausprosessiin ja hinnastoon</a></button>
                     </div>
                 </div>   
            
             </div>
-            
+          
  
            <div class="commission-block col-md-12 col-sm-12 col-xs-12" style="max-width: 1900px;">   
        
@@ -121,7 +129,7 @@
                     <img style="width:100%; max-width: 130px;" class="marginTop10px" src="images/allekirjoitus2.png"/>
                  
                 </div>
-                  <div class="col-md-4 col-sm-12">
+                  <div class="col-md-4 col-sm-12" style="margin-top: 25px;">
                         <img style="width:100%; max-width: 450px;" class="center-image" src="images/author-p.png"/>
                 </div>
             
