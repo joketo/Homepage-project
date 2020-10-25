@@ -823,7 +823,10 @@ label {
    	background-image: url("images/wahtera3smaller.png"); /*the maple tree*/
    }
    img.notMobile{
-   	display: none
+   	display: none;
+   }
+   .image-and-text-hp {
+     margin-bottom: 35px;
    }
     .show-your-style {
         width: 100%;
