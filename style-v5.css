@@ -35,6 +35,9 @@ display: none !important;
 .currentTextHolder {
     left: 0px !important;
 }
+.authorimage {
+    margin-top: 90px;
+}
 
 #inline-1{
     img{
@@ -650,6 +653,15 @@ footer img {
     padding-left: 10px;
 }
 
+.coat-images {
+    display: flex;
+    justify-content: space-evenly;
+}
+.coat-images img {
+  margin: 0 5px;
+    border-radius: 7px;
+}
+
 .commission-page {
     margin-left: 7%;
     margin-right: 7%;
@@ -688,14 +700,16 @@ button:hover {
 
 .buttonToFabrics {
     display: block;
-    margin: 14px auto 20px auto;
+    margin: 14px auto 0 auto;
 }
 .show-your-style {
     text-align: center;
     padding: 0 4%;
-    width: 82%;
-margin: 0 auto;
-display: block;
+    margin: 0 auto;
+    display: block;
+}
+.show-your-style-text {
+    margin-top: 20px;
 }
 .buttonToFabrics a {
     padding: 10px 15px;
@@ -855,8 +869,9 @@ label {
     .hukkapukucontainer h3 {
         margin-bottom: 0;
     }
-    .buttonToFabrics {
-          margin: 45px auto;
+    
+    .authorimage {
+        margin-top: 10px;
     }
   
     .mobile-profilepic {
@@ -974,7 +989,6 @@ label {
     }
     .hukkapukusmallertitle {
         font-size: 1.5em !important;
-        
     }
     
     .example-coats img {
@@ -1008,9 +1022,6 @@ label {
     }
     .order-coat-text {
         padding-left: 2% !important;
-    }
-    .show-your-style-text {
-        margin-top: 35px;
     }
 }
 
