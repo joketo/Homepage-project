@@ -278,6 +278,9 @@ ul.navigation {
     margin-bottom: 30px;
     z-index: 3;
 }
+ul.just-one-nav {
+    text-align: center;
+}
 ul.fin-navigation {
     width: 977px;
 }
