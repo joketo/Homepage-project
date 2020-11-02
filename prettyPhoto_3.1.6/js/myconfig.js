@@ -1,4 +1,12 @@
 $(document).ready(function () {
+    
+     $(".open010Images").click(function(){
+    api_images = ['CLOTHES/tilaus010etu.jpg', 'CLOTHES/tilaus010taka.jpg'];
+    api_titles = ['Black satin skirt', 'Black satin skirt'];
+    api_descriptions = ['', '']
+    $.prettyPhoto.open(api_images,api_titles,api_descriptions);
+    });
+    
     $(".open005Images").click(function(){
     api_images = ['CLOTHES/005etu.jpg', 'CLOTHES/005taka.jpg', 'CLOTHES/005nappi.jpg'];
     api_titles = ['Blue circle skirt', 'Blue circle skirt', 'Blue circle skirt'];
