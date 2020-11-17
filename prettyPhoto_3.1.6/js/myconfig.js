@@ -143,9 +143,9 @@ $(document).ready(function () {
     });
     
     $(".openBlanketCoatImages").click(function(){
-    api_images = ['CLOTHES/paivapeittotakki_front.jpg','CLOTHES/paivapeittotakki_sivu.jpg','CLOTHES/paivapeittotakki_sivu2.jpg','CLOTHES/paivapeittotakki_back.jpg'];
-        api_titles = ['Coat from a blanket','','','',''];
-        api_descriptions = ['I made the pattern for this coat from scratch. The main fabric is recycled, I think it was used as a blanket before.','The size of the fabric made some restrictions on the design and how I could cut the patterns.','The folds in the back are one of my favourite parts of the coat.','This unique coat is sure to get the attention.']
+    api_images = ['CLOTHES/paivapeittotakki_etu.jpg','CLOTHES/paivapeittotakki_taka.jpg','CLOTHES/paivapeittotakki_sivu.jpg','CLOTHES/paivapeittotakki_sivu2.jpg','CLOTHES/paivapeittotakki_back.jpg'];
+        api_titles = ['','','','','',''];
+        api_descriptions = ['','I made the pattern for this coat from scratch. The main fabric is recycled, I think it was used as a blanket before.','The size of the fabric made some restrictions on the design and how I could cut the patterns.','The folds in the back are one of my favourite parts of the coat.','This unique coat is sure to get the attention.']
         $.prettyPhoto.open(api_images,api_titles,api_descriptions);
     });
     
