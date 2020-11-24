@@ -73,7 +73,7 @@ $(document).ready(function () {
     });
     
     $(".openElfCoatImages").click(function(){
-    api_images = ['CLOTHES/haltiatakki1.JPG', 'CLOTHES/haltiatakki2.JPG', 'CLOTHES/haltiatakkitakaa-kaukaa.JPG', 'CLOTHES/haltiatakki-detail.JPG', 'CLOTHES/haltiatakki-etusivu.JPG', 'CLOTHES/haltiatakki-etu.JPG'];
+    api_images = ['CLOTHES/haltiatakki1.jpg', 'CLOTHES/haltiatakki2.jpg', 'CLOTHES/haltiatakkitakaa-kaukaa.JPG', 'CLOTHES/haltiatakki-detail.JPG', 'CLOTHES/haltiatakki-etusivu.JPG', 'CLOTHES/haltiatakki-etu.JPG'];
     api_titles = ['Linen cape coat', 'Linen cape coat', 'Linen cape coat', 'Linen cape coat', 'Linen cape coat'];
     api_descriptions = ['','', '', '', '']
     $.prettyPhoto.open(api_images,api_titles,api_descriptions);
