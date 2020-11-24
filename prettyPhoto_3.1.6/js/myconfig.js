@@ -7,6 +7,13 @@ $(document).ready(function () {
     $.prettyPhoto.open(api_images,api_titles,api_descriptions);
     });
     
+    $(".openJarmomages").click(function(){
+    api_images = ['CLOTHES/jarmotakki.jpg', 'CLOTHES/jarmotakki2.jpg'];
+    api_titles = ['', ''];
+    api_descriptions = ['', '']
+    $.prettyPhoto.open(api_images,api_titles,api_descriptions);
+    });
+    
     $(".open005Images").click(function(){
     api_images = ['CLOTHES/005etu.jpg', 'CLOTHES/005taka.jpg', 'CLOTHES/005nappi.jpg'];
     api_titles = ['Blue circle skirt', 'Blue circle skirt', 'Blue circle skirt'];
@@ -66,9 +73,9 @@ $(document).ready(function () {
     });
     
     $(".openElfCoatImages").click(function(){
-    api_images = ['CLOTHES/haltiatakki-auki-sivu.JPG', 'CLOTHES/haltiatakki-etusivu.JPG', 'CLOTHES/haltiatakki-etu.JPG', 'CLOTHES/haltiatakki-sivu.JPG', 'CLOTHES/haltiatakki-detail.JPG', 'CLOTHES/haltiatakkitakaa-kaukaa.JPG'];
-    api_titles = ['Linen cape coat', 'Linen cape coat', 'Linen cape coat', 'Linen cape coat', 'Linen cape coat', 'Linen cape coat'];
-    api_descriptions = ['', '', '', '', '', '']
+    api_images = ['CLOTHES/haltiatakki1.JPG', 'CLOTHES/haltiatakki2.JPG', 'CLOTHES/haltiatakkitakaa-kaukaa.JPG', 'CLOTHES/haltiatakki-detail.JPG', 'CLOTHES/haltiatakki-etusivu.JPG', 'CLOTHES/haltiatakki-etu.JPG'];
+    api_titles = ['Linen cape coat', 'Linen cape coat', 'Linen cape coat', 'Linen cape coat', 'Linen cape coat'];
+    api_descriptions = ['','', '', '', '']
     $.prettyPhoto.open(api_images,api_titles,api_descriptions);
     });
     
