@@ -22,8 +22,8 @@ $(document).ready(function () {
     });
     
     $(".open004Images").click(function(){
-    api_images = ['CLOTHES/004sivusini.png', 'CLOTHES/004takasateenvarjo.png', 'CLOTHES/004takaaliehu.png', 'CLOTHES/004etu2.png',
-                 'CLOTHES/004etu.png', 'CLOTHES/004takaasilta.png', 'CLOTHES/004lahi1.png', 'CLOTHES/004tuotemerkki.png'];
+    api_images = ['CLOTHES/004sivusini.jpg', 'CLOTHES/004takasateenvarjo.jpg', 'CLOTHES/004takaaliehu.jpg', 'CLOTHES/004etu2.jpg',
+                 'CLOTHES/004etu.jpg', 'CLOTHES/004takaasilta.jpg', 'CLOTHES/004lahi1.jpg', 'CLOTHES/004tuotemerkki.jpg'];
     api_titles = ['Custom coat for a customer', 'Custom coat for a customer', 'Custom coat for a customer', 'Custom coat for a customer'
                  , 'Custom coat for a customer', 'Custom coat for a customer', 'Custom coat for a customer', 'Custom coat for a customer'];
     api_descriptions = ['', '', '', '', '', '', '', '']
