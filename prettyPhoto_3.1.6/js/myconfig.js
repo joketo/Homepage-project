@@ -1,5 +1,12 @@
 $(document).ready(function () {
     
+      $(".openJohkuJoulu2020Images").click(function(){
+    api_images = ['CLOTHES/joulujohanna-1.jpg', 'CLOTHES/joulujohanna-5.jpg', 'CLOTHES/joulujohanna-2.jpg', 'CLOTHES/joulujohanna-3.jpg', 'CLOTHES/joulujohanna-4.jpg', 'CLOTHES/joulujohanna-6.jpg'];
+    api_titles = ['','','','','',''];
+    api_descriptions = ['','','','','','']
+    $.prettyPhoto.open(api_images,api_titles,api_descriptions);
+    });
+    
      $(".open010Images").click(function(){
     api_images = ['CLOTHES/tilaus010etu.jpg', 'CLOTHES/tilaus010taka.jpg'];
     api_titles = ['Black satin skirt', 'Black satin skirt'];
