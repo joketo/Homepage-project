@@ -36,7 +36,7 @@ display: none !important;
     left: 0px !important;
 }
 .authorimage {
-    margin-top: 90px;
+    margin-top: 65px;
 }
 
 #inline-1{
@@ -282,10 +282,10 @@ ul.just-one-nav {
     text-align: center;
 }
 ul.fin-navigation {
-    width: 977px;
+    width: 936px;
 }
 ul.navigation li {
-    padding: 26px;
+    padding: 15px;
     display: inline-block;
 }
 ul.navigation a:hover {
@@ -428,7 +428,7 @@ hr.divider { /*a line between programming-projects*/
 }
 .name-input {
     display: inline-block;
-    width: 300px;
+    width: 400px;
     line-height: 1.5em;
     margin-bottom: 10px;
 }
@@ -727,6 +727,13 @@ button:hover {
     color: black;
 }
 
+.contact-container {
+    padding: 15px 0 !important;
+    border-radius: 10px;
+    width: 80%;
+    margin: 1% auto;
+}
+
 .pricing-table {
     padding: 15px 0 !important;
     background-color: white;
@@ -1004,6 +1011,9 @@ label {
         max-height: 615px;
     }
    
+.contact-container {
+    width: 100%;
+}
 }
 
 @media(min-width: 1081px){
