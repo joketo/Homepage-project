@@ -7,6 +7,14 @@ $(document).ready(function () {
     $.prettyPhoto.open(api_images,api_titles,api_descriptions);
     });
     
+       $(".openBlueCoat2020Images").click(function(){
+    api_images = ['CLOTHES/bluecoat2020.jpg', 'CLOTHES/bluecoat2020-back.jpg'];
+    api_titles = ['Blue wool coat', 'Blue wool coat'];
+    api_descriptions = ['', '']
+    $.prettyPhoto.open(api_images,api_titles,api_descriptions);
+    });
+    
+    
      $(".open010Images").click(function(){
     api_images = ['CLOTHES/tilaus010etu.jpg', 'CLOTHES/tilaus010taka.jpg'];
     api_titles = ['Black satin skirt', 'Black satin skirt'];
