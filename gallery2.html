@@ -7,17 +7,22 @@
      <script src="jquery/jquery.min.js"></script>
     <script src="js/index.js"></script>
 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-
+  <link rel="icon" type="image/png" href="favicon.png">
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
 
+        <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet"> 
+    
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="gallery.css">
   <link rel="stylesheet" type="text/css" href="style-v7.css">
 
   
 </head>
 
-<body>
+<body class="clothespage">
     <!--Start smartphone / tablet navigation-->
          <div class="mobile-container">
             <div class="mapletree"></div>
@@ -85,17 +90,17 @@
    <div class="middle">
       <img class="active" src="CLOTHES/bluecoat2020.jpg" />
    </div>
+   <div class="right tiles">
+       <div><img src="CLOTHES/bluecoat2020.jpg" /></div>
+       <div><img src="CLOTHES/bluecoat2020-back.jpg" /></div>
+       <div><img src="CLOTHES/bluecoatcuff.jpg" /></div>
+       <div><img src="CLOTHES/bluecoatcollar.jpg" /></div>
+   </div>
    <div class="left title">
       <div class="content">
          <h2>Yötaivas ja täysikuu</h2>
          <p>Tähän upean pehmeään villakangastakkiin haettiin siro siluetti vyötäröstä levenevällä helmalla ja näyttävillä laskoksilla. Hopeiset napit tuovat mieleen täysikuun syvänsinisellä yötaivaalla.</p>
       </div>
-   </div>
-   <div class="right tiles">
-       <div><img src="CLOTHES/bluecoat2020.jpg" /></div>
-       <div><img src="CLOTHES/bluecoat2020-back.jpg" /></div>
-       <div><img src="CLOTHES/bluecoat2020-back.jpg" /></div>
-       <div><img src="CLOTHES/bluecoat2020-back.jpg" /></div>
    </div>
 </div>
 
@@ -103,58 +108,53 @@
    <div class="middle">
       <img class="active" src="CLOTHES/joulujohanna-4.jpg" />
    </div>
-   <div class="right title">
-      <div class="content">
-         <h2>Ruusutakki fantasiaolkapäillä</h2>
-         <p>asiaa tästä takista</p>
-      </div>
-   </div>
-   
    <div class="left tiles">
       <div><img src="CLOTHES/joulujohanna-4.jpg" /></div>
       <div><img src="CLOTHES/joulujohanna-1.jpg" /></div>
       <div><img src="CLOTHES/joulujohanna-3.jpg" /></div>
       <div><img src="CLOTHES/joulujohanna-6.jpg" /></div>
    </div>
-   
+   <div class="right title">
+      <div class="content">
+         <h2>Lohikäärmeitä ruusutarhassa</h2>
+         <p>asiaa tästä takista</p>
+      </div>
+   </div>
 </div>
 
 <div class="section">
    <div class="middle">
       <img class="active" src="CLOTHES/jarmotakki.jpg" />
    </div>
+   <div class="right tiles">
+      <div><img src="CLOTHES/jarmotakki.jpg" /></div>
+      <div><img src="CLOTHES/jarmotakki2.jpg" /></div>
+      <div><img src="CLOTHES/jarmotakki3.jpg" /></div>
+      <div><img src="CLOTHES/004etu2.jpg" /></div>
+   </div>
    <div class="left title">
       <div class="content">
          <h2>Herraintakki rennolla twistillä</h2>
          <p>asiaa tästä takista.</p>
       </div>
-   </div>
-   
-   <div class="right tiles">
-      <div><img src="CLOTHES/jarmotakki.jpg" /></div>
-      <div><img src="CLOTHES/jarmotakki2.jpg" /></div>
-      <div><img src="CLOTHES/004takasateenvarjo.jpg" /></div>
-      <div><img src="CLOTHES/004etu2.jpg" /></div>
-   </div>
-   
+   </div>   
 </div>
 
 <div class="section">
    <div class="middle">
       <img class="active" src="CLOTHES/004takaaliehu.jpg" />
    </div>
-   <div class="right title">
-      <div class="content">
-         <h2>Geometrinen syystakki särmällä</h2>
-         <p>asiaa tästä takista</p>
-      </div>
-   </div>
-   
    <div class="left tiles">
       <div><img src="CLOTHES/004etu.jpg" /></div>
       <div><img src="CLOTHES/004takaaliehu.jpg" /></div>
       <div><img src="CLOTHES/004takasateenvarjo.jpg" /></div>
       <div><img src="CLOTHES/004etu2.jpg" /></div>
+   </div>
+   <div class="right title">
+      <div class="content">
+         <h2>Geometrialla särmää syksyyn</h2>
+         <p>asiaa tästä takista</p>
+      </div>
    </div>
    
 </div>
@@ -164,4 +164,67 @@
    <h1>Vieritä ylös</h1>
 </div>
 </body>
+      <footer>
+        <div>
+            <p>Ateljee Wahtera, Helsinki</p>
+            <p style="display: inline-block">johanna@wahtera.fi</p>
+            <p type="button" style="display: inline-block;" class="rekisteriseloste-button" data-toggle="modal" data-target="#myModal">| Rekisteriseloste</p> 
+         
+            <!-- Modal -->
+            <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+
+                <!-- Modal content-->
+                    <div class="modal-content" style="text-align: start;">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title">Rekisteriseloste</h3>
+                        </div>
+                        <div class="modal-body">
+                            <p>Henkilötietolain (523/1999) 10§:n mukainen rekisteriseloste.</p>
+                            <h3>Rekisterinpitäjä</h3>
+                            Wahtera tmi<br>
+                            Y-tunnus 3108132-5<br>
+                            Sähköposti johanna@wahtera.fi<br>
+                            
+                            <h3>Rekisteriasioita hoitava henkilö</h3>
+                            Johanna Wahtera<br>
+                            Sähköposti johanna@wahtera.fi
+                            
+                            <h3>Rekisterin nimi</h3>
+                            Wahteran asiakasrekisteri
+
+                            <h3>Rekisterin pitämisen peruste</h3>
+                            Henkilö on tilannut Wahteralta tuotteita tai palveluita tai muuten antanut yhteystietonsa yhteydenpitoa varten.
+                            
+                            <h3>Rekisterin käyttötarkoitus</h3>
+                            Rekisterin käyttötarkoitus on mahdollistaa Wahteran asiakkaiden tilausten arkistointi ja yhteydenpito asiakkaiden kanssa koskien heidän tilaustaan tai tilauksiaan. Tietoja ei luovuteta ulkopuolisille tahoille eikä niitä käytetä mainontaan.
+                            
+                            <h3>Rekisterin sisältämät tiedot</h3>
+                            <ul>
+                            <li>Henkilön etu- ja sukunimi</li>
+                            <li>Sähköpostiosoite</li>
+                            <li>Tiedot käsitellyistä tilauksista</li>
+                            <li>Mittatilaustuotteiden asiakasmitat</li>
+                            </ul>
+                            
+                            <h3>Tietojen luovutus</h3>
+                            Tietoja ei luovuteta Wahteran ulkopuoliseen käyttöön. Henkilötiedot hävitetään henkilön pyynnöstä.
+
+                            <h3>Rekisterin suojaus</h3>
+                            Rekisteriä ei luovuteta sivullisille. Rekisteriä, joka ei ole sähköisessä muodossa, säilytetään lukitussa tilassa, johon pääsy on rajattu vain välttämättömille henkilöille heidän työtehtäviensä edellyttämässä laajuudessa.
+                            
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Sulje</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div>
+            <a href="https://www.instagram.com/jkwahtera/" title="Wahtera on instagram"><img src="glyph-logo_May2016.png"/></a>
+        </div>
+    </footer>
 </html>

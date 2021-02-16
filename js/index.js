@@ -9,19 +9,10 @@ $(document).ready(function(){
        var activeImage = document.querySelector(".animate .active");
        activeImage.src = e.target.src;
    }
-   function changeImageTouch(e) {
-       console.log("hoi", e);
-       var activeImage = document.querySelector(".animate .active");
-       activeImage.src = e.target.src;
-   }
-
-   function toggleNavigation(){
-      this.nextElementSibling.classList.toggle('active');
-   }
 
    productImages.forEach(image => image.addEventListener("click", changeImage));
 
-   activeImages.forEach(image => image.addEventListener('touchstart', changeImageTouch));
+   activeImages.forEach(image => image.addEventListener('touchstart', changeImage));
                                
    var $sm = 480;
    var $md = 768;
