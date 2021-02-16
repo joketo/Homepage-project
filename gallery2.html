@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Slide-out Scrolling Gallery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+
+  <link rel="stylesheet" href="gallery.css">
+  <link rel="stylesheet" type="text/css" href="style-v7.css">
+
+  
+</head>
+
+<body>
+    <!--Start smartphone / tablet navigation-->
+         <div class="mobile-container">
+            <div class="mapletree"></div>
+            <!-- Top Navigation Menu -->
+            <div class="topnav">
+                <img src="images/wahtera_colorful.png" class="wahtera-icon-mobile"/>
+                <div class="brand-text-container">
+                    <div style="width: 40%; text-align: center;">
+                        Uniikit mittatilaustakit<br>
+                        Ompelun yksityisopetusta
+                    </div>
+                </div>
+                <div id="myLinks">
+                    <a href="index.html">Etusivu</a>
+                    <a href="services.html">Palvelut</a>
+                    <a href="rates.html">Hinnasto</a>
+                    <a href="gallery.html" style="color: #d68f33;">Galleria</a>
+                    <a href="contact.html">Ota yhteyttä</a>
+                    <!--   <a href="commissions.html" style="background-color: #f6f6f6c2;"><img src="images/Flag_of_the_United_Kingdom.png" height="30px;"> In English</a>-->
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
+        <!-- End smartphone / tablet look for navigation -->
+
+        <div class="desktop-view">
+            <div>
+                <img src="images/lehtia-left.png" height = 210px />
+                <img style="float: right;" src="images/lehtia-right.png" height = 210px />
+            </div>
+             <div class = "logo"  style="position: absolute; left: 48%; top: 8px;">
+                    <img style="position: relative; left: -50%;" src="images/wahtera_colorful.png" height = 180px /> 
+            </div>
+
+            <ul class ="navigation fin-navigation">
+                <li><a href="index.html"><span style="font-size: 29px;">E</span>tusivu</a></li>
+                <li><a href="services.html"><span style="font-size: 29px;">P</span>alvelut</a></li>
+                <li><a href="rates.html"><span style="font-size: 29px;">H</span>innasto</a></li>
+                <li><a href="gallery.html" style="color: #d68f33;"><span style="font-size: 29px;">G</span>alleria</a></li>  
+                <li><a href="contact.html"><span style="font-size: 29px;">O</span>ta yhteyttä</a></li>  
+            </ul>
+        </div>
+        
+        
+    
+  <div class="header" id="top">
+      <h2>Esimerkkejä projekteistani</h2>
+   <h1>Vieritä alas</h1>
+   <i class="fa fa-angle-down animated bounce"></i>
+</div>
+
+<div class="section animate">
+   <div class="middle">
+      <img class="active" src="CLOTHES/bluecoat2020.jpg" />
+   </div>
+   <div class="left title">
+      <div class="content">
+         <h2>Yötaivas ja täysikuu</h2>
+         <p>Tähän upean pehmeään villakangastakkiin haettiin siro siluetti vyötäröstä levenevällä helmalla ja näyttävillä laskoksilla. Hopeiset napit tuovat mieleen täysikuun syvänsinisellä yötaivaalla.</p>
+      </div>
+   </div>
+   <div class="right tiles">
+       <div><img src="CLOTHES/bluecoat2020.jpg" /></div>
+       <div><img src="CLOTHES/bluecoat2020-back.jpg" /></div>
+       <div><img src="https://images.unsplash.com/photo-1460400408855-36abd76648b9?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" /></div>
+       <div><img src="https://images.unsplash.com/photo-1460400408855-36abd76648b9?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" /></div>
+      
+      
+      
+   </div>
+</div>
+
+<div class="section">
+   <div class="middle">
+      <img class="active" src="CLOTHES/joulujohanna-4.jpg" />
+   </div>
+   <div class="right title">
+      <div class="content">
+         <h2>Ruusutakki fantasiaolkapäillä</h2>
+         <p>asiaa tästä takista</p>
+      </div>
+   </div>
+   
+   <div class="left tiles">
+      <div><img src="CLOTHES/joulujohanna-4.jpg" /></div>
+      <div><img src="CLOTHES/joulujohanna-1.jpg" /></div>
+      <div><img src="CLOTHES/joulujohanna-3.jpg" /></div>
+      <div><img src="CLOTHES/joulujohanna-6.jpg" /></div>
+   </div>
+   
+</div>
+
+<div class="section">
+   <div class="middle">
+      <img class="active" src="CLOTHES/jarmotakki.jpg" />
+   </div>
+   <div class="left title">
+      <div class="content">
+         <h2>Herraintakki rennolla twistillä</h2>
+         <p>asiaa tästä takista.</p>
+      </div>
+   </div>
+   
+   <div class="right tiles">
+      <div><img src="CLOTHES/jarmotakki.jpg" /></div>
+      <div><img src="CLOTHES/jarmotakki2.jpg" /></div>
+      <div><img src="CLOTHES/004takasateenvarjo.jpg" /></div>
+      <div><img src="CLOTHES/004etu2.jpg" /></div>
+   </div>
+   
+</div>
+
+<div class="section">
+   <div class="middle">
+      <img class="active" src="CLOTHES/004takaaliehu.jpg" />
+   </div>
+   <div class="right title">
+      <div class="content">
+         <h2>Geometrinen syystakki särmällä</h2>
+         <p>asiaa tästä takista</p>
+      </div>
+   </div>
+   
+   <div class="left tiles">
+      <div><img src="CLOTHES/004etu.jpg" /></div>
+      <div><img src="CLOTHES/004takaaliehu.jpg" /></div>
+      <div><img src="CLOTHES/004takasateenvarjo.jpg" /></div>
+      <div><img src="CLOTHES/004etu2.jpg" /></div>
+   </div>
+   
+</div>
+
+<div class="footer">
+   <a href="#top" class="scrollTo"><i class="fa fa-angle-up animated bounce"></i></a>
+   <h1>Vieritä ylös</h1>
+</div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
