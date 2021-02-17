@@ -96,10 +96,9 @@ body {
 }
 
 .wahtera-icon-mobile {
-    height: 14em;
+   height: 14em;
     margin-left: 75px;
 }
-
 .topnav #myLinks {
   display: none;
 }
@@ -121,10 +120,12 @@ body {
   top: 15px;
   border-radius: 4px;
 }
+
 .topnav i {
   color: #a6a6a6;
   font-size: 1.6em;
 }
+
 
 .topnav a:hover {
   background-color: #eeefef;/*#fefdf8;*/
@@ -138,7 +139,6 @@ body {
 
 ul.works li img {
 	width: 100%;
-   /* height: auto;*/
 }
 
 ul.works li p {
@@ -206,12 +206,6 @@ ul.works.columns-2 li.bigPicture{
 	ul.grid-nav li a {
 		display: block;
 	}
-/*	ul.works {
-		margin-left: 0;
-	}
-	ul.works li {
-		margin: 0 0 20px;
-	}*/
 }
 
 div.project img {

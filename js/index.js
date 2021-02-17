@@ -12,7 +12,7 @@ $(document).ready(function(){
 
    productImages.forEach(image => image.addEventListener("click", changeImage));
 
-   activeImages.forEach(image => image.addEventListener('touchstart', changeImage));
+  /* activeImages.forEach(image => image.addEventListener('touchstart', changeImage));*/
                                
    var $sm = 480;
    var $md = 768;
