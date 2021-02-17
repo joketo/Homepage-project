@@ -1,51 +1,44 @@
 <!DOCTYPE html>
-<meta charset="UTF-8">
-<html>
-       <head>
-            <link rel="stylesheet" type="text/css" href="style-v7.css">
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Wahtera Ateljee - Unelmiesi takki omilla mitoilla</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="jquery/jquery.min.js"></script>
+  <script src="js/index.js"></script>
 
-        <link rel="icon" type="image/png" href="favicon.png">
-        <!--<script src="jquery-1.11.2.min.js"></script>-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
 
-        <script src="prettyPhoto_3.1.6/js/jquery-1.6.1.min.js" type="text/javascript" charset="utf-8"></script>
-        <link rel="stylesheet" href="prettyPhoto_3.1.6/css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet"> 
+    
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="gallery.css">
+  <link rel="stylesheet" type="text/css" href="style-v7.css">
+</head>
 
-        <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet"> 
-        <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet"> 
-
-        <script src="prettyPhoto_3.1.6/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
-        <script src="prettyPhoto_3.1.6/js/myconfig.js" type="text/javascript" charset="utf-8"></script>
-
-           
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  
-        <title>Wahtera Ateljee - Tilaa unelmiesi takki omilla mitoilla</title>
-    </head>
-    <body class="clothespage">
-
-      <!--Start smartphone / tablet navigation-->
-        <div class="mobile-container">
+<body class="clothespage">
+    <!--Start smartphone / tablet navigation-->
+         <div class="mobile-container">
             <div class="mapletree"></div>
             <!-- Top Navigation Menu -->
-            <div class="topnav">
-                <img src="images/wahtera_colorful.png" class="wahtera-icon-mobile"/>
-                <div class="brand-text-container">
+            <div class="topnav-gallery">
+                <img src="images/wahtera_colorful.png" class="wahtera-icon-mobile-gallery"/>
+                <div class="brand-text-container-gallery">
                     <div style="width: 40%; text-align: center;">
                         Uniikit mittatilaustakit<br>
                         Ompelun yksityisopetusta
                     </div>
                 </div>
                 <div id="myLinks">
-                    
                     <a href="index.html">Etusivu</a>
                     <a href="services.html">Palvelut</a>
                     <a href="rates.html">Hinnasto</a>
                     <a href="gallery.html" style="color: #d68f33;">Galleria</a>
                     <a href="contact.html">Ota yhteyttä</a>
-            
-                    <!--   <a href="commissions.html" style="background-color: #f6f6f6c2;"><img src="images/Flag_of_the_United_Kingdom.png" height="30px;"> In English</a>-->
                 </div>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
@@ -64,19 +57,16 @@
         </script>
         <!-- End smartphone / tablet look for navigation -->
 
-        
-          <div class="desktop-view">
-
+        <div class="desktop-view">
             <div>
                 <img src="images/lehtia-left.png" height = 210px />
                 <img style="float: right;" src="images/lehtia-right.png" height = 210px />
             </div>
              <div class = "logo"  style="position: absolute; left: 48%; top: 8px;">
-                    <img  style="position: relative; left: -50%;" src="images/wahtera_colorful.png" height = 180px /> 
+                    <img style="position: relative; left: -50%;" src="images/wahtera_colorful.png" height = 180px /> 
             </div>
-            
+
             <ul class ="navigation fin-navigation">
-               
                 <li><a href="index.html"><span style="font-size: 29px;">E</span>tusivu</a></li>
                 <li><a href="services.html"><span style="font-size: 29px;">P</span>alvelut</a></li>
                 <li><a href="rates.html"><span style="font-size: 29px;">H</span>innasto</a></li>
@@ -84,322 +74,181 @@
                 <li><a href="contact.html"><span style="font-size: 29px;">O</span>ta yhteyttä</a></li>  
             </ul>
         </div>
+<div class = "new-gallery">     
+  <div class="header" id="top">
+      <h2 class="wahtera-color">Esimerkkejä projekteistani</h2>
+   <h1>Vieritä alas</h1>
+   <i class="fa fa-angle-down animated bounce"></i>
+</div>
 
-     <!--   <div class="introduction">
-            Selection of clothes I have made in the past.
-            These have already found home, but if you wish to have something similar, please ask me for <a href="mittatilaustakit.html">a commission</a>.
-        </div>-->
+<div class="section animate">
+   <div class="middle">
+      <img class="active" src="CLOTHES/bluecoat2020.jpg" />
+   </div>
+   <div class="right tiles">
+       <div><img src="CLOTHES/bluecoat2020.jpg" /></div>
+       <div><img src="CLOTHES/bluecoat2020-back.jpg" /></div>
+       <div><img src="CLOTHES/bluecoatcuff.jpg" /></div>
+       <div><img src="CLOTHES/bluecoatcollar.jpg" /></div>
+   </div>
+   <div class="left title">
+      <div class="content">
+         <h2>Yötaivas ja täysikuu</h2>
+         <p>Tähän ylellisen pehmeään villakangastakkiin haettiin siro siluetti vyötäröstä levenevällä helmalla ja näyttävillä laskoksilla. Hopeiset napit tuovat mieleen täysikuun syvänsinisellä yötaivaalla.</p>
+      </div>
+   </div>
+</div>
+
+<div class="section">
+   <div class="middle">
+      <img class="active" src="CLOTHES/joulujohanna-3.jpg" />
+   </div>
+   <div class="left tiles">
+      <div><img src="CLOTHES/joulujohanna-4.jpg" /></div>
+      <div><img src="CLOTHES/joulujohanna-1.jpg" /></div>
+      <div><img src="CLOTHES/joulujohanna-3.jpg" /></div>
+      <div><img src="CLOTHES/joulujohanna-6.jpg" /></div>
+   </div>
+   <div class="right title">
+      <div class="content">
+         <h2>Lohikäärmeitä ruusutarhassa</h2>
+         <p>Tätä upeaa muotikangasta tasapainoitettiin mustalla, josta myös näytävät olkapäät tehtiin. Inspiraatiota leikkaukseen otettiin Game Of Thrones -televisiosarjasta.</p>
+      </div>
+   </div>
+</div>
+
+<div class="section">
+   <div class="middle">
+      <img class="active" src="CLOTHES/jarmotakki.jpg" />
+   </div>
+   <div class="right tiles">
+      <div><img src="CLOTHES/jarmotakki.jpg" /></div>
+      <div><img src="CLOTHES/jarmotakki2.jpg" /></div>
+      <div><img src="CLOTHES/jarmotakki3.jpg" /></div>
+      <div><img src="CLOTHES/jarmotakki4.jpg" /></div>
+   </div>
+   <div class="left title">
+      <div class="content">
+         <h2>Herraintakki rennolla twistillä</h2>
+         <p>Tähän tyylikkääseen syksytakkiin haluttiin perinteisen leikkauksen ohella oxfordimaista rentoutta. Villan rouheassa kuviossa on maanläheistä vihreää ja napit on veistetty puusta.</p>
+      </div>
+   </div>   
+</div>
+
+<div class="section">
+   <div class="middle">
+      <img class="active" src="CLOTHES/004takaaliehu2.jpg" />
+   </div>
+   <div class="left tiles">
+      <div><img src="CLOTHES/004takaaliehu2.jpg" /></div>
+      <div><img src="CLOTHES/004etu22.jpg" /></div>
+      <div><img src="CLOTHES/004takasateenvarjo2.jpg" /></div>
+      <div><img src="CLOTHES/004etu2.jpg" /></div>
+   </div>
+   <div class="right title">
+      <div class="content">
+         <h2>Geometrialla särmää syksyyn</h2>
+         <p>Tämä takki sai väripalettinsa asiakkaan silmälasien sangoista! Epäsymmetrinen linja ja kolmionapit varmistavat, ettei samanlaista tule vastaan. Lopputulos on leikkisä mutta silti tyylikäs.</p>
+      </div>
+   </div>
+</div>
+    <div class="section">
+   <div class="middle">
+      <img class="active" src="CLOTHES/jakkupuku4.jpg" />
+   </div>
+   <div class="right tiles">
+      <div><img src="CLOTHES/jakkupuku-studio.jpg" /></div>
+      <div><img src="CLOTHES/jakkupuku1.jpg" /></div>
+      <div><img src="CLOTHES/jakkupuku3-2.jpg" /></div>
+      <div><img src="CLOTHES/jakkupuku4.jpg" /></div>
+   </div>
+   <div class="left title">
+      <div class="content">
+         <h2>Metsän eleganssia kokouksiin</h2>
+         <p>Tämä tyylikäs jakkupuku tehtiin laadukkaasta villakrepistä, joka pysyy hyvin rypyttömänä ja hengittää kesälläkin. Perinteisen herrainkauluksen sijaan jakkuun suunniteltiin nuorekas taitos pääntielle.</p>
+      </div>
+   </div>   
+</div>
+<div class="section">
+   <div class="middle">
+      <img class="active" src="CLOTHES/order1-6.png" />
+   </div>
+   <div class="left tiles">
+      <div><img src="CLOTHES/order1-2.jpg" /></div>
+      <div><img src="CLOTHES/order1-3.jpg" /></div>
+      <div><img src="CLOTHES/order1-6.png" /></div>
+      <div><img src="CLOTHES/order1-7.png" /></div>
+   </div>
+   <div class="right title">
+      <div class="content">
+         <h2>Ylellistä mustaa</h2>
+         <p>Tämä mustaakin mustempi takki on pehmeää ja paksua villaa, joka tuettiin perinteisellä villatukiliinalla. Malli on suora ja klassinen. Minimalistinen linja viimeisteltiin helppokäyttöisillä piiloneppareilla.</p>
+      </div>
+   </div>
+</div>
     
+<!--<div class="section">
+   <div class="middle">
+      <img class="active" src="CLOTHES/takki2.jpg" />
+   </div>
+   <div class="right tiles">
+      <div><img src="CLOTHES/takkitakaa2.jpg" /></div>
+      <div><img src="CLOTHES/takki-rajattu.jpg" /></div>
+      <div><img src="CLOTHES/takkipaivitetty.jpg" /></div>
+      <div><img src="CLOTHES/takki2.jpg" /></div>
+   </div>
+   <div class="left title">
+      <div class="content">
+         <h2>Vakosamettia tulimausteella</h2>
+         <p>-.</p>
+      </div>
+   </div>   
+</div>-->
 
-        <div class = "commission-page">
-        <div class = "worksgrid">	    
-           <!-- <h3>Coats and blazers</h3>-->
-            <h3>Takit ja jakut</h3>
-            <ul class="works columns-4">
-                  <li>
-                    <div style="position: relative">
-                        <img src="CLOTHES/thumbnails/bluecoat2020.jpg" class="notMobile openBlueCoat2020Images showCursor"/>
-                        <img src="CLOTHES/mobilethumbnails/bluecoat2020.jpg" class="mobile openBlueCoat2020Images showCursor"/>
-                        <img src="images/multiple.png" class="multiple-image"/>
-                    </div>
-                </li>
-                <li>
-                    <div style="position: relative">
-                        <img src="CLOTHES/thumbnails/johkujoulu2020-1.jpg" class="notMobile openJohkuJoulu2020Images showCursor"/>
-                        <img src="CLOTHES/mobilethumbnails/johkujoulu2020.jpg" class="mobile openJohkuJoulu2020Images showCursor"/>
-                        <img src="images/multiple.png" class="multiple-image"/>
-                    </div>
-                </li>
-                <li>
-                    <div style="position: relative">
-                        <img src="CLOTHES/thumbnails/jarmotakki.jpg" class="notMobile openJarmomages showCursor"/>
-                        <img src="CLOTHES/mobilethumbnails/jarmotakki.jpg" class="mobile openJarmomages showCursor"/>
-                        <img src="images/multiple.png" class="multiple-image"/>
-                    </div>
-                </li>
-                <li>
-                    <div style="position: relative">
-                        <img src="CLOTHES/thumbnails/004.jpg" class="notMobile open004Images showCursor"/>
-                        <img src="CLOTHES/mobilethumbnails/tilaus004.jpg" class="mobile open004Images showCursor"/>
-                        <img src="images/multiple.png" class="multiple-image"/>
-                    </div>
-                </li>
-                <li>
-                    <div style="position: relative">
-                        <img src="CLOTHES/thumbnails/order-1.jpg" class="notMobile openOrder1Images showCursor"/>
-                        <img src="CLOTHES/mobilethumbnails/order-1.jpg" class="mobile openOrder1Images showCursor"/>
-                        <img src="images/multiple.png" class="multiple-image"/>
-                    </div>
-                </li>
-                <li>
-                    <div style="position: relative">
-                        <img src="CLOTHES/thumbnails/takkitakaa.jpg" class="notMobile open2019coatImages showCursor"/>
-                        <img src="CLOTHES/mobilethumbnails/takkitakaa.jpg" class="mobile open2019coatImages showCursor"/>
-                        <img src="images/multiple.png" class="multiple-image"/>
-                    </div>
-                </li>
-                <li>
-                    <div style="position: relative">
-                        <img src="CLOTHES/thumbnails/paivapeittotakki2.jpg" class="notMobile openBlanketCoatImages showCursor"/>
-                        <img src="CLOTHES/mobilethumbnails/paivapeittotakki2.jpg" class="mobile openBlanketCoatImages showCursor"/>
-                        <img src="images/multiple.png" class="multiple-image"/>
-                    </div>
-                </li>
-                <li>
-                    <div style="position: relative">
-                        <img src="CLOTHES/thumbnails/katatakki.jpg" class="notMobile openKataCoatImages showCursor"/>
-                        <img src="CLOTHES/mobilethumbnails/katatakki.jpg" class="mobile openKataCoatImages showCursor"/>
-                        <img src="images/multiple.png" class="multiple-image"/>
-                    </div>
-                </li>
-               <!-- <li>
-                    <div style="position: relative">
-                        <img src="CLOTHES/thumbnails/coat2.png" alt="wool coat" class="notMobile openVioletCoatImages showCursor"/>
-                        <img src="CLOTHES/mobilethumbnails/coat.jpg" alt="wool coat" class="mobile openVioletCoatImages showCursor"/>
-                        <img src="images/multiple.png" class="multiple-image"/>
-                    </div>
-                </li>-->
-                <li>
-                    <div style="position: relative">
-                        <img src="CLOTHES/thumbnails/jakkupuku.jpg" class="notMobile openJakkupukuImages showCursor"/>
-                        <img src="CLOTHES/mobilethumbnails/jakkupuku.jpg" class="mobile openJakkupukuImages showCursor"/>
-                        <img src="images/multiple.png" class="multiple-image"/>
-                    </div>
-                </li>
-            </ul>
-                        
-            <!--<h3>Capes and tops</h3>-->
-            <h3>Viitat ja kaavut</h3>
-            <ul class="works columns-4">
-                <li>
-                    <div style="position: relative">
-                        <img src="CLOTHES/thumbnails/tilaus006.jpg" class="notMobile open006Images showCursor"/>
-                        <img src="CLOTHES/mobilethumbnails/tilaus006.jpg" class="mobile open006Images showCursor"/>
-                        <img src="images/multiple.png" class="multiple-image"/>
-                    </div>
-                </li>
-                
-                <li>
-                    <div style="position: relative">
-                        <img src="CLOTHES/thumbnails/haltiatakki.jpg" class="notMobile openElfCoatImages showCursor"/>
-                        <img src="CLOTHES/mobilethumbnails/haltiatakki.jpg" class="mobile openElfCoatImages showCursor"/>
-                        <img src="images/multiple.png" class="multiple-image"/>
-                    </div>
-                </li>
-            
-             <!--   <li>    
-                    <div>
-                        <a href="CLOTHES/vesiputous_1.jpg" rel="prettyPhoto" title="Light shirt with a waterfall neckline">
-                            <img src="CLOTHES/thumbnails/vesiputous.jpg" alt="Waterfall neckline shirt" class="notMobile"/>
-                            <img src="CLOTHES/mobilethumbnails/vesiputous.jpg" alt="Waterfall neckline shirt" class="mobile"/>
-                        </a>
-                    </div>
-                </li>-->
-            </ul>
-            
-            <!--<h3>Evening dresses and wedding dresses</h3>-->
-            <h3>Juhlamekot</h3>
-            <ul class="works columns-4">    
-                <li>
-                    <div style="position: relative">
-                        <img src="CLOTHES/thumbnails/queen.jpg" class="notMobile openQueenImages showCursor"/>
-                        <img src="CLOTHES/mobilethumbnails/queen.jpg" class="mobile openQueenImages showCursor"/>
-                        <img src="images/multiple.png" class="multiple-image"/>
-                    </div>
-                </li>
-                <li>
-                    <div style="position: relative">
-                        <img src="CLOTHES/thumbnails/ellinmekkoback.jpg" alt="wedding dress" class="notMobile openElliWeddingImages showCursor"/>
-                        <img src="CLOTHES/mobilethumbnails/ellinmekkoback.jpg" alt="wedding dress" class="mobile openElliWeddingImages showCursor"/>
-                        <img src="images/multiple.png" class="multiple-image"/>
-                    </div>
-                </li>
-                <li>
-                    <div style="position: relative">
-                        <img src="CLOTHES/thumbnails/wedding.jpg" class="notMobile openWeddingImages showCursor"/>
-                        <img src="CLOTHES/mobilethumbnails/wedding.jpg" class="mobile openWeddingImages showCursor"/>
-                        <img src="images/multiple.png" class="multiple-image"/>
-                    </div>
-                </li>
-                <li>
-                    <div style="position: relative">
-                        <img src="CLOTHES/thumbnails/violet.jpg" class="notMobile openVioletDressImages showCursor"/>
-                        <img src="CLOTHES/mobilethumbnails/violet.jpg" class="mobile openVioletDressImages showCursor"/>
-                        <img src="images/multiple.png" class="multiple-image"/>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <div style="position: relative">
-                            <img src="CLOTHES/thumbnails/wanhojenmekko.jpg" alt="ball dress" class="notMobile openWanhatImages showCursor"/>
-                            <img src="CLOTHES/mobilethumbnails/wanhojenmekko.jpg" alt="ball dress" class="mobile openWanhatImages showCursor"/>
-                            <img src="images/multiple.png" class="multiple-image"/>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <a href="CLOTHES/kimono.jpg" rel="prettyPhoto" title="Black and white dress">
-                            <img src="CLOTHES/thumbnails/kimono.jpg" alt="kimono-like dress" class="notMobile openImage"/>
-                            <img src="CLOTHES/mobilethumbnails/kimono.jpg" alt="kimono-like dress" class="mobile openImage"/>
-                        </a>
-                    </div>
-                </li>
-            </ul>
-           <!-- <h3>Dresses</h3>-->
-            
-            <h3>Mekot</h3>
-            <ul class="works columns-4">
-                <li>
-                    <div style="position: relative">
-                        <img src="CLOTHES/thumbnails/impi-proto.jpg" class="notMobile openImpiImages showCursor"/>
-                        <img src="CLOTHES/mobilethumbnails/impi-proto.jpg" class="mobile openImpiImages showCursor"/>
-                    </div>
-                </li>
-                <li>
-                    <div style="position: relative">
-                        <img src="CLOTHES/thumbnails/dress2.jpg" class="notMobile openFlowerDressImages showCursor"/>
-                        <img src="CLOTHES/mobilethumbnails/dress2.jpg" class="mobile openFlowerDressImages showCursor"/>
-                        <img src="images/multiple.png" class="multiple-image"/>
-                    </div>
-                </li>
-              <!--  <li>
-                    <div style="position: relative">
-                        <img src="CLOTHES/thumbnails/metsamekko.jpg" class="notMobile openForestDressImages showCursor"/>
-                        <img src="CLOTHES/mobilethumbnails/metsamekko.jpg" class="mobile openForestDressImages showCursor"/>
-                        <img src="images/multiple.png" class="multiple-image"/>
-                    </div>
-                </li>-->
-                <li>
-                    <div style="position: relative">
-                        <img src="CLOTHES/thumbnails/blue_dress.jpg" class="notMobile openBluedressImages showCursor"/>
-                        <img src="CLOTHES/mobilethumbnails/blue_dress.jpg" class="mobile openBluedressImages showCursor"/>
-                        <img src="images/multiple.png" class="multiple-image"/>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <a href="CLOTHES/sinimekko.jpg" rel="prettyPhoto" title="Blue printed dress">
-                            <img src="CLOTHES/thumbnails/sinimekko.jpg" alt="blue printed" class="notMobile openImage"/>
-                            <img src="CLOTHES/mobilethumbnails/sinimekko.jpg" alt="blue printed" class="mobile openImage"/>
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <a href="CLOTHES/brownflowers.jpg" rel="prettyPhoto" title="Brown flower dress">
-                            <img src="CLOTHES/thumbnails/brownflowers.jpg" alt="brown dress" class="notMobile openImage"/>
-                            <img src="CLOTHES/mobilethumbnails/brownflowers.jpg" alt="brown dress" class="mobile openImage"/>
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <a href="CLOTHES/forestgod.jpg" rel="prettyPhoto" title="The forest goddess dress">
-                            <img src="CLOTHES/thumbnails/forestgod.jpg" alt="forest" class="notMobile openImage"/>
-                            <img src="CLOTHES/mobilethumbnails/forestgod.jpg" alt="forest" class="mobile openImage"/>
-                        </a>
-                    </div>
-                </li>
-            </ul>
+<div class="section">
+   <div class="middle">
+      <img class="active" src="CLOTHES/katatakki_nappi.jpg" />
+   </div>
+   <div class="right tiles">
+      <div><img src="CLOTHES/katatakki_front.jpg" /></div>
+      <div><img src="CLOTHES/katatakki_nappi.jpg" /></div>
+      <div><img src="CLOTHES/katatakki_sivusta.jpg" /></div>
+      <div><img src="CLOTHES/katatakki_takaa.jpg" /></div>
+   </div>
+   <div class="left title">
+      <div class="content">
+         <h2>Inspiraationa steampunk</h2>
+         <p>Tämän takin suunnitteluvaiheessa katseltiin kuvastoa ns. steampunk-tyylistä, eli dystooppisesta viktoriaalisesta tyylisuunnasta. Kahden kankaan harmonia viimeisteltiin näyttävillä metallisilla napeilla.</p>
+      </div>
+   </div>
+</div>
 
-           <!-- <h3>Skirts</h3>-->
-            <h3>Hameet</h3>
-            <ul class="works columns-4">
-                <li>
-                    <div style="position: relative">
-                        <img src="CLOTHES/thumbnails/tilaus010.jpg" class="notMobile open010Images showCursor"/>
-                        <img src="CLOTHES/mobilethumbnails/tilaus010.jpg" class="mobile open010Images showCursor"/>
-                        <img src="images/multiple.png" class="multiple-image"/>
-                    </div>
-                </li>
-                <li>
-                    <div style="position: relative">
-                        <img src="CLOTHES/thumbnails/005.jpg" class="notMobile open005Images showCursor"/>
-                        <img src="CLOTHES/mobilethumbnails/005.jpg" class="mobile open005Images showCursor"/>
-                        <img src="images/multiple.png" class="multiple-image"/>
-                    </div>
-                </li>
-                 <li>
-                    <div style="position: relative">
-                        <img src="CLOTHES/thumbnails/uniproto2.jpg" class="notMobile openUniProto2Images showCursor"/>
-                        <img src="CLOTHES/mobilethumbnails/uniproto2.jpg" class="mobile openUniProto2Images showCursor"/>
-                        <img src="images/multiple.png" class="multiple-image"/>
-                    </div>
-                </li>
-                <li>
-                    <div style="position: relative">
-                        <img src="CLOTHES/thumbnails/uniproto.jpg" class="notMobile openUniImages showCursor"/>
-                        <img src="CLOTHES/mobilethumbnails/uniproto.jpg" class="mobile openUniImages showCursor"/>
-                        <img src="images/multiple.png" class="multiple-image"/>
-                    </div>
-                </li>
-                <li>
-                    <div style="position: relative">
-                        <img src="CLOTHES/thumbnails/tuomiproto.jpg" class="notMobile openTuomiProtoImages showCursor"/>
-                        <img src="CLOTHES/mobilethumbnails/tuomiproto.jpg" class="mobile openTuomiProtoImages showCursor"/>
-                        <img src="images/multiple.png" class="multiple-image"/>
-                    </div>
-                </li>
-             
-                <li>
-                    <div style="position: relative">
-                        <img src="CLOTHES/thumbnails/order-2.jpg" class="notMobile openOrder2Images showCursor"/>
-                        <img src="CLOTHES/mobilethumbnails/order-2.jpg" class="mobile openOrder2Images showCursor"/>
-                        <img src="images/multiple.png" class="multiple-image"/>
-                    </div>
-                </li>
-                <li>
-                    <div style="position: relative">
-                        <img src="CLOTHES/thumbnails/mustahame-takaa.jpg" class="notMobile openBlackSkirtImages showCursor"/>
-                        <img src="CLOTHES/mobilethumbnails/mustahame-takaa.jpg" class="mobile openBlackSkirtImages showCursor"/>
-                        <img src="images/multiple.png" class="multiple-image"/>
-                    </div>
-                </li>
-                <li>
-                    <div style="position: relative">
-                        <img src="CLOTHES/thumbnails/office.jpg" class="notMobile openOfficeImages showCursor"/>
-                        <img src="CLOTHES/mobilethumbnails/office.jpg" class="mobile openOfficeImages showCursor"/>
-                        <img src="images/multiple.png" class="multiple-image"/>
-                    </div>
-                </li>
-               
-                <li>
-                    <div style="position: relative">
-                        <img src="CLOTHES/thumbnails/wool2019-1.jpg" class="notMobile openWool2019Images showCursor"/>
-                        <img src="CLOTHES/mobilethumbnails/wool2019-1.jpg" class="mobile openWool2019Images showCursor"/>
-                        <img src="images/multiple.png" class="multiple-image"/>
-                    </div>
-                </li>
-                 <li>
-                    <div>
-                        <a href="CLOTHES/mapleleaves.jpg" rel="prettyPhoto" title="Maple leaf skirt">
-                            <img src="CLOTHES/thumbnails/mapleleaves.jpg" alt="maple leaf" class="notMobile"/>
-                            <img src="CLOTHES/mobilethumbnails/mapleleaves.jpg" alt="maple leaf" class="mobile"/>
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <a href="CLOTHES/blueskirt.jpg" rel="prettyPhoto" title="Black skirt with white and blue decorations">
-                            <img src="CLOTHES/thumbnails/blueskirt.jpg" alt="black and blue skirt" class="notMobile openImage"/>
-                            <img src="CLOTHES/mobilethumbnails/blueskirt.jpg" alt="black and blue skirt" class="mobile openImage"/>
-                        </a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        </div>
-
-        <script type="text/javascript" charset="utf-8">
-            $(document).ready(function(){
-                $("a[rel^='prettyPhoto']").prettyPhoto();
-            });
-        </script>
-
-    </body>
-
-  <footer>
+<div class="section">
+   <div class="middle">
+      <img class="active" src="CLOTHES/paivapeittotakki_etu.jpg" />
+   </div>
+   <div class="left tiles">
+      <div><img src="CLOTHES/paivapeittotakki_etu.jpg" /></div>
+      <div><img src="CLOTHES/paivapeittotakki_taka.jpg" /></div>
+      <div><img src="CLOTHES/paivapeittotakki_sivu2.jpg" /></div>
+      <div><img src="CLOTHES/paivapeittotakki_back.jpg" /></div>
+   </div>
+   <div class="right title">
+      <div class="content">
+         <h2>Päiväpeiton uusi elämä</h2>
+         <p>Tämä katseenkääntäjä tehtiin pääasiassa kankaasta, joka toimi aiemmin päiväpeittona. Kylkiin lisätty villa rauhoittaa näyttävää pintaa.</p>
+      </div>
+   </div>   
+</div>
+    
+<div class="footer">
+   <a href="#top" class="scrollTo"><i class="fa fa-angle-up animated bounce"></i></a>
+   <h1>Vieritä ylös</h1>
+    <h2 class="ps-text">pst. Etsitkö <a href="galleryold.html" class="btn-primary">Vanhaa Galleriaa?</a></h2>
+</div>
+    </div>
+</body>
+      <footer>
         <div>
             <p>Ateljee Wahtera, Helsinki</p>
             <p style="display: inline-block">johanna@wahtera.fi</p>

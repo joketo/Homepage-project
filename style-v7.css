@@ -278,6 +278,9 @@ ul.just-one-nav {
 ul.fin-navigation {
     width: 936px;
 }
+ul.old-gallery-navigation {
+    width: 212px;
+}
 ul.navigation li {
     padding: 15px;
     display: inline-block;
