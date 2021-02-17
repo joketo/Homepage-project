@@ -320,6 +320,9 @@ footer img {
 height: auto;
 display: block;
 }
+.active {
+  background-color: white !important;
+}
 
 @-webkit-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
