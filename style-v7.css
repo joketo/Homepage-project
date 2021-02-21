@@ -1078,3 +1078,10 @@ label {
     }
     
 }
+@media(max-width: 1460px) {
+   .authorimage img {
+    max-height: 367px !important;
+    }
+}
+
+    }
