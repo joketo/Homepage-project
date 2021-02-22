@@ -183,6 +183,11 @@
   }
 
 }
+@media (min-width: 2200px) {
+    .new-gallery {
+        margin: auto 12%;
+    }
+}
 @media (max-width: 768px) {
     .section .tiles {
         display: block !important;
