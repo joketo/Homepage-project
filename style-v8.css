@@ -591,6 +591,7 @@ body {
     margin: 7px auto;
     border-radius: 10px;
 }
+
 .commission-block .price {
     text-align: end;
     
@@ -1007,10 +1008,13 @@ label {
     .frontpage-image {
         max-height: 615px;
     }
+    .authorimage img {
+        max-height: 900px !important;
+    }
    
-.contact-container {
+  .contact-container {
     width: 100%;
-}
+  }
 }
 
 @media(min-width: 1081px){
@@ -1042,12 +1046,11 @@ label {
     @media(max-width: 1354px) {
      .big-coat-frontpage {
         max-height: 352px;
-    }
-        
+    }    
 }
+    
 @media(min-width: 1355px) {
-
-@media(max-width: 1540px) {
+  @media(max-width: 1540px) {
     
     .big-coat-frontpage {
         max-height: 440px;
@@ -1059,8 +1062,9 @@ label {
     .hukkapukupic{
     max-height: 410px;
     }
+  }
 }
-    }
+    
 @media(min-width: 1781px){
     .example-material-price-list {
         padding: 0 8% !important;
@@ -1079,7 +1083,7 @@ label {
     
 }
 @media(max-width: 1460px) {
-    @media(min-width: 979px){
+    @media(min-width: 1081px){
         .authorimage img {
             max-height: 367px !important;
         }
