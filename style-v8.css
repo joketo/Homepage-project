@@ -821,6 +821,10 @@ label {
 .no-padding {
     padding: 0 !important;
 }
+.smallerh2 {
+    text-align: start !important;
+    font-size: 1.2em !important;
+}
 @media(max-width: 1080px){
    div.title{
    	padding: 124px;
