@@ -1,5 +1,12 @@
 $(document).ready(function () {
     
+    $(".open019Images").click(function(){
+        api_images = ['CLOTHES/tilaus19etu.jpg', 'CLOTHES/tilaus19taka.jpg'];
+    api_titles = ['Black wool coat', 'Black wool coat'];
+    api_descriptions = ['', '']
+    $.prettyPhoto.open(api_images,api_titles,api_descriptions);
+    });
+    
       $(".openJohkuJoulu2020Images").click(function(){
     api_images = ['CLOTHES/joulujohanna-1.jpg', 'CLOTHES/joulujohanna-4.jpg', 'CLOTHES/joulujohanna-6.jpg', 'CLOTHES/joulujohanna-3.jpg', 'CLOTHES/joulujohanna-5.jpg'];
     api_titles = ['','','','',''];
