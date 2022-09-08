@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Cormorant Garamond';
 }
 .pp_social{
     display: none;
@@ -51,7 +51,7 @@ ul.works { /*vaatteita listaava taulukko*/
 }
 
 p{ 
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Cormorant Garamond', medium;
 }
 
 html{
@@ -529,7 +529,7 @@ p {
 }
 
 div {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Cormorant Garamond';
 }
 
 body {
