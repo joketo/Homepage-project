@@ -54,7 +54,6 @@ $(document).ready(function(){
            var price_of_item = 0;
            var price_of_item = prices.find((o) => { return o["id"] === $(this).val() }).value;
                
-           console.log(price_of_item);
            if ($.isNumeric(price_of_item)) {
               calculated_total_sum += parseFloat(price_of_item);
               }                  
