@@ -803,7 +803,7 @@ footer img {
     margin-right: 7%;
     padding: 0px 15px 40px 15px;
     overflow: hidden;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 .commission-page {
@@ -815,7 +815,7 @@ footer img {
 }
 .commission-block {
     font-weight: 300;
-    overflow: hidden;
+    //overflow: hidden;
 }
 .frontpage-image {
     max-height: 400px;
@@ -1105,6 +1105,11 @@ button:hover {
         margin-top: 30px;
         font-size: 2em;
     }
+    .commission-block h3 {
+        font-size: 1.5em;
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
     .pricing-cell-2 {
         width: 25%;
     }
@@ -1121,6 +1126,14 @@ button:hover {
     }
     p {
         font-size: 1.4em;
+    }
+
+    .caption {
+       font-size: 0.7em;
+    }
+    
+    .header {
+    padding: 2% 5% 5% 5% !important;
     }
     footer {
         font-size: 2em;
