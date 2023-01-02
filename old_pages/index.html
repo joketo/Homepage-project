@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style-v8.css">
+
+        <link rel="icon" type="image/png" href="favicon.png">
+        <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet"> 
+        
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <title>Wahtera Ateljee - Tilaa unelmiesi takki omilla mitoilla</title>
+    </head>
+
+    <body class="frontpage">
+
+       <!--Start smartphone / tablet navigation-->
+         <div class="mobile-container">
+            <div class="mapletree"></div>
+            <!-- Top Navigation Menu -->
+            <div class="topnav">
+                <img src="images/wahtera_colorful.png" class="wahtera-icon-mobile"/>
+                <div class="brand-text-container">
+                    <div style="width: 40%; text-align: center;">
+                        Uniikit mittatilaustakit<br>
+                        Ompelun yksityisopetusta
+                    </div>
+                </div>
+                <div id="myLinks">
+                    <a href="index.html" style="color: #d68f33;">Etusivu</a>
+                    <a href="about.html">Tarina</a>
+                    <a href="services.html">Palvelut</a>
+                    <a href="rates.html">Hinnasto</a>
+                    <a href="gallery.html">Galleria</a>
+                    <a href="contact.html">Ota yhteyttä</a>
+                    <!--   <a href="commissions.html" style="background-color: #f6f6f6c2;"><img src="images/Flag_of_the_United_Kingdom.png" height="30px;"> In English</a>-->
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
+        <!-- End smartphone / tablet look for navigation -->
+
+        <div class="desktop-view">
+            <div>
+                <img src="images/lehtia-left.png" height = 190px />
+                <img style="float: right;" src="images/lehtia-right.png" height = 190px />
+            </div>
+             <div class = "logo"  style="position: absolute; left: 48%; top: 8px;">
+                    <img style="position: relative; left: -50%;" src="images/wahtera_colorful.png" height = 180px /> 
+            </div>
+
+            <ul class ="navigation fin-navigation">
+                <li><a href="index.html" style="color: #d68f33;"><span style="font-size: 1.5em;">E</span>tusivu</a></li>
+                <li><a href="about.html"><span style="font-size: 1.5em;">T</span>arina</a></li>
+                <li><a href="services.html"><span style="font-size: 1.5em;">P</span>alvelut</a></li>
+                <li><a href="rates.html"><span style="font-size: 1.5em;">H</span>innasto</a></li>
+                <li><a href="gallery.html"><span style="font-size: 1.5em;">G</span>alleria</a></li>  
+                <li><a href="contact.html"><span style="font-size: 1.5em;">O</span>ta yhteyttä</a></li>  
+            </ul>
+        </div>
+        
+        
+        <div class = "commission-page">
+            
+           <div class="col-md-12 coat-images" style="margin-top: 15px;">
+                <img class="frontpage-image" src="images/nappi.jpg"/>
+                <img class="frontpage-image" src="images/hihahihna.jpg"/>
+                <img class="frontpage-image" src="images/kolmionappi.jpg"/>
+                <img class="frontpage-image hidden-xs hidden-sm" src="images/kauluskuva.jpg"/>
+            </div>
+            
+           <div class="commission-block  show-your-style"> 
+                <div class="col-md-12 col-sm-12 col-xs-12 show-your-style-text">
+                    <h2>Wahtera - laadukkaita mittatilaustöitä ja ompeluopetusta</h2>
+                    <div>Mittojesi mukaan tehdyn laadukkaan takin vetäminen päälle oikaisee selän ja saa kulkemaan hyvässä ryhdissä. Voit tuoda persoonasi esiin kutkuttavilla kuoseilla, väriyhdistelmillä tai jännittävillä leikkauksilla.</div>
+                
+                    <div style="margin-top:2%;">Hyvin istuva uniikki takki on kuin tavaramerkkisi, jolla tuot tyylisi kaikkien näkyville.
+                       <button class="buttonToFabrics" style="margin-top:2%;"><a href="services.html">Tutustu palveluihin</a></button>
+                    </div>
+                </div>   
+            </div>
+   
+        
+        </div>
+
+        
+    <footer>
+        <div>
+            <p>Ateljee Wahtera, Helsinki</p>
+            <p style="display: inline-block">johanna@wahtera.fi</p>
+            <p type="button" style="display: inline-block;" class="rekisteriseloste-button" data-toggle="modal" data-target="#myModal">| Rekisteriseloste</p> 
+         
+            <!-- Modal -->
+            <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+
+                <!-- Modal content-->
+                    <div class="modal-content" style="text-align: start;">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title">Rekisteriseloste</h3>
+                        </div>
+                        <div class="modal-body">
+                            <p>Henkilötietolain (523/1999) 10§:n mukainen rekisteriseloste.</p>
+                            <h3>Rekisterinpitäjä</h3>
+                            Wahtera tmi<br>
+                            Y-tunnus 3108132-5<br>
+                            Sähköposti johanna@wahtera.fi<br>
+                            
+                            <h3>Rekisteriasioita hoitava henkilö</h3>
+                            Johanna Wahtera<br>
+                            Sähköposti johanna@wahtera.fi
+                            
+                            <h3>Rekisterin nimi</h3>
+                            Wahteran asiakasrekisteri
+
+                            <h3>Rekisterin pitämisen peruste</h3>
+                            Henkilö on tilannut Wahteralta tuotteita tai palveluita tai muuten antanut yhteystietonsa yhteydenpitoa varten.
+                            
+                            <h3>Rekisterin käyttötarkoitus</h3>
+                            Rekisterin käyttötarkoitus on mahdollistaa Wahteran asiakkaiden tilausten arkistointi ja yhteydenpito asiakkaiden kanssa koskien heidän tilaustaan tai tilauksiaan. Tietoja ei luovuteta ulkopuolisille tahoille eikä niitä käytetä mainontaan.
+                            
+                            <h3>Rekisterin sisältämät tiedot</h3>
+                            <ul>
+                            <li>Henkilön etu- ja sukunimi</li>
+                            <li>Sähköpostiosoite</li>
+                            <li>Tiedot käsitellyistä tilauksista</li>
+                            <li>Mittatilaustuotteiden asiakasmitat</li>
+                            </ul>
+                            
+                            <h3>Tietojen luovutus</h3>
+                            Tietoja ei luovuteta Wahteran ulkopuoliseen käyttöön. Henkilötiedot hävitetään henkilön pyynnöstä.
+
+                            <h3>Rekisterin suojaus</h3>
+                            Rekisteriä ei luovuteta sivullisille. Rekisteriä, joka ei ole sähköisessä muodossa, säilytetään lukitussa tilassa, johon pääsy on rajattu vain välttämättömille henkilöille heidän työtehtäviensä edellyttämässä laajuudessa.
+                            
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Sulje</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div>
+            <a href="https://www.instagram.com/jkwahtera/" title="Wahtera on instagram"><img src="glyph-logo_May2016.png"/></a>
+        </div>
+    </footer>
+
+    </body>
+
+    
+</html>

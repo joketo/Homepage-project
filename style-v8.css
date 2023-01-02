@@ -36,7 +36,44 @@ display: none !important;
     left: 0px !important;
 }
 .authorimage {
-    margin-top: 65px;
+    margin-top: 21px;
+}
+.wahtera-color {
+    color: #d68f33;
+}
+.halatti-header {
+    text-align: center;
+    margin: 0 !important;
+    color: #d68f33;
+}
+.halatti-label {
+    display: block;
+    font-weight: 900;
+}
+.halatti-bottom-page {
+    text-align: start;
+}
+.halatti-form {
+    background-color: #f9f9f9;
+    max-width: 1900px;
+    margin: 40px 0 25px 0;
+    padding: 15px 10px;
+}
+.halatti-info-text {
+    font-size: smaller;
+}
+.size-table-button {
+    display: inline-block;
+    background-color: #d68f33;
+    border-radius: 5px;
+    color: white;
+    padding: 0 5px;
+    font-size: 1em;
+    margin: 14px auto 0 auto;
+    cursor: hand;
+}
+.image-text {
+    font-size: 0.7em;
 }
 
 #inline-1{
@@ -276,7 +313,7 @@ ul.just-one-nav {
     text-align: center;
 }
 ul.fin-navigation {
-    width: 910px;
+    width: 744px;
 }
 ul.old-gallery-navigation {
     width: 212px;
@@ -662,6 +699,9 @@ footer img {
   margin: 0 5px;
     border-radius: 7px;
 }
+.halatti-images {
+    text-align: 1em;
+}
 
 .commission-page {
     margin-left: 7%;
@@ -710,7 +750,7 @@ button:hover {
     display: block;
 }
 .show-your-style-text {
-    margin-top: 20px;
+    margin-top: 0px;
 }
 .buttonToFabrics a {
     padding: 10px 15px;
@@ -740,9 +780,6 @@ button:hover {
     margin: 2% auto;
     float: unset !important;
     overflow: hidden;  
-}
-label {
-    font-weight: normal !important;
 }
 
 .dotted-bottom{
