@@ -151,6 +151,10 @@ display: none !important;
         width: 100%;
   }
 }
+    
+.halatti_fa {
+  font-size: 2em !important;
+}
 
 /*halatti-styles ends*/
 
@@ -794,6 +798,13 @@ footer img {
 .halatti-images {
     text-align: 1em;
 }
+.halatti-page {
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 0px 15px 40px 15px;
+    overflow: hidden;
+    font-size: 1.5em;
+}
 
 .commission-page {
     margin-left: 7%;
@@ -843,6 +854,7 @@ button:hover {
 }
 .show-your-style-text {
     margin-top: 0px;
+    margin-bottom: 10px !important;
 }
 .buttonToFabrics a {
     padding: 10px 15px;
@@ -1025,6 +1037,11 @@ button:hover {
     
     .name-input {
         width: unset;
+    }
+    
+    .halatti-page {
+        margin-left: 0;
+        margin-right: 0;
     }
   
     .mobile-profilepic {

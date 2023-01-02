@@ -24,6 +24,7 @@
         <link rel="icon" type="image/png" href="favicon.png">
         <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
         <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet"> 
         
@@ -33,6 +34,8 @@
   <script src="ResponsiveSlides/responsiveslides.min.js"></script>
   <link rel="stylesheet" href="ResponsiveSlides/responsiveslides.css">
   <link rel="stylesheet" href="gallery.css">
+  <script src="js/index.js"></script>
+  <script src="jquery/jquery.min.js"></script>
         
     
     
@@ -114,7 +117,7 @@
     });
   </script>
 </head>
-<body class="frontpage">
+<body class="clothespage">
        <!--Start smartphone / tablet navigation-->
          <div class="mobile-container">
             <div class="mapletree"></div>
@@ -170,10 +173,13 @@
                 <li><a href="ukk.html"><span style="font-size: 1.5em;">I</span>nfo</a></li>  
             </ul>
         </div>
-    <div class = "commission-page">
-        <h2 class="halatti-header">Halatti</h2>
-        <div class="wahtera-color col-md-12 col-sm-12 col-xs-12" style="max-width: 1900px; text-align: center;">
-            Tilaustyönä valmistettava kietaisutakki, jolla voit rakentaa oman tarinasi.
+    <div class = "halatti-page">
+        <div class="header">
+            <h2 class="halatti-header">Halatti</h2>
+            <div class="wahtera-color col-md-12 col-sm-12 col-xs-12" style="max-width: 1900px; text-align: center;">
+                Tilaustyönä valmistettava kietaisutakki, jolla voit rakentaa oman tarinasi.
+            </div>
+            <a href="#halattiForm" class="scrollTo">Tilaa omasi <i class="fa fa-angle-down animated bounce halatti_fa"></i></a>
         </div>
             
         <div class="col-md-12 col-sm-12 col-xs-12" style="max-width: 1900px; text-align: center;margin-bottom:20px;">   
@@ -186,29 +192,27 @@
             </div>
         </div>
         
-        <div id="wrapper">
             <div class="responsive-slider">
               <ul class="rslides" id="slider">
                 <li>
                     <img src="images/halatti/halattiproto_1_2.jpg" alt="">
-                    <p class="caption">Ohuen ohut villa on päällä ihanan kevyt mutta lämmittää silti. Pitkä malli (C) pitkillä leveillä hihoilla (C) henkii taikaa. Ei vuoritettu. Vyön solki on mallia E, pronssinen pujotussolki. Oma kangas.</p>
+                    <p class="caption">Ohuen ohut villa on päällä ihanan kevyt mutta lämmittää silti. Pitkä malli (C) pitkillä leveillä hihoilla (C) henkii taikaa. Ei vuoritettu. Vyön solki on mallia E, pronssinen pujotussolki. Oma kangas, koru oli uniikkikappale.</p>
                 </li>
                 <li>
                     <img src="images/halatti/halattiproto_1_1.jpg" alt="">
-                    <p class="caption">Ohuen ohut villa on päällä ihanan kevyt mutta lämmittää silti. Pitkä malli (C) pitkillä leveillä hihoilla (C) henkii taikaa. Ei vuoritettu. Vyön solki on mallia E, pronssinen pujotussolki. Oma kangas.</p>
+                    <p class="caption">Ohuen ohut villa on päällä ihanan kevyt mutta lämmittää silti. Pitkä malli (C) pitkillä leveillä hihoilla (C) henkii taikaa. Ei vuoritettu. Vyön solki on mallia E, pronssinen pujotussolki. Oma kangas, koru oli uniikkikappale.</p>
                 </li>
                 <li>
                     <img src="images/halatti/halattiproto_1_3.jpg" alt="">
-                    <p class="caption">Ohuen ohut villa on päällä ihanan kevyt mutta lämmittää silti. Pitkä malli (C) pitkillä leveillä hihoilla (C) henkii taikaa. Ei vuoritettu. Vyön solki on mallia E, pronssinen pujotussolki. Oma kangas.</p>
+                    <p class="caption">Ohuen ohut villa on päällä ihanan kevyt mutta lämmittää silti. Pitkä malli (C) pitkillä leveillä hihoilla (C) henkii taikaa. Ei vuoritettu. Vyön solki on mallia E, pronssinen pujotussolki. Oma kangas, koru oli uniikkikappale.</p>
                 </li>
                 <li>
                     <img src="images/halatti/halattiproto_1_4.jpg" alt="">
-                    <p class="caption">Ohuen ohut villa on päällä ihanan kevyt mutta lämmittää silti. Pitkä malli (C) pitkillä leveillä hihoilla (C) henkii taikaa. Ei vuoritettu. Vyön solki on mallia E, pronssinen pujotussolki. Oma kangas.</p>
+                    <p class="caption">Ohuen ohut villa on päällä ihanan kevyt mutta lämmittää silti. Pitkä malli (C) pitkillä leveillä hihoilla (C) henkii taikaa. Ei vuoritettu. Vyön solki on mallia E, pronssinen pujotussolki. Oma kangas, koru oli uniikkikappale.</p>
                 </li>
               </ul>
             </div>
-        </div>
-        <div id="wrapper">
+        
             <div class="responsive-slider">
               <ul class="rslides" id="slider3">
                 <li>
@@ -229,25 +233,23 @@
                 </li>
               </ul>
             </div>
-        </div>
-        <div id="wrapper">
             <div class="responsive-slider">
               <ul class="rslides" id="slider2">
                 <li>
                     <img src="images/halatti/halattiproto2_2.jpg" alt="">
-                    <p class="caption">Paksummasta villasta valmistettu vuoritettu versio sopii kylmään tupaan. Puolipitkä malli (B) kapeilla pitkillä hihoilla (D), kangas E, vuoritettu, Selkäkoru H.</p>
+                    <p class="caption">Paksummasta villasta valmistettu vuoritettu versio sopii kylmään tupaan. Puolipitkä malli (B) kapeilla pitkillä hihoilla (D), kangas E, vuoritettu, Selkäkoru H, kiinteä (ei korulukkoa).</p>
                 </li>
                 <li>
                     <img src="images/halatti/halattiproto2_1.jpg" alt="">
-                    <p class="caption">Paksummasta villasta valmistettu vuoritettu versio sopii kylmään tupaan. Puolipitkä malli (B) kapeilla pitkillä hihoilla (D), kangas E, vuoritettu, Selkäkoru H.</p>
+                    <p class="caption">Paksummasta villasta valmistettu vuoritettu versio sopii kylmään tupaan. Puolipitkä malli (B) kapeilla pitkillä hihoilla (D), kangas E, vuoritettu, Selkäkoru H, kiinteä (ei korulukkoa).</p>
                 </li>
                 <li>
                     <img src="images/halatti/halattiproto2-2-2.jpg" alt="">
-                    <p class="caption">Paksummasta villasta valmistettu vuoritettu versio sopii kylmään tupaan. Puolipitkä malli (B) kapeilla pitkillä hihoilla (D), kangas E, vuoritettu, Selkäkoru H.</p>
+                    <p class="caption">Paksummasta villasta valmistettu vuoritettu versio sopii kylmään tupaan. Puolipitkä malli (B) kapeilla pitkillä hihoilla (D), kangas E, vuoritettu, Selkäkoru H, kiinteä (ei korulukkoa).</p>
                 </li>
                 <li>
                     <img src="images/halatti/halattiproto2-4-2.jpg" alt="">
-                    <p class="caption">Paksummasta villasta valmistettu vuoritettu versio sopii kylmään tupaan. Puolipitkä malli (B) kapeilla pitkillä hihoilla (D), kangas E, vuoritettu, Selkäkoru H.</p>
+                    <p class="caption">Paksummasta villasta valmistettu vuoritettu versio sopii kylmään tupaan. Puolipitkä malli (B) kapeilla pitkillä hihoilla (D), kangas E, vuoritettu, Selkäkoru H, kiinteä (ei korulukkoa).</p>
                 </li>
                 <!--<li>
                     <img src="images/halatti/halattiproto2-etu-soljella.jpg" alt="">
@@ -263,12 +265,12 @@
                 </li>-->
               </ul>
             </div>
-        </div>
+        
         <div class="col-md-12 col-sm-12 col-xs-12 halatti-form">
             <form id="halattiForm" action="https://formspree.io/xaypzpgd" method="POST">   
                 <h3 class="halatti-header">Rakenna halattisi valitsemalla sen ominaisuudet seuraavista vaihtoehdoista:</h3>
                 <h4 style="text-align: center;">(Valitse pudotusvalikosta, kuva ei vaikuta valintaan.)</h4>
-                
+               <div class="col-md-12" style="overflow: hidden;">
                 <div class="responsive-slider">
                   <ul class="rslides" id="fabricSlider">
                     <li>
@@ -461,10 +463,10 @@
                     <br>
                     <span class="halatti-info-text">Leveä ja pitkä hiha on näyttävä, mutta ei sovellu tiskaamiseen. Jos kaipaat käytännöllisyyttä, valitse lyhyempi tai kapeampi malli.</span>
                 </div>
-                
+                </div>
                 <div class="halatti-bottom-page col-md-12">
                     <h3 class="wahtera-color">Kokotiedot</h3>
-                    <label for="breast_size" class="name-label col-sm-12">Rinnanympäryksesi</label>
+                    <label for="breast_size" class="name-label col-sm-12">Rinnanympäryksesi *</label>
                     <input type="text" name="breast_size" class="name-input" required> <span>cm</span>
                     <br>
                     <label for="waist" class="name-label col-sm-12">Vyötärönympäryksesi, jos se on yli 20cm isompi kuin rinnanympäryksesi</label>    
@@ -502,18 +504,17 @@
                         <label for="_city" class="name-label col-sm-12">Postitoimipaikka (kaupunki) *</label>
                         <input type="text" name="_city" class="name-input" required><br>
 
-                        <input type="checkbox" name="_city" required>
-                        <label for="_termsRead" class="name-label">Olen lukenut  <span class="wahteraColor" style="cursor:hand;"data-toggle="modal"
+                        <input type="checkbox" name="_terms_red" required>
+                        <label for="_termsRead" class="name-label">Olen lukenut <span class="wahtera-color" style="cursor:hand;"data-toggle="modal"
                             data-target="#termsModal">Tilausehdot</span></label>
                     
                 
-                    <div class="marginTop10px">Kaikki tuotteet valmistetaan tilauksesta käsityönä. Tällä hetkellä tyypillinen odotusaika tilauksesta tuotteen saapumiseen on kuusi viikkoa.</div>
+                    <div class="marginTop10px">Kaikki tuotteet valmistetaan tilauksesta käsityönä. Tällä hetkellä tyypillinen odotusaika tilauksesta tuotteen saapumiseen on neljä viikkoa.</div>
                 
                 <div class="marginTop10px">Huomioithan, että mittatilaustuotteilla ei lähtökohtaisesti ole palautusoikeutta.</div>
                 
                     <div class="marginTop10px">Pyrin lähettämään tilauksesi yhteenvedon sekä maksutiedot seuraavana arkipäivänä tilauksen teosta.</div>
                 
-                <!--todo: disable button if not all filled -->
                     <button type="submit" class="marginTop15px">Lähetä tilaus</button>
                 </div>
                 
