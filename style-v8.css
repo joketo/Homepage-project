@@ -954,12 +954,17 @@ button:hover {
     text-align: start !important;
     font-size: 1.2em !important;
 }
+/*MobileStyles */
 @media(max-width: 1080px){
    div.title{
    	padding: 124px;
    	font-size: 50%;
    }
-   div.mapletree {
+   
+    .responsive-slider {
+        width: 100%;
+    }
+    div.mapletree {
    	height: 350px;
    	background-image: url("images/wahtera3smaller.png"); /*the maple tree*/
    }
