@@ -54,6 +54,7 @@ display: none !important;
 }
 .halatti-bottom-page {
     text-align: start;
+    padding-top: 15px;
 }
 .halatti-form {
     background-color: #f9f9f9;
@@ -64,6 +65,8 @@ display: none !important;
 }
 .halatti-info-text {
     font-size: smaller;
+    min-height: 46px;
+    display: inline-block;
 }
 #wrapper {
   padding: 20px;
