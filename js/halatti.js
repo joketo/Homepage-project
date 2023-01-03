@@ -77,7 +77,7 @@ $(document).ready(function(){
     $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
 
-    if (scroll >= 600) {
+    if (scroll >= 1300) {
         $(".halatti-footer").removeClass("hidden");
     }
 }); 
