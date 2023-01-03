@@ -72,6 +72,24 @@ $(document).ready(function(){
     
     calculateSum();
     
+    $("#showOrHide").html("Piilota");
+        
+    function changeHideFooterValue() {
+        console.log($("#showOrHide").html());
+            if ($("#showOrHide").html() === "Näytä"){
+                $("#showOrHide").html("Piilota");
+                $(".halatti-footer").removeClass("minimize");
+            }
+            else {
+                $("#showOrHide").html("Näytä");
+                $(".halatti-footer").addClass("minimize");
+                $(".angle-up").removeClass("hidden");
+                $(".angle-down").addClass("hidden");
+        }
+    };
+    
+    document.getElementById("showOrHideButton").addEventListener("click", changeHideFooterValue);
+    
     $("#halattiForm").on('input', '.priceOption', calculateSum);
     
     $(window).scroll(function() {    

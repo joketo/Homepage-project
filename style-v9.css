@@ -170,6 +170,16 @@ display: none !important;
     z-index: 3;
     padding-left: 5%;
 }
+
+.showOrHideFooterButton {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.minimize {
+    height: 59px !important;
+}
+
 .hidden {
     display: none;
 }
@@ -853,7 +863,7 @@ footer img {
 button {
     font-family: 'Cormorant Garamond', serif;
     font-size: 1em;
-    background-color: #9a6503;
+    background-color: #d68e32;
     border-radius: 10px;
     border: none;
 }
