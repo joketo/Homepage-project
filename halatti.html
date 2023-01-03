@@ -250,7 +250,7 @@
             </div>
         
         <div class="col-md-12 col-sm-12 col-xs-12 halatti-form">
-            <form id="halattiForm" action="https://formspree.io/xaypzpgd" method="POST">   
+            <form id="halattiForm" action="https://formspree.io/xaypzpgd" method="POST" class="paddingTop15px">   
                 <h3 class="halatti-header">Rakenna halattisi valitsemalla sen ominaisuudet seuraavista vaihtoehdoista:</h3>
                 <h4 style="text-align: center;">(Valitse pudotusvalikosta, kuva ei vaikuta valintaan.)</h4>
                <div class="col-md-12" style="overflow: hidden;">
@@ -460,10 +460,10 @@
                         <textarea name="toiveet" style="width: 85%;">Esimerkiksi tarkemmat pituustoiveet voit ilmoittaa tässä</textarea>
                     </div>
                 
-                    <h3 class="wahtera-color">Hinta</h3>
+                   <!-- <h3 class="wahtera-color">Hinta</h3>
                     <div>
                         Yhteensä: <b><span id="total_sum_value" class="wahtera-color"></span><span class="wahtera-color"> €</span> (sis. postikulut Suomeen)</b>
-                    </div>
+                    </div>-->
             
                 </div>
                 
@@ -491,14 +491,27 @@
                         <label for="_termsRead" class="name-label">Olen lukenut <span class="wahtera-color" style="cursor:hand;"data-toggle="modal"
                             data-target="#termsModal">Tilausehdot</span></label>
                     
-                
                     <div class="marginTop10px">Kaikki tuotteet valmistetaan tilauksesta käsityönä. Tällä hetkellä tyypillinen odotusaika tilauksesta tuotteen saapumiseen on neljä viikkoa.</div>
                 
                 <div class="marginTop10px">Huomioithan, että mittatilaustuotteilla ei lähtökohtaisesti ole palautusoikeutta.</div>
                 
                     <div class="marginTop10px">Pyrin lähettämään tilauksesi yhteenvedon sekä maksutiedot seuraavana arkipäivänä tilauksen teosta.</div>
                 
+                <div class="halatti-footer hidden"><h3 class="wahtera-color">Tilauksesi</h3>
+                    <div>
+                        <b>Yhteensä: <span id="total_sum_value_footer" class="wahtera-color"></span><span class="wahtera-color"> €</span></b> (sis. postikulut Suomeen)
+                    </div>
+                    <div class="halatti-choises">
+                        <div class="col-md-12"><b>Kangas: </b><span class="wahtera-color" id="selected_fabric"></span></div>
+                        <div class="col-md-12"><b>Selkäkoru: </b><span class="wahtera-color" id="selected_back"></span></div>
+                    
+                        <div class="col-md-12"><b>Vyön osat: </b><span class="wahtera-color" id="selected_belt"></span></div>
+                        <div class="col-md-12"><b>Vuoritettu: </b><span class="wahtera-color" id="selected_lining"></span></div>
+                        <div class="col-md-12"><b>Pituus: </b><span class="wahtera-color" id="selected_length"></span></div>
+                        <div class="col-md-12"><b>Hihan malli: </b><span class="wahtera-color" id="selected_sleeve"></span></div>
+                    </div>
                     <button type="submit" class="marginTop15px">Lähetä tilaus</button>
+                </div>
                 </div>
                 
             </form>

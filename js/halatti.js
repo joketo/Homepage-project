@@ -58,13 +58,29 @@ $(document).ready(function(){
               calculated_total_sum += parseFloat(price_of_item);
               }                  
             });
-        //todo: jos postitus on valittuna, lisää 10€
-        $("#total_sum_value").html(calculated_total_sum);
+        //$("#total_sum_value").html(calculated_total_sum);
+        $("#total_sum_value_footer").html(calculated_total_sum);
+        $("#selected_fabric").html($( "#fabric option:selected" ).text());
+        
+        $("#selected_back").html($( "#backdecoration option:selected" ).text());
+        $("#selected_belt").html($( "#belt option:selected" ).text());
+        $("#selected_lining").html($( "#lining option:selected" ).text());
+        $("#selected_length").html($( "#length option:selected" ).text());
+        $("#selected_sleeve").html($( "#sleeve option:selected" ).text());
+        
     }
     
     calculateSum();
     
     $("#halattiForm").on('input', '.priceOption', calculateSum);
+    
+    $(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 500) {
+        $(".halatti-footer").removeClass("hidden");
+    }
+}); 
 
 });
 

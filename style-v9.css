@@ -60,6 +60,7 @@ display: none !important;
     max-width: 1900px;
     margin: 40px 0 25px 0;
     padding: 15px 10px;
+    margin-bottom: 160px;
 }
 .halatti-info-text {
     font-size: smaller;
@@ -154,6 +155,23 @@ display: none !important;
     
 .halatti_fa {
   font-size: 2em !important;
+}
+
+.halatti-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 285px;
+    background-color: #f1ebe3;
+    z-index: 3;
+    padding-left: 5%;
+}
+.hidden {
+    display: none;
+}
+.halatti-choises {
+    font-size: 0.8em;
 }
 
 /*halatti-styles ends*/
@@ -925,6 +943,9 @@ button:hover {
 }
 .marginTop15px {
     margin-top: 15px;
+}
+.paddingTop15px {
+    padding-top: 15px;
 }
 .centerText {
     text-align: center;
