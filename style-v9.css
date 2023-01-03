@@ -1273,6 +1273,13 @@ button:hover {
     .coat-images {
       padding: 0 10% !important;
     }
+    .halatti-footer {
+        height: 211px;
+    }
+    .halatti-form {
+        margin-bottom: 80px;
+        
+    }
     
 }
 @media(max-width: 1460px) {
