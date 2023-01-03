@@ -79,6 +79,8 @@ $(document).ready(function(){
             if ($("#showOrHide").html() === "Näytä"){
                 $("#showOrHide").html("Piilota");
                 $(".halatti-footer").removeClass("minimize");
+                $(".angle-up").addClass("hidden");
+                $(".angle-down").removeClass("hidden");
             }
             else {
                 $("#showOrHide").html("Näytä");
