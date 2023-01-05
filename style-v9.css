@@ -58,7 +58,6 @@ display: none !important;
 }
 .halatti-form {
     background-color: #f9f9f9;
-    max-width: 1900px;
     margin: 40px 0 25px 0;
     padding: 15px 10px;
     margin-bottom: 160px;
@@ -835,6 +834,10 @@ footer img {
     padding: 0px 15px 40px 15px;
     overflow: hidden;
     font-size: 1.3em;
+}
+.halattiOrderYoursText {
+    display: inline-block;
+    width: 100%;
 }
 
 .commission-page {
