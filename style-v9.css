@@ -73,6 +73,7 @@ display: none !important;
 
 .rslides {
   margin: 0 auto 2px;
+    list-style: none;
   }
 
 .responsive-slider {
@@ -960,6 +961,9 @@ button:hover {
 }
 .marginTop15px {
     margin-top: 15px;
+}
+.marginBottom15px {
+    margin-bottom: 15px;
 }
 .paddingTop15px {
     padding-top: 15px;

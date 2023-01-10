@@ -14,6 +14,36 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <title>Wahtera Ateljee - Tilaa unelmiesi takki omilla mitoilla</title>
+        <script src="js/halatti.js"></script>
+        <script src="ResponsiveSlides/responsiveslides.min.js"></script>
+        <script>
+        $(function () {
+            $("#slider").responsiveSlides({
+            auto: false,
+            pager: false,
+            nav: true,
+            speed: 500,
+            namespace: "slider-callback",
+            //maxwidth: "550px"
+        });
+            $("#slider2").responsiveSlides({
+            auto: false,
+            pager: false,
+            nav: true,
+            speed: 500,
+            namespace: "slider-callback",
+            //maxwidth: "550px"
+        });
+      $("#slider3").responsiveSlides({
+        auto: false,
+        pager: false,
+        nav: true,
+        speed: 500,
+        namespace: "slider-callback",
+       // maxwidth: "550px"
+      });
+        });
+        </script>
     </head>
 
     <body class="frontpage">
@@ -79,7 +109,6 @@
            <div class="commission-block show-your-style"> 
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <h2 class="show-your-style-text">Wahtera - laadukkaita mittatilaustöitä ja ylellisiä kotitakkeja</h2>
-            <h3 class="center-text"><a href="halatti.html" class="wahtera-color">Halatti</a> on nyt julkaistu!</h3>
                 </div>   
             </div>
             
@@ -91,6 +120,37 @@
                 <img class="frontpage-image" src="images/halatti-detail.jpg"/>
             </div>
             
+            <div class="commission-block center-text"> 
+                <div class="col-md-12 col-sm-12 col-xs-12">
+            <h3 class="center-text">Halatti on nyt julkaistu!</h3>
+                    <div class="marginBottom15px">Halatin leikkaus taipuu moneen. Lue lisää <a href="halatti.html" class="wahtera-color">tilaussivulta</a>.</div>
+                </div>   
+                <div class="responsive-slider">
+                    <ul class="rslides" id="slider">
+                        <li>
+                            <img src="images/halatti/halattisolki_taka_5-4.jpg" alt="">
+                            <p class="caption">Ilman vyötä malli on rennon väljä. Paksu kangasvalinta tekee halatista takkimaisen.</p>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="responsive-slider">
+                    <ul class="rslides" id="slider2">
+                        <li>
+                            <img src="images/halatti/halattisolkietu_45.jpg" alt="">
+                            <p class="caption">Vyön sijaan halattiin voi valita soljen tai erikoistoiveena vaikka napituksen.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="responsive-slider">
+                    <ul class="rslides" id="slider3">
+                        <li>
+                            <img src="images/halatti/halattisolki-backtied_45-01.jpeg" alt="">
+                            <p class="caption">Selän voi myös kiristää nauhalla, jolloin leikkaus on edestä istuvampi.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         
         </div>
 
