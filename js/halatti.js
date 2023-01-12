@@ -22,6 +22,9 @@ $(document).ready(function(){
         {id: "with_lining_B", value: 52},
         {id: "no_lining_A", value: 0},
         
+        {id: "A_with_belt_loops", value: 0},
+        {id: "B_without_belt_loops", value: 0},
+        
         {id: "bronze_oak_A", value: 3},
         {id: "bronze_long_B", value: 3},
         {id: "bronze-leaf_C", value: 3},

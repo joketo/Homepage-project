@@ -257,6 +257,63 @@
                 <h4 style="text-align: center;">(Valitse pudotusvalikosta, kuva ei vaikuta valintaan.)</h4>
                <div class="col-md-12 no-padding" style="overflow: hidden;">
                 <div class="responsive-slider">
+                  <ul class="rslides" id="lengthSlider">
+                    <li>
+                        <img src="images/halatti/KOOT.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="images/halatti/p_lyhyt.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="images/halatti/p_puolipitka.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="images/halatti/p_pitka.jpg" alt="">
+                    </li>
+                  </ul>
+                    <label class="halatti-label"for="length">Halatin pituus olalta helmaan</label>
+                    <select id="length" name="length" class="priceOption" required>
+                        <option value="short">A - Lyhyt (90cm)</option>
+                        <option value="midlength">B - Keskipitkä (110cm)</option>
+                        <option value="long">C - Pitkä (140cm)</option>
+                        <option value="ownLength">D - Oma pituus (ilmoita lisätiedoissa)</option>
+                    </select>
+                    <br>
+                    <span class="halatti-info-text">Oletuspituudet (A, B ja C) laskettu noin 165cm -pituiselle ihmiselle. Jos olet epävarma tilauspituudesta, tilaa mielellään vähän pidempi kuin lyhyempi.</span>
+                </div>
+                
+                <div class="responsive-slider">
+                  <ul class="rslides" id="sleeveSlider">
+                     <li>
+                        <img src="images/halatti/hihat.jpg" alt="">
+                    </li>
+                     <li>
+                        <img src="images/halatti/hiha_A.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="images/halatti/hiha_B.jpg" alt="">
+                    </li>
+                       <li>
+                        <img src="images/halatti/hiha_C.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="images/halatti/hiha_D.jpg" alt="">
+                    </li>
+                  </ul>
+                    <label class="halatti-label"for="sleeve">Hihan malli</label>
+                    <select id="sleeve" name="sleeve" class="priceOption" required>
+                        <option value="midlengthSleeve_A">A - Leveä, keskipitkä (36cm)</option>
+                        <option value="longSleeve_B">B - Leveä, pitkä (61cm)</option>
+                        <option value="narrowMidLengthSleeve_C">C - Kapea, keskipitkä (36cm)</option>
+                        <option value="narrowLongSleeve_D">D - Kapea, pitkä (61cm)</option>
+                        <option value="ownSleeve_wide_E">E - Leveä, oma pituus (ilmoita lisätiedoissa)</option>
+                        <option value="ownSleeve_F">F - Kapea, oma pituus (ilmoita lisätiedoissa)</option>
+                    </select>
+                    <br>
+                    <span class="halatti-info-text">Leveä ja pitkä hiha on näyttävä, mutta ei sovellu tiskaamiseen. Jos kaipaat käytännöllisyyttä, valitse lyhyempi tai kapeampi malli.</span>
+                </div>
+                   
+                <div class="responsive-slider">
                   <ul class="rslides" id="fabricSlider">
                     <li>
                         <img src="images/halatti/fabric_a.jpg" alt="">
@@ -378,10 +435,25 @@
                         <option value="F-gold">F - Lukkohakanen, kullanvärinen</option>
                     </select>
                     <br>
-                    <span class="halatti-info-text">Esimerkeissä kangas A. Lähetän tilausvahvistuksessa vielä kuvan soljesta valitsemaasi kangasta vasten.</span>
+                    <span class="halatti-info-text">Esimerkeissä vyö on kangasta A. Lähetän tilausvahvistuksessa vielä kuvan soljesta valitsemaasi kangasta vasten, jotta voit varmistua sävyjen sopivuudesta.</span>
                 </div>
+                  <!-- <div class="responsive-slider">
+                         <h3 class="wahtera-color">Valintojesi yhteenveto</h3>
+                    
+                    <div class="halatti-choises">
+                        <div class="col-md-12 col-sm-6 col-xs-12"><b>Pituus: </b><span class="wahtera-color" id="selected_length"></span></div>
+                        <div class="col-md-12 col-sm-6 col-xs-12"><b>Hihan malli: </b><span class="wahtera-color" id="selected_sleeve"></span></div>
+                        <div class="col-md-12 col-sm-6 col-xs-12"><b>Kangas: </b><span class="wahtera-color" id="selected_fabric"></span></div>
+                        <div class="col-md-12 col-sm-6 col-xs-12"><b>Selkäkoru: </b><span class="wahtera-color" id="selected_back"></span></div>
+                        <div class="col-md-12 col-sm-6 col-xs-12"><b>Vyön osat: </b><span class="wahtera-color" id="selected_belt"></span></div>
+                    </div>
+                       
+                       <div>
+                        Yhteensä: <b><span id="total_sum_value" class="wahtera-color"></span><span class="wahtera-color"> €</span> (sis. postikulut Suomeen)</b>
+                    </div>
+                   </div>-->
                 
-                <div class="responsive-slider">
+              <div class="responsive-slider">
                   <ul class="rslides" id="liningSlider">
                     <li>
                         <img src="images/halatti/ilman_vuoria.jpg" alt="">
@@ -396,75 +468,33 @@
                         <option value="with_lining_B">B - Vuoritettu (+52€)</option>
                     </select>
                     <br>
-                    <span class="halatti-info-text">Paksujen villojen (E) ja (F) kanssa suosittelen vahvasti vuoritusta. Ohuiden kohdalla (A-D) vuori on tarpeen, jos olet herkkä villan kutinalle tai kaipaat lisäluksusta.</span>
+                    <span class="halatti-info-text">Paksujen villojen (E) ja (F) kanssa suosittelen vahvasti vuoritusta. Ohuiden kohdalla (A-D) vuori on tarpeen vain, jos olet herkkä villan kutinalle.</span>
                 </div>
                 
-                <div class="responsive-slider">
-                  <ul class="rslides" id="lengthSlider">
-                    <li>
-                        <img src="images/halatti/KOOT.jpg" alt="">
-                    </li>
-                    <li>
-                        <img src="images/halatti/p_lyhyt.jpg" alt="">
-                    </li>
-                    <li>
-                        <img src="images/halatti/p_puolipitka.jpg" alt="">
-                    </li>
-                    <li>
-                        <img src="images/halatti/p_pitka.jpg" alt="">
-                    </li>
-                  </ul>
-                    <label class="halatti-label"for="length">Halatin pituus olalta helmaan</label>
-                    <select id="length" name="length" class="priceOption" required>
-                        <option value="short">A - Lyhyt (90cm)</option>
-                        <option value="midlength">B - Keskipitkä (110cm)</option>
-                        <option value="long">C - Pitkä (140cm)</option>
-                        <option value="ownLength">D - Oma pituus (ilmoita lisätiedoissa)</option>
-                    </select>
-                    <br>
-                    <span class="halatti-info-text">Oletuspituudet (A, B ja C) laskettu noin 165cm -pituiselle ihmiselle.</span>
-                </div>
-                
-                <div class="responsive-slider">
-                  <ul class="rslides" id="sleeveSlider">
-                     <li>
-                        <img src="images/halatti/hihat.jpg" alt="">
-                    </li>
-                     <li>
-                        <img src="images/halatti/hiha_A.jpg" alt="">
-                    </li>
-                    <li>
-                        <img src="images/halatti/hiha_B.jpg" alt="">
-                    </li>
-                       <li>
-                        <img src="images/halatti/hiha_C.jpg" alt="">
-                    </li>
-                    <li>
-                        <img src="images/halatti/hiha_D.jpg" alt="">
-                    </li>
-                  </ul>
-                    <label class="halatti-label"for="sleeve">Hihan malli</label>
-                    <select id="sleeve" name="sleeve" class="priceOption" required>
-                        <option value="midlengthSleeve_A">A - Leveä, keskipitkä (36cm)</option>
-                        <option value="longSleeve_B">B - Leveä, pitkä (61cm)</option>
-                        <option value="narrowMidLengthSleeve_C">C - Kapea, keskipitkä (36cm)</option>
-                        <option value="narrowLongSleeve_D">D - Kapea, pitkä (61cm)</option>
-                        <option value="ownSleeve_wide_E">E - Leveä, oma pituus (ilmoita lisätiedoissa)</option>
-                        <option value="ownSleeve_F">F - Kapea, oma pituus (ilmoita lisätiedoissa)</option>
-                    </select>
-                    <br>
-                    <span class="halatti-info-text">Leveä ja pitkä hiha on näyttävä, mutta ei sovellu tiskaamiseen. Jos kaipaat käytännöllisyyttä, valitse lyhyempi tai kapeampi malli.</span>
-                </div>
                 </div>
                 <div class="halatti-bottom-page col-md-12">
-                    <div class="col-xs-12 no-padding">
-                        <input type="radio" id="with_belt_loops" name="beltLoops" checked>
-                        <label for="with_belt_loops">Vyönlenkeillä</label>
+                    <h3 class="wahtera-color">Muut valinnat</h3>
+                    
+                    <!--<label class="halatti-label"for="lining">Vuoritus</label>
+                    <select id="lining" name="lining" class="priceOption" required>
+                        <option value="no_lining_A">A - Ei vuoria</option>
+                        <option value="with_lining_B">B - Vuoritettu (+52€)</option>
+                    </select>
+                    
+                    <br>
+                    <span class="halatti-info-text">Paksujen villojen (E) ja (F) kanssa suosittelen vahvasti vuoritusta. Ohuiden kohdalla (A-D) vuori on tarpeen vain, jos olet erityisen herkkä villan kutinalle.</span>
+-->                    
+                    <label class="halatti-label"for="beltLoops">Vyönlenkit</label>
+                    <select id="beltLoops" name="beltLoops" class="priceOption" required>
+                        <option value="A_with_belt_loops">A - Vyönlenkeillä</option>
+                        <option value="B_without_belt_loop">B - Ilman vyönlenkkejä</option>
+                    </select>
+                    
+                    <div>
+                        <label for="toiveet" class="name-label col-sm-12">Lisätiedot</label>
+                        <textarea name="toiveet" style="width: 85%;">Esimerkiksi tarkemmat pituustoiveet voit ilmoittaa tässä</textarea>
                     </div>
-                    <div class="col-xs-12 no-padding">
-                        <input type="radio" id="without_belt_loops" name="beltLoops">
-                        <label for="without_belt_loops">Ilman vyönlenkkejä</label>
-                    </div>
+                    
                     <h3 class="wahtera-color">Kokotiedot</h3>
                     <div style="margin-bottom: 10px;">Halatin malli on väljä ja vyö on säädettävä, joten se menee monenkokoiselle. Tarvitsen kuitenkin pari mittaasi tehdäkseni halatin "peruskooltaan" Sinulle sopivaksi.</div>
                     <label for="breast_size" class="name-label col-sm-12">Rinnanympäryksesi *</label>
@@ -472,10 +502,6 @@
                     <br>
                     <label for="waist" class="name-label col-sm-12">Vyötärönympäryksesi, jos se on yli 20cm isompi kuin rinnanympäryksesi</label>    
                     <input type="text" name="waist" class="name-input"> <span>cm</span>
-                    <div>
-                        <label for="toiveet" class="name-label col-sm-12">Lisätiedot</label>
-                        <textarea name="toiveet" style="width: 85%;">Esimerkiksi tarkemmat pituustoiveet voit ilmoittaa tässä</textarea>
-                    </div>
                 
                    <!-- <h3 class="wahtera-color">Hinta</h3>
                     <div>
@@ -521,13 +547,14 @@
                         <b>Yhteensä: <span id="total_sum_value_footer" class="wahtera-color"></span><span class="wahtera-color"> €</span></b> (sis. postikulut Suomeen)
                     </div>
                     <div class="halatti-choises">
+                        <div class="col-md-4 col-sm-6 col-xs-12"><b>Pituus: </b><span class="wahtera-color" id="selected_length"></span></div>
+                        <div class="col-md-4 col-sm-6 col-xs-12"><b>Hihan malli: </b><span class="wahtera-color" id="selected_sleeve"></span></div>
+                        
                         <div class="col-md-4 col-sm-6 col-xs-12"><b>Kangas: </b><span class="wahtera-color" id="selected_fabric"></span></div>
                         <div class="col-md-4 col-sm-6 col-xs-12"><b>Selkäkoru: </b><span class="wahtera-color" id="selected_back"></span></div>
                     
                         <div class="col-md-4 col-sm-6 col-xs-12"><b>Vyön osat: </b><span class="wahtera-color" id="selected_belt"></span></div>
                         <div class="col-md-4 col-sm-6 col-xs-12"><b>Vuoritettu: </b><span class="wahtera-color" id="selected_lining"></span></div>
-                        <div class="col-md-4 col-sm-6 col-xs-12"><b>Pituus: </b><span class="wahtera-color" id="selected_length"></span></div>
-                        <div class="col-md-4 col-sm-6 col-xs-12"><b>Hihan malli: </b><span class="wahtera-color" id="selected_sleeve"></span></div>
                     </div>
                     <button type="submit" class="marginTop15px">Lähetä tilaus</button>
                 </div>
