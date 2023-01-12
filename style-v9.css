@@ -187,6 +187,10 @@ display: none !important;
 .halatti-choises {
     font-size: 0.8em;
 }
+.example-pics {
+    margin: 2%;
+    width: 29%;
+}
 
 /*halatti-styles ends*/
 
@@ -1022,6 +1026,12 @@ button:hover {
     .responsive-slider {
         width: 100%;
     }
+    
+    .example-pics {
+        margin: auto;
+        margin-bottom: 5px;
+    }
+    
     div.mapletree {
    	height: 350px;
    	background-image: url("images/wahtera3smaller.png"); /*the maple tree*/
