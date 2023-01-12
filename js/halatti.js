@@ -54,17 +54,21 @@ $(document).ready(function(){
        var calculated_total_sum = 195;
      
        $("#halattiForm .priceOption").each(function () {
+           console.log($(this).val());
            var price_of_item = 0;
-           var price_of_item = prices.find((o) => { return o["id"] === $(this).val() }).value || 0;
+           var itemInList = prices.find((o) => { return o["id"] === $(this).val() });
+           var price_of_item = itemInList ? itemInList.value : 0;
+           console.log(price_of_item);
                
            if ($.isNumeric(price_of_item)) {
               calculated_total_sum += parseFloat(price_of_item);
               }                  
             });
+        
         $("#total_sum_value").html(calculated_total_sum);
         $("#total_sum_value_footer").html(calculated_total_sum);
-        $("#selected_fabric").html($( "#fabric option:selected" ).text());
         
+        $("#selected_fabric").html($( "#fabric option:selected" ).text());
         $("#selected_back").html($( "#backdecoration option:selected" ).text());
         $("#selected_belt").html($( "#belt option:selected" ).text());
         $("#selected_lining").html($( "#lining option:selected" ).text());
