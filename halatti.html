@@ -475,19 +475,10 @@
                 <div class="halatti-bottom-page col-md-12">
                     <h3 class="wahtera-color">Muut valinnat</h3>
                     
-                    <!--<label class="halatti-label"for="lining">Vuoritus</label>
-                    <select id="lining" name="lining" class="priceOption" required>
-                        <option value="no_lining_A">A - Ei vuoria</option>
-                        <option value="with_lining_B">B - Vuoritettu (+52€)</option>
-                    </select>
-                    
-                    <br>
-                    <span class="halatti-info-text">Paksujen villojen (E) ja (F) kanssa suosittelen vahvasti vuoritusta. Ohuiden kohdalla (A-D) vuori on tarpeen vain, jos olet erityisen herkkä villan kutinalle.</span>
--->                    
                     <label class="halatti-label"for="beltLoops">Vyönlenkit</label>
                     <select id="beltLoops" name="beltLoops" class="priceOption" required>
                         <option value="A_with_belt_loops">A - Vyönlenkeillä</option>
-                        <option value="B_without_belt_loop">B - Ilman vyönlenkkejä</option>
+                        <option value="B_without_belt_loops">B - Ilman vyönlenkkejä</option>
                     </select>
                     
                     <div>
@@ -503,10 +494,6 @@
                     <label for="waist" class="name-label col-sm-12">Vyötärönympäryksesi, jos se on yli 20cm isompi kuin rinnanympäryksesi</label>    
                     <input type="text" name="waist" class="name-input"> <span>cm</span>
                 
-                   <!-- <h3 class="wahtera-color">Hinta</h3>
-                    <div>
-                        Yhteensä: <b><span id="total_sum_value" class="wahtera-color"></span><span class="wahtera-color"> €</span> (sis. postikulut Suomeen)</b>
-                    </div>-->
             
                 </div>
                 
@@ -536,9 +523,15 @@
                     
                     <div class="marginTop10px">Kaikki tuotteet valmistetaan tilauksesta käsityönä. Tällä hetkellä tyypillinen odotusaika tilauksesta tuotteen saapumiseen on neljä viikkoa.</div>
                 
-                <div class="marginTop10px">Huomioithan, että mittatilaustuotteilla ei lähtökohtaisesti ole palautusoikeutta.</div>
+                    <div class="marginTop10px">Huomioithan, että mittatilaustuotteilla ei lähtökohtaisesti ole palautusoikeutta.</div>
                 
                     <div class="marginTop10px">Pyrin lähettämään tilauksesi yhteenvedon sekä maksutiedot seuraavana arkipäivänä tilauksen teosta.</div>
+                    
+                   <h3 class="wahtera-color">Hinta</h3>
+                    <div>
+                        Yhteensä: <b><span id="total_sum_value" class="wahtera-color"></span><span class="wahtera-color"> €</span> (sis. postikulut Suomeen)</b>
+                    </div>
+                    <button type="submit" class="marginTop15px">Lähetä tilaus</button>
                 
                 <div class="halatti-footer hidden">
                     <h3 class="wahtera-color" style="display: inline-block;">Tilauksesi</h3>

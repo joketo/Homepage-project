@@ -61,7 +61,7 @@ $(document).ready(function(){
               calculated_total_sum += parseFloat(price_of_item);
               }                  
             });
-        //$("#total_sum_value").html(calculated_total_sum);
+        $("#total_sum_value").html(calculated_total_sum);
         $("#total_sum_value_footer").html(calculated_total_sum);
         $("#selected_fabric").html($( "#fabric option:selected" ).text());
         
@@ -78,7 +78,6 @@ $(document).ready(function(){
     $("#showOrHide").html("Piilota");
         
     function changeHideFooterValue() {
-        console.log($("#showOrHide").html());
             if ($("#showOrHide").html() === "Näytä"){
                 $("#showOrHide").html("Piilota");
                 $(".halatti-footer").removeClass("minimize");
