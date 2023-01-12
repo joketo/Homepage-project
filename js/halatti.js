@@ -55,7 +55,7 @@ $(document).ready(function(){
      
        $("#halattiForm .priceOption").each(function () {
            var price_of_item = 0;
-           var price_of_item = prices.find((o) => { return o["id"] === $(this).val() }).value;
+           var price_of_item = prices.find((o) => { return o["id"] === $(this).val() }).value || 0;
                
            if ($.isNumeric(price_of_item)) {
               calculated_total_sum += parseFloat(price_of_item);
