@@ -154,6 +154,7 @@ display: none !important;
     }
     .responsive-slider {
         width: 100%;
+        max-height: unset;
   }
 }
     
@@ -1025,6 +1026,7 @@ button:hover {
    
     .responsive-slider {
         width: 100%;
+        max-height: unset;
     }
     
     .example-pics {
