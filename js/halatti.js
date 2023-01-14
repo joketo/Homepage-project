@@ -49,16 +49,129 @@ $(document).ready(function(){
         
     ];
     
+    var img = document.createElement("img");
+    var yourModelText = "";
+    
+    function calculateCombinedImage() {
+        if ($("#length option:selected").val() == "short") {
+            if ($("#sleeve option:selected").val() == "midlengthSleeve_A") {
+                img.src = "./images/halatti/hiha_a_pituus_a.jpg";
+                yourModelText = "Valintasi: Hiha A yhdistettynä pituuteen A";
+            }
+            if ($("#sleeve option:selected").val() == "longSleeve_B") {
+                img.src = "./images/halatti/hiha_b_pituus_a.jpg";
+                yourModelText = "Valintasi: Hiha B yhdistettynä pituuteen A";
+            }
+            if ($("#sleeve option:selected").val() == "narrowMidLengthSleeve_C") {
+                img.src = "./images/halatti/hiha_c_pituus_a.jpg";
+                yourModelText = "Valintasi: Hiha C yhdistettynä pituuteen A";
+            }
+            if ($("#sleeve option:selected").val() == "narrowLongSleeve_D") {
+                img.src = "./images/halatti/hiha_d_pituus_a.jpg";
+                yourModelText = "Valintasi: Hiha D yhdistettynä pituuteen A";
+            }
+            if ($("#sleeve option:selected").val() == "ownSleeve_wide_E") {
+                img.src = "./images/halatti/hiha_b_pituus_a.jpg";
+                yourModelText = "Valintasi: Hiha E (oma pituus) yhdistettynä pituuteen A";
+            }
+            if ($("#sleeve option:selected").val() == "ownSleeve_F") {
+                img.src = "./images/halatti/hiha_d_pituus_a.jpg";
+                yourModelText = "Valintasi: Hiha F (oma pituus, kapea) yhdistettynä pituuteen A";
+            }
+        }
+        if ($("#length option:selected").val() == "midlength") {
+            if ($("#sleeve option:selected").val() == "midlengthSleeve_A") {
+                img.src = "./images/halatti/hiha_a_pituus_b.jpg";
+                yourModelText = "Valintasi: Hiha A yhdistettynä pituuteen B";
+            }
+            if ($("#sleeve option:selected").val() == "longSleeve_B") {
+                img.src = "./images/halatti/hiha_b_pituus_b.jpg";
+                yourModelText = "Valintasi: Hiha B yhdistettynä pituuteen B";
+            }
+            if ($("#sleeve option:selected").val() == "narrowMidLengthSleeve_C") {
+                img.src = "./images/halatti/hiha_c_pituus_b.jpg";
+                yourModelText = "Valintasi: Hiha C yhdistettynä pituuteen B";
+            }
+            if ($("#sleeve option:selected").val() == "narrowLongSleeve_D") {
+                img.src = "./images/halatti/hiha_d_pituus_b.jpg";
+                yourModelText = "Valintasi: Hiha D yhdistettynä pituuteen B";
+            }
+            if ($("#sleeve option:selected").val() == "ownSleeve_wide_E") {
+                img.src = "./images/halatti/hiha_b_pituus_b.jpg";
+                yourModelText = "Valintasi: Hiha E (oma pituus) yhdistettynä pituuteen B";
+            }
+            if ($("#sleeve option:selected").val() == "ownSleeve_F") {
+                img.src = "./images/halatti/hiha_d_pituus_b.jpg";
+                yourModelText = "Valintasi: Hiha F (oma pituus, kapea) yhdistettynä pituuteen B";
+            }
+        }
+        if ($("#length option:selected").val() == "long") {
+            if ($("#sleeve option:selected").val() == "midlengthSleeve_A") {
+                img.src = "./images/halatti/hiha_a_pituus_c.jpg";
+                yourModelText = "Valintasi: Hiha A yhdistettynä pituuteen C";
+            }
+            if ($("#sleeve option:selected").val() == "longSleeve_B") {
+                img.src = "./images/halatti/hiha_b_pituus_c.jpg";
+                yourModelText = "Valintasi: Hiha B yhdistettynä pituuteen C";
+            }
+            if ($("#sleeve option:selected").val() == "narrowMidLengthSleeve_C") {
+                img.src = "./images/halatti/hiha_c_pituus_c.jpg";
+                yourModelText = "Valintasi: Hiha C yhdistettynä pituuteen C";
+            }
+            if ($("#sleeve option:selected").val() == "narrowLongSleeve_D") {
+                img.src = "./images/halatti/hiha_d_pituus_c.jpg";
+                yourModelText = "Valintasi: Hiha D yhdistettynä pituuteen C";
+            }
+            if ($("#sleeve option:selected").val() == "ownSleeve_wide_E") {
+                img.src = "./images/halatti/hiha_b_pituus_c.jpg";
+                yourModelText = "Valintasi: Hiha E (oma pituus) yhdistettynä pituuteen C";
+            }
+            if ($("#sleeve option:selected").val() == "ownSleeve_F") {
+                img.src = "./images/halatti/hiha_d_pituus_c.jpg";
+                yourModelText = "Valintasi: Hiha F (oma pituus, kapea) yhdistettynä pituuteen C";
+            }
+        }
+        if ($("#length option:selected").val() == "ownLength") {
+            if ($("#sleeve option:selected").val() == "midlengthSleeve_A") {
+                img.src = "./images/halatti/hiha_a_pituus_b.jpg";
+                yourModelText = "Valintasi: Hiha A yhdistettynä itse valitsemaasi pituuteen";
+            }
+            if ($("#sleeve option:selected").val() == "longSleeve_B") {
+                img.src = "./images/halatti/hiha_b_pituus_b.jpg";
+                yourModelText = "Valintasi: Hiha B yhdistettynä itse valitsemaasi pituuteen";
+            }
+            if ($("#sleeve option:selected").val() == "narrowMidLengthSleeve_C") {
+                img.src = "./images/halatti/hiha_c_pituus_b.jpg";
+                yourModelText = "Valintasi: Hiha C yhdistettynä itse valitsemaasi pituuteen";
+            }
+            if ($("#sleeve option:selected").val() == "narrowLongSleeve_D") {
+                img.src = "./images/halatti/hiha_d_pituus_b.jpg";
+                yourModelText = "Valintasi: Hiha D yhdistettynä itse valitsemaasi pituuteen";
+            }
+            if ($("#sleeve option:selected").val() == "ownSleeve_wide_E") {
+                img.src = "./images/halatti/hiha_b_pituus_b.jpg";
+                yourModelText = "Valintasi: Hiha E (oma pituus) yhdistettynä itse valitsemaasi pituuteen";
+            }
+            if ($("#sleeve option:selected").val() == "ownSleeve_F") {
+                img.src = "./images/halatti/hiha_d_pituus_b.jpg";
+                yourModelText = "Valintasi: Hiha F (oma pituus, kapea) yhdistettynä itse valitsemaasi pituuteen";
+            }
+        }
+        
+        var src = document.getElementById("combined_image");
+        src.appendChild(img);
+        
+        $("#yourModelText").html(yourModelText);
+        
+    }
     
     function calculateSum() {
        var calculated_total_sum = 195;
      
        $("#halattiForm .priceOption").each(function () {
-           console.log($(this).val());
            var price_of_item = 0;
            var itemInList = prices.find((o) => { return o["id"] === $(this).val() });
            var price_of_item = itemInList ? itemInList.value : 0;
-           console.log(price_of_item);
                
            if ($.isNumeric(price_of_item)) {
               calculated_total_sum += parseFloat(price_of_item);
@@ -75,11 +188,20 @@ $(document).ready(function(){
         $("#selected_length").html($( "#length option:selected" ).text());
         $("#selected_sleeve").html($( "#sleeve option:selected" ).text());
         
+            calculateCombinedImage();   
+       /* if ($(this).val() == "midlengthSleeve_A" || $(this).val() == "longSleeve_B" || $(this).val() == "narrowMidLengthSleeve_C" || $(this).val() == "narrowLongSleeve_D" || $(this).val() == "ownSleeve_wide_E" || $(this).val() == "ownSleeve_F" || $(this).val() == "short" || $(this).val() == "midlength" || $(this).val() == "long" || $(this).val() == "ownLength") {
+            calculateCombinedImage();   
+        }*/
+        
     }
+    
+    img.src = "./images/halatti/hiha_b_pituus_a.jpg";
+    var src = document.getElementById("combined_image");
+    src.appendChild(img);
     
     calculateSum();
     
-    $("#showOrHide").html("Piilota");
+    $("#showOrHide").html("Näytä");
         
     function changeHideFooterValue() {
             if ($("#showOrHide").html() === "Näytä"){
