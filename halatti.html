@@ -49,22 +49,24 @@
         namespace: "slider-callback",
        // maxwidth: "550px"
       });
-      $("#lengthSlider").responsiveSlides({
-        auto: false,
-        pager: false,
-        nav: true,
-        speed: 500,
-        namespace: "slider-callback",
-       // maxwidth: "550px"
-      });
-      $("#sleeveSlider").responsiveSlides({
-        auto: false,
-        pager: false,
-        nav: true,
-        speed: 500,
-        namespace: "slider-callback",
-      //  maxwidth: "550px"
-      });
+      if (screen.width > 767) {
+        $("#sleeveSlider").responsiveSlides({
+            auto: false,
+            pager: false,
+            nav: true,
+            speed: 500,
+            namespace: "slider-callback",
+            //  maxwidth: "550px"
+        });
+        $("#lengthSlider").responsiveSlides({
+            auto: false,
+            pager: false,
+            nav: true,
+            speed: 500,
+            namespace: "slider-callback",
+            // maxwidth: "550px"
+        });
+      }
       $("#fabricSlider").responsiveSlides({
         auto: false,
         pager: false,
@@ -260,10 +262,10 @@
         <div class="col-md-12 col-sm-12 col-xs-12 halatti-form">
             <form id="halattiForm" action="https://formspree.io/xaypzpgd" method="POST" class="paddingTop15px">   
                 <h3 class="halatti-header">Rakenna halattisi valitsemalla sen ominaisuudet seuraavista vaihtoehdoista:</h3>
-                <h4 style="text-align: center;">(Valitse pudotusvalikosta, kuva ei vaikuta valintaan.)</h4>
+                <h4 style="text-align: center;">(Valitse pudotusvalikosta.)</h4>
                <div class="col-md-12 halatti-options" style="overflow: hidden;">
                 <div class="responsive-slider">
-                  <ul class="rslides" id="lengthSlider">
+                  <ul class="rslides hidden-xs" id="lengthSlider">
                     <li>
                         <img src="images/halatti/KOOT.jpg" alt="">
                     </li>
@@ -285,11 +287,11 @@
                         <option value="ownLength">D - Oma pituus (ilmoita lisätiedoissa)</option>
                     </select>
                     <br>
-                    <span class="halatti-info-text">Oletuspituudet (A, B ja C) laskettu noin 165cm -pituiselle ihmiselle. Jos olet epävarma tilauspituudesta, tilaa mielellään vähän pidempi kuin lyhyempi.</span>
+                    <span class="halatti-info-text">Oletuspituudet (A, B ja C) laskettu noin 165cm -pituiselle ihmiselle. Jos olet epävarma omasta tilauspituudestasi, mainitse se lisätiedoissa.</span>
                 </div>
                 
                 <div class="responsive-slider">
-                  <ul class="rslides" id="sleeveSlider">
+                  <ul class="rslides hidden-xs" id="sleeveSlider">
                      <li>
                         <img src="images/halatti/hihat.jpg" alt="">
                     </li>
@@ -320,7 +322,7 @@
                 </div>
                    
                 <div class="responsive-slider">
-                    <ul class="rslides" id="beltSlider">
+                    <ul class="rslides" id="combination">
                         <li>
                             <div id="combined_image" alt=""></div>
                         </li>
