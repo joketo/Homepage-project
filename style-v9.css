@@ -41,12 +41,35 @@ display: none !important;
 .wahtera-color {
     color: #d68f33;
 }
+.brown-text {
+    color: #8a4b1e;
+}
 
 /*Halatti-styles*/
 .halatti-header {
     text-align: center;
     margin: 0 !important;
+    padding: 0 !important;
+}
+.halatti-header h2 {
     color: #d68f33;
+    margin: 0 !important;
+}
+.halatti-list {
+    padding-left: 40px !important;
+    margin-top: 10px;
+    text-align: start;
+    list-style: none;
+    margin-left: auto !important;
+    margin-right: auto;
+    width: 50%;
+}
+.halatti-list-wrapper {
+    max-width: 1900px;
+    padding-left: 10%;
+}
+.halatti-list i.fa {
+    font-size: unset !important;
 }
 .halatti-label {
     display: block;
@@ -72,7 +95,7 @@ display: none !important;
     display: inline-block;
 }
 .your-model-text {
-    height: 101px;
+    height: 105px;
     text-align: center;
     width: 100%;
 }
@@ -176,7 +199,7 @@ display: none !important;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 285px;
+    height: 215px;
     background-color: #f1ebe3;
     z-index: 3;
     padding-left: 5%;
@@ -1103,7 +1126,17 @@ button:hover {
     .authorimage {
         margin-top: 10px;
     }
+    .halatti-footer {
+        height: 285px;
+    }
+    .halatti-list {
+        width: 100%;
+        font-size: 0.8em;
+    }
     
+    .halatti-list-wrapper {
+        padding-left: 0;
+    }
     .name-input {
         width: 90%;
         margin-bottom: 5px;
@@ -1112,6 +1145,7 @@ button:hover {
     .halatti-page {
         margin-left: 0;
         margin-right: 0;
+        padding: 5px 0 40px 0;
     }
   
     .mobile-profilepic {
@@ -1173,10 +1207,10 @@ button:hover {
     .commission-block h2 {
         margin-bottom: 30px;
         margin-top: 30px;
-        font-size: 2em;
+        font-size: 1.7em;
     }
     .commission-block h3 {
-        font-size: 1.5em;
+        font-size: 1.4em;
         margin-bottom: 15px;
         margin-top: 20px;
     }
@@ -1322,9 +1356,7 @@ button:hover {
     .coat-images {
       padding: 0 10% !important;
     }
-    .halatti-footer {
-        height: 211px;
-    }
+ 
     .halatti-form {
         margin-bottom: 80px;
         
