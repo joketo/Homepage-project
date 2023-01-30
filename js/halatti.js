@@ -272,8 +272,8 @@ $(document).ready(function(){
         $(".example2thumbnail").addClass("not-selected");
         $(".example3thumbnail").addClass("not-selected");
         
-        $("#halattiExampleText").html("Pitkä malli (C) pitkillä leveillä hihoilla (C). Ei vuoria, vyö mallia E.");
-        $("#halattiExampleTextMobile").html("Pitkä malli (C) pitkillä leveillä hihoilla (C). Ei vuoria, vyö mallia E.");
+        $("#halattiExampleText").html("Pitkä malli (C) pitkillä leveillä hihoilla (C). Kankaana karheahko villakreppi, ei vuoria, vyö mallia E.");
+        $("#halattiExampleTextMobile").html("Pitkä malli (C) pitkillä leveillä hihoilla (C). Kankaana karheahko villakreppi, ei vuoria, vyö mallia E.");
     };
     
     
