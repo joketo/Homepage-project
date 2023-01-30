@@ -49,6 +49,14 @@
         namespace: "slider-callback",
        // maxwidth: "550px"
       });
+      $("#slider4").responsiveSlides({
+        auto: false,
+        pager: false,
+        nav: true,
+        speed: 500,
+        namespace: "slider-callback",
+       // maxwidth: "550px"
+      });
       if (screen.width > 767) {
         $("#sleeveSlider").responsiveSlides({
             auto: false,
@@ -159,20 +167,17 @@
             </ul>
         </div>
     <div class = "halatti-page">
-        <div class="header halatti-header">
-            <h2>Halatti</h2>
-            <div class="wahtera-color col-md-12 col-sm-12 col-xs-12" style="max-width: 1900px; text-align: center;">
-                Tilaustyönä valmistettava kietaisutakki, joka mukautuu valintojesi mukaan aamutakiksi, iltapuvuksi tai ulkotakiksi.
-            </div>
+        <!-- <div class="header halatti-header">
             
-        <div class="col-md-12 col-sm-12 col-xs-12 halatti-list-wrapper">   
-            <!--<div class="marginTop10px">Ylellinen halatti tuo kotiisi rentoa eleganssia, mutta sopii oikeilla valinnoilla loistavasti myös päivävaatekäyttöön tai iltapuvuksi.</div>
+                <div class="marginTop10px">Ylellinen halatti tuo kotiisi rentoa eleganssia, mutta sopii oikeilla valinnoilla loistavasti myös päivävaatekäyttöön tai iltapuvuksi.</div>
             <div class="marginTop5px">
                Monipuolinen pohja mukautuu tarpeisiisi valintojesi mukaan. Voit määritellä helman ja hihojen pituuden, koristelut sekä kankaan.
             </div>
             <div class="marginTop5px">
                Jos haet jotain täysin uniikkia, halatin voi tehdä myös omasta kankaastasi.
-            </div>-->
+            </div>
+       <div class="col-md-12 col-sm-12 col-xs-12 halatti-list-wrapper">   
+        
             <ul class="halatti-list fa-ul">
                 <li class="brown-text"><i class="fa-li fa fa-thin fa-leaf"></i>Kimonotyylinen leikkaus sopii monelle ja mukautuu vartalon muutoksiin.</li>
                 <li><i class="fa-li fa fa-thin fa-leaf"></i>Juuri oikean pituinen sinulle, kun tilaat omilla mitoilla.</li>
@@ -183,79 +188,94 @@
                 <li class="brown-text"><i class="fa-li fa fa-thin fa-leaf"></i>Voit tilata myös omalla kankaallasi!</li>
             </ul>
         </div>
-        <div class="col-md-12 col-sm-12 col-xs-12" style="max-width: 1900px; margin-bottom:20px;">   
+            
+        </div>-->
+        
+       <!-- <div class="col-md-12 col-sm-12 col-xs-12" style="max-width: 1900px; margin-bottom:20px;">   
             <div class="halattiOrderYoursText">
                 <a href="#halattiForm" class="scrollTo" style="border-bottom: #f1ebe3 3px solid;">Tilaa omasi <i class="fa fa-angle-down animated bounce halatti_fa"></i></a>
             </div>
-        </div>
-            
-            
-        </div>
+        </div>-->
         
-        <div style="padding: 0px 40px;">
-            <div class="responsive-slider example-pics">
+        
+       <div class="header halatti-header visible-xs">
+            <h2>Halatti</h2>
+            <div class="wahtera-color col-md-12 col-sm-12 col-xs-12" style="max-width: 1900px; text-align: center; margin-bottom: 15px;">
+              Tilaustyönä valmistettava kietaisutakki, joka mukautuu valintojesi mukaan aamutakiksi, iltapuvuksi tai ulkotakiksi.
+            </div>
+       </div>
+        
+        <div>
+            <div class="responsive-slider example-pics example1">
               <ul class="rslides" id="slider">
                 <li>
-                    <img src="images/halatti/halattiproto_1_2.jpg" alt="">
-                    <p class="caption">Pitkä malli (C) pitkillä leveillä hihoilla (C) henkii taikaa. Ei vuoria, vyö mallia E.</p>
+                    <img src="images/halatti/sannakatselee.jpg" alt="">
+                    <p class="caption">1/8</p>
                 </li>
                 <li>
-                    <img src="images/halatti/halattiproto_1_1.jpg" alt="">
-                    <p class="caption">Pitkä malli (C) pitkillä leveillä hihoilla (C) henkii taikaa. Ei vuoria, vyö mallia E.</p>
-                </li>
-              <!--  <li>
-                    <img src="images/halatti/halattiproto_1_3.jpg" alt="">
-                    <p class="caption">Pitkä malli (C) pitkillä leveillä hihoilla (C) henkii taikaa. Ei vuoria, vyö mallia E.</p>
-                </li-->
-                <li>
-                    <img src="images/halatti/halattiproto_1_4.jpg" alt="">
-                    <p class="caption">Pitkä malli (C) pitkillä leveillä hihoilla (C) henkii taikaa. Ei vuoria, vyö mallia E.</p>
+                    <img src="images/halatti/sanna_ikkunalla.jpg" alt="">
+                    <p class="caption">2/8</p>
                 </li>
                 <li>
-                    <img src="images/halatti/2023.jpg" alt="">
-                    <p class="caption">Pitkä malli (C) pitkillä leveillä hihoilla (C) henkii taikaa. Ei vuoria, vyö mallia E.</p>
+                    <img src="images/halatti/sannatakaa.jpg" alt="">
+                    <p class="caption">3/8</p>
                 </li>
-                  
                 <li>
-                    <img src="images/halatti/proto1takaa.jpg" alt="">
-                    <p class="caption">Pitkä malli (C) pitkillä leveillä hihoilla (C) henkii taikaa. Ei vuoria, vyö mallia E.</p>
+                    <img src="images/halatti/sannatakasivu.jpg" alt="">
+                    <p class="caption">4/8</p>
+                </li>
+                <li>
+                    <img src="images/halatti/sannakirjoittaa.jpg" alt="">
+                    <p class="caption">5/8</p>
+                </li>
+                <li>
+                    <img src="images/halatti/sannalukee.jpg" alt="">
+                    <p class="caption">6/8</p>
+                </li>
+                <li>
+                    <img src="images/halatti/sannatuolissa.jpg" alt="">
+                    <p class="caption">7/8</p>
+                </li>
+                <li>
+                    <img src="images/halatti/sannavyo.jpg" alt="">
+                    <p class="caption">8/8</p>
                 </li>
               </ul>
             </div>
         
-            <div class="responsive-slider example-pics">
+            <div class="responsive-slider example-pics hidden example2">
               <ul class="rslides" id="slider3">
                 <li>
-                    <img src="images/halatti/halattiproto_3_7.jpg" alt="">
-                    <p class="caption">Lyhyt helma (A) ja keskipitkät hihat (A). Kangas A, vuoritettu. Vyö D, selkäkoru I.</p>
+                    <img src="images/halatti/halattiproto_3_5.jpg" alt="">
+                    <p class="caption">1/4</p>
                 </li>
                 <li>
-                    <img src="images/halatti/halattiproto_3_5.jpg" alt="">
-                    <p class="caption">Lyhyt helma (A) ja keskipitkät hihat (A). Kangas A, vuoritettu. Vyö D, selkäkoru I.</p>
+                    <img src="images/halatti/halattiproto_3_7.jpg" alt="">
+                    <p class="caption">2/4</p>
                 </li>
                 <li>
                     <img src="images/halatti/halattiproto_3_6.jpg" alt="">
-                    <p class="caption">Lyhyt helma (A) ja keskipitkät hihat (A). Kangas A, vuoritettu. Vyö D, selkäkoru I.</p>
+                    <p class="caption">3/4</p>
                 </li>
                 <li>
                     <img src="images/halatti/halattiproto_3_1.jpg" alt="">
-                    <p class="caption">Lyhyt helma (A) ja keskipitkät hihat (A). Kangas A, vuoritettu. Vyö D, selkäkoru I.</p>
+                    <p class="caption">4/4</p>
                 </li>
               </ul>
             </div>
-            <div class="responsive-slider example-pics">
+            <div class="responsive-slider example-pics hidden example3">
               <ul class="rslides" id="slider2">
                 <li>
                     <img src="images/halatti/halattiproto2_2.jpg" alt="">
-                    <p class="caption">Puolipitkä malli (B) kapeilla pitkillä hihoilla (D), kangas E, vuoritettu, Selkäkoru H, kiinteä.</p>
+                    <p class="caption">1/3</p>
                 </li>
                 <li>
                     <img src="images/halatti/halattiproto2_1.jpg" alt="">
-                    <p class="caption">Puolipitkä malli (B) kapeilla pitkillä hihoilla (D), kangas E, vuoritettu, Selkäkoru H, kiinteä.</p>
+                    <p class="caption">2/3</p>
                 </li>
                 <li>
                     <img src="images/halatti/halattiproto2-2-2.jpg" alt="">
-                    <p class="caption">Puolipitkä malli (B) kapeilla pitkillä hihoilla (D), kangas E, vuoritettu, Selkäkoru H, kiinteä.</p>
+                    <p class="caption">3/3</p>
                 </li>
                <!-- <li>
                     <img src="images/halatti/halattiproto2-4-2.jpg" alt="">
@@ -275,8 +295,74 @@
                 </li>-->
               </ul>
             </div>
-        </div>
-        
+            <div class="responsive-slider example-pics hidden example4">
+              <ul class="rslides" id="slider4">
+                <li>
+                    <img src="images/halatti/halattiproto_1_2.jpg" alt="">
+                    <p class="caption">1/5</p>
+                </li>
+                <li>
+                    <img src="images/halatti/halattiproto_1_1.jpg" alt="">
+                    <p class="caption">2/5</p>
+                </li>
+              <!--  <li>
+                    <img src="images/halatti/halattiproto_1_3.jpg" alt="">
+                    <p class="caption">Pitkä malli (C) pitkillä leveillä hihoilla (C) henkii taikaa. Ei vuoria, vyö mallia E.</p>
+                </li-->
+                <li>
+                    <img src="images/halatti/halattiproto_1_4.jpg" alt="">
+                    <p class="caption">3/5</p>
+                </li>
+                <li>
+                    <img src="images/halatti/2023.jpg" alt="">
+                    <p class="caption">4/5</p>
+                </li>
+                  
+                <li>
+                    <img src="images/halatti/proto1takaa.jpg" alt="">
+                    <p class="caption">5/5</p>
+                </li>
+              </ul>
+            </div>
+            <div class="example-pics-selector">
+                <ul class="col-md-3 col-sm-12 col-xs-12 halatti-thumbnails">
+                    <li><button id="examplePic1Thumbnail" class="exampleThumbnail example1thumbnail"><img src="images/halatti/thumbnails/sannakatselee.jpg"></button></li>
+                    <li><button id="examplePic2Thumbnail" class="exampleThumbnail example2thumbnail not-selected"><img src="images/halatti/thumbnails/halattiproto3.jpg"></button></li>
+                    <li><button id="examplePic3Thumbnail" class="exampleThumbnail example3thumbnail not-selected"><img src="images/halatti/thumbnails/halattiproto2.jpg"></button></li>
+                    <li><button id="examplePic4Thumbnail" class="exampleThumbnail example4thumbnail not-selected"><img src="images/halatti/thumbnails/halattiproto1.jpg"></button></li>
+                </ul>
+                <div class="col-md-9 col-sm-12 col-xs-12">
+                    
+                    <div class="header halatti-header hidden-xs">
+                        <h2>Halatti</h2>
+                        <div class="wahtera-color col-md-12 col-sm-12 col-xs-12" style="max-width: 1900px; text-align: center; margin-bottom: 15px;">
+                            Tilaustyönä valmistettava kietaisutakki, joka mukautuu valintojesi mukaan aamutakiksi, iltapuvuksi tai ulkotakiksi.
+                        </div>
+                    </div>
+                    <div class="selectedExampleText visible-xs" style="margin-bottom: 20px;">
+                        <div>Valittu esimerkki:</div>
+                        <div id="halattiExampleTextMobile"> </div>
+                    </div>
+    
+                     <ul class="halatti-list fa-ul">
+                        <li class="brown-text"><i class="fa-li fa fa-thin fa-leaf"></i>Kimonotyylinen leikkaus sopii monelle ja mukautuu vartalon muutoksiin.</li>
+                        <li><i class="fa-li fa fa-thin fa-leaf"></i>Juuri oikean pituinen sinulle, kun tilaat omilla mitoilla.</li>
+                        <li class="brown-text"><i class="fa-li fa fa-thin fa-leaf"></i>Pukuvilla-versio on kevyt päällä, tuntuu ylelliseltä ja raikastuu tuulettamalla! </li>
+                        <li><i class="fa-li fa fa-thin fa-leaf"></i>Voidaan valmistaa myös paksusta kankaasta ja vuorilla, jolloin toimii välikausitakkina.</li>
+                         <li class="brown-text"><i class="fa-li fa fa-thin fa-leaf"></i>Voidaan valmistaa toiveidesi mukaan, esimerkiksi napeilla vyön sijaan.</li>
+                        <li><i class="fa-li fa fa-thin fa-leaf"></i>Valmistettu zero waste -periaatteella, ylijäävä kangas on minimoitu kaavoituksessa.</li>
+                         <li class="brown-text"><i class="fa-li fa fa-thin fa-leaf"></i>Voit tilata myös omalla kankaallasi!</li>
+                     </ul>
+                    <div class="selectedExampleText hidden-xs" style="margin-top: 40px;">
+                        <div>Valittu esimerkki:</div>
+                        <div id="halattiExampleText"> </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            </div>
+          
         <div class="col-md-12 col-sm-12 col-xs-12 halatti-form">
             <form id="halattiForm" action="https://formspree.io/xaypzpgd" method="POST" class="paddingTop15px">   
                 <h3 class="wahtera-color" style="text-align: center; margin-top: 0;">Rakenna halattisi valitsemalla sen ominaisuudet seuraavista pudotusvalikoista:</h3>

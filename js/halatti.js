@@ -218,7 +218,73 @@ $(document).ready(function(){
         }
     };
     
+    function changeExamplePic1Value() {
+        $(".example1").removeClass("hidden");
+        $(".example2").addClass("hidden");
+        $(".example3").addClass("hidden");
+        $(".example4").addClass("hidden");
+        
+        $(".example1thumbnail").removeClass("not-selected");
+        $(".example2thumbnail").addClass("not-selected");
+        $(".example3thumbnail").addClass("not-selected");
+        $(".example4thumbnail").addClass("not-selected");
+        
+        $("#halattiExampleText").html("Keskipitkä helma (B), keskipitkät hihat (A). Kankaana ohut silkkivilla. Vyö D, selkäkoru F.");
+        $("#halattiExampleTextMobile").html("Keskipitkä helma (B), keskipitkät hihat (A). Kankaana ohut silkkivilla. Vyö D, selkäkoru F.");
+    };
+    function changeExamplePic2Value() {
+        $(".example2").removeClass("hidden");
+        $(".example1").addClass("hidden");
+        $(".example3").addClass("hidden");
+        $(".example4").addClass("hidden");
+        
+        $(".example2thumbnail").removeClass("not-selected");
+        $(".example1thumbnail").addClass("not-selected");
+        $(".example3thumbnail").addClass("not-selected");
+        $(".example4thumbnail").addClass("not-selected");
+        
+        $("#halattiExampleText").html("Lyhyt helma (A), keskipitkät hihat (A). Kangas A, vuoritettu. Vyö D, selkäkoru I.");
+        $("#halattiExampleTextMobile").html("Lyhyt helma (A), keskipitkät hihat (A). Kangas A, vuoritettu. Vyö D, selkäkoru I.");
+    };
+    function changeExamplePic3Value() {
+        $(".example3").removeClass("hidden");
+        $(".example1").addClass("hidden");
+        $(".example2").addClass("hidden");
+        $(".example4").addClass("hidden");
+        
+        $(".example3thumbnail").removeClass("not-selected");
+        $(".example1thumbnail").addClass("not-selected");
+        $(".example2thumbnail").addClass("not-selected");
+        $(".example4thumbnail").addClass("not-selected");
+        
+        $("#halattiExampleText").html("Keskipitkä helma (B) kapeilla pitkillä hihoilla (D), kangas E, vuoritettu, Selkäkoru H, kiinteä.");
+        $("#halattiExampleTextMobile").html("Keskipitkä helma (B) kapeilla pitkillä hihoilla (D), kangas E, vuoritettu, Selkäkoru H, kiinteä.");
+    };
+    
+    function changeExamplePic4Value() {
+        $(".example4").removeClass("hidden");
+        $(".example1").addClass("hidden");
+        $(".example2").addClass("hidden");
+        $(".example3").addClass("hidden");
+        
+        $(".example4thumbnail").removeClass("not-selected");
+        $(".example1thumbnail").addClass("not-selected");
+        $(".example2thumbnail").addClass("not-selected");
+        $(".example3thumbnail").addClass("not-selected");
+        
+        $("#halattiExampleText").html("Pitkä malli (C) pitkillä leveillä hihoilla (C). Ei vuoria, vyö mallia E.");
+        $("#halattiExampleTextMobile").html("Pitkä malli (C) pitkillä leveillä hihoilla (C). Ei vuoria, vyö mallia E.");
+    };
+    
+    
+    $("#halattiExampleText").html("Keskipitkä helma (B), keskipitkät hihat (A). Kankaana ohut silkkivilla. Vyö D, selkäkoru F.");
+    $("#halattiExampleTextMobile").html("Keskipitkä helma (B), keskipitkät hihat (A). Kankaana ohut silkkivilla. Vyö D, selkäkoru F.");
     document.getElementById("showOrHideButton").addEventListener("click", changeHideFooterValue);
+    
+    document.getElementById("examplePic1Thumbnail").addEventListener("click", changeExamplePic1Value);
+    document.getElementById("examplePic2Thumbnail").addEventListener("click", changeExamplePic2Value);
+    document.getElementById("examplePic3Thumbnail").addEventListener("click", changeExamplePic3Value);
+    document.getElementById("examplePic4Thumbnail").addEventListener("click", changeExamplePic4Value);
     
     $("#halattiForm").on('input', '.priceOption', calculateSum);
     
