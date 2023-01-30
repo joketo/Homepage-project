@@ -61,6 +61,7 @@ display: none !important;
     padding: 5px;
     background-color: #eaeaea;
     border-radius: 6px;
+    font-size: 1em;
 }
 .halatti-header h2 {
     color: #d68f33;
@@ -1178,7 +1179,7 @@ button:hover {
         height: 285px;
     }
     .halatti-list {
-        width: 100%;
+        width: 90%;
         font-size: 0.8em;
     }
     
