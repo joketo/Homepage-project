@@ -257,8 +257,8 @@ $(document).ready(function(){
         $(".example2thumbnail").addClass("not-selected");
         $(".example4thumbnail").addClass("not-selected");
         
-        $("#halattiExampleText").html("Keskipitkä helma (B) kapeilla pitkillä hihoilla (D), kangas E, vuoritettu, Selkäkoru H, kiinteä.");
-        $("#halattiExampleTextMobile").html("Keskipitkä helma (B) kapeilla pitkillä hihoilla (D), kangas E, vuoritettu, Selkäkoru H, kiinteä.");
+        $("#halattiExampleText").html("Keskipitkä helma (B) kapeilla pitkillä hihoilla (D), kangas E, vuoritettu, Selkäkoru H ilman korulukkoa. Vyön sijaan solki ja viimeisessä kuvassa taakse sidottu naru.");
+        $("#halattiExampleTextMobile").html("Keskipitkä helma (B) kapeilla pitkillä hihoilla (D), kangas E, vuoritettu, Selkäkoru H ilman korulukkoa. Vyön sijaan solki ja viimeisessä kuvassa taakse sidottu naru.");
     };
     
     function changeExamplePic4Value() {
@@ -272,8 +272,8 @@ $(document).ready(function(){
         $(".example2thumbnail").addClass("not-selected");
         $(".example3thumbnail").addClass("not-selected");
         
-        $("#halattiExampleText").html("Pitkä malli (C) pitkillä leveillä hihoilla (C). Kankaana karheahko villakreppi, ei vuoria, vyö mallia E.");
-        $("#halattiExampleTextMobile").html("Pitkä malli (C) pitkillä leveillä hihoilla (C). Kankaana karheahko villakreppi, ei vuoria, vyö mallia E.");
+        $("#halattiExampleText").html("Pitkä helma (C) pitkillä leveillä hihoilla (C). Kankaana karheahko villakreppi, ei vuoria, vyö mallia E.");
+        $("#halattiExampleTextMobile").html("Pitkä helma (C) pitkillä leveillä hihoilla (C). Kankaana karheahko villakreppi, ei vuoria, vyö mallia E.");
     };
     
     
