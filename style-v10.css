@@ -1243,7 +1243,8 @@ button:hover {
         font-weight: bold;
     }
     .tokasarake {     
-        padding: 55px 0 8px 15px !important;
+        padding: 58px 0 10px 15px !important;
+        line-height: 35px !important;
     }
     .price {
         padding: 0 !important;
