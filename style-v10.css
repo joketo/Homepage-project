@@ -1137,9 +1137,11 @@ button:hover {
         cursor: pointer; 
     }
     .frontpage-image-container .frontpage-image-title {
-        background-color: antiquewhite;
+        background-color: #faebd7d9;
         color: black;
-        padding: 5px;
+        font-size: 2em;
+        border-radius: 5px;
+        padding: 10px;
     }
    
     .responsive-slider {
@@ -1394,7 +1396,7 @@ button:hover {
         max-width: 490px;
     }
     .frontpage-image {
-        max-height: 615px;
+        width: 100%;
     }
     .authorimage img {
         max-height: 900px !important;
