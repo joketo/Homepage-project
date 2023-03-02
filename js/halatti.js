@@ -25,19 +25,16 @@ $(document).ready(function(){
         {id: "A_with_belt_loops", value: 0},
         {id: "B_without_belt_loops", value: 0},
         
-        {id: "bronze_oak_A", value: 3},
-        {id: "bronze_long_B", value: 3},
-        {id: "bronze-leaf_C", value: 3},
-        {id: "bronze-leaf_D", value: 3},
-        {id: "silver_leaf_E", value: 3},
-        {id: "silver_leaf_F", value: 3},
-        {id: "silver-long_G", value: 3},
-        {id: "silver_fleur_H", value: 3},
-        {id: "siro_leaf_I", value: 3},
-        {id: "whiteLeaf-J", value: 3},
-        {id: "purpleLeaf-K", value: 3},
-        {id: "greenLeaf-L", value: 3},
-        {id: "blueLeaf-M", value: 3},
+        {id: "lummehopeaA", value: 3},
+        {id: "longhopea_B", value: 3},
+        {id: "leafhopea_C", value: 3},
+        {id: "pienihopea_D", value: 3},
+        {id: "lummekulta_E", value: 3},
+        {id: "longkulta_F", value: 3},
+        {id: "tammikulta_G", value: 3},
+        {id: "lehtikulta_H", value: 3},
+        {id: "kuparilumme_I", value: 3},
+        {id: "kuparitammi-J", value: 3},
         
         {id: "graywool_A", value: 55},
         {id: "lightblue_B", value: 35},
@@ -231,8 +228,8 @@ $(document).ready(function(){
         $(".example4thumbnail").addClass("not-selected");
         $(".example5thumbnail").addClass("not-selected");
         
-        $("#halattiExampleText").html("Keskipitkä helma (B), keskipitkät hihat (A). Kankaana ohut silkkivilla. Vyö D, selkäkoru F.");
-        $("#halattiExampleTextMobile").html("Keskipitkä helma (B), keskipitkät hihat (A). Kankaana ohut silkkivilla. Vyö D, selkäkoru F.");
+        $("#halattiExampleText").html("Keskipitkä helma (B), keskipitkät hihat (A). Kankaana ohut silkkivilla. Vyö D, selkäkoru A.");
+        $("#halattiExampleTextMobile").html("Keskipitkä helma (B), keskipitkät hihat (A). Kankaana ohut silkkivilla. Vyö D, selkäkoru A.");
     };
     function changeExamplePic2Value() {
         $(".example2").removeClass("hidden");
@@ -247,8 +244,8 @@ $(document).ready(function(){
         $(".example4thumbnail").addClass("not-selected");
         $(".example5thumbnail").addClass("not-selected");
         
-        $("#halattiExampleText").html("Lyhyt helma (A), keskipitkät hihat (A). Kangas A, vuoritettu. Vyö D, selkäkoru I.");
-        $("#halattiExampleTextMobile").html("Lyhyt helma (A), keskipitkät hihat (A). Kangas A, vuoritettu. Vyö D, selkäkoru I.");
+        $("#halattiExampleText").html("Lyhyt helma (A), keskipitkät hihat (A). Kangas A, vuoritettu. Vyö D.");
+        $("#halattiExampleTextMobile").html("Lyhyt helma (A), keskipitkät hihat (A). Kangas A, vuoritettu. Vyö D.");
     };
     function changeExamplePic3Value() {
         $(".example3").removeClass("hidden");
@@ -263,8 +260,8 @@ $(document).ready(function(){
         $(".example4thumbnail").addClass("not-selected");
         $(".example5thumbnail").addClass("not-selected");
         
-        $("#halattiExampleText").html("Keskipitkä helma (B) kapeilla pitkillä hihoilla (D), kangas E, vuoritettu, Selkäkoru H ilman korulukkoa. Vyön sijaan solki ja viimeisessä kuvassa taakse sidottu naru.");
-        $("#halattiExampleTextMobile").html("Keskipitkä helma (B) kapeilla pitkillä hihoilla (D), kangas E, vuoritettu, Selkäkoru H ilman korulukkoa. Vyön sijaan solki ja viimeisessä kuvassa taakse sidottu naru.");
+        $("#halattiExampleText").html("Keskipitkä helma (B) kapeilla pitkillä hihoilla (D), kangas E, vuoritettu, Selkäkoru D ilman korulukkoa. Vyön sijaan solki ja viimeisessä kuvassa taakse sidottu naru.");
+        $("#halattiExampleTextMobile").html("Keskipitkä helma (B) kapeilla pitkillä hihoilla (D), kangas E, vuoritettu, Selkäkoru D ilman korulukkoa. Vyön sijaan solki ja viimeisessä kuvassa taakse sidottu naru.");
     };
     
     function changeExamplePic4Value() {
@@ -297,8 +294,8 @@ $(document).ready(function(){
         $(".example3thumbnail").addClass("not-selected");
         $(".example4thumbnail").addClass("not-selected");
         
-        $("#halattiExampleText").html("Keskipitkä helma (B) pitkillä kapeilla hihoilla (D) ja erikoisleveillä hihansuukoristeilla. Paksu takkivilla, selkälaskokset ommeltu kiinni. Vyö mallia E, selkäkoru A.");
-        $("#halattiExampleTextMobile").html("Keskipitkä helma (B) pitkillä kapeilla hihoilla (D) ja erikoisleveillä hihansuukoristeilla. Paksu takkivilla, selkälaskokset ommeltu kiinni. Vyö mallia E, selkäkoru A.");
+        $("#halattiExampleText").html("Keskipitkä helma (B) pitkillä kapeilla hihoilla (D) ja erikoisleveillä hihansuukoristeilla. Paksu takkivilla, selkälaskokset ommeltu kiinni. Vyö mallia E, selkäkoru G.");
+        $("#halattiExampleTextMobile").html("Keskipitkä helma (B) pitkillä kapeilla hihoilla (D) ja erikoisleveillä hihansuukoristeilla. Paksu takkivilla, selkälaskokset ommeltu kiinni. Vyö mallia E, selkäkoru G.");
     };
     
     
