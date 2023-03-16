@@ -303,6 +303,7 @@ footer img {
   -o-filter: grayscale(100%);
    width: 100%;
   height: auto;
+    cursor: pointer;
 }
 .section .tiles img:hover {
   opacity: 1;

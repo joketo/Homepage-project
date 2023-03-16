@@ -32,6 +32,11 @@ display: none !important;
 .pp_arrow_next{
 display: none !important;
 }
+.announcement {
+    text-align: center;
+    font-size: larger;
+    background-color: antiquewhite;
+}
 .currentTextHolder {
     left: 0px !important;
 }
@@ -965,7 +970,6 @@ footer img {
 }
 .commission-block {
     font-weight: 300;
-    overflow: hidden;
 }
 .frontpage-image {
     max-height: 400px;
