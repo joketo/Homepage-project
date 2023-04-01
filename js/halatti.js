@@ -38,11 +38,8 @@ $(document).ready(function(){
         
         {id: "graywool_A", value: 55},
         {id: "lightblue_B", value: 35},
-        {id: "darkblue_C", value: 35},
-        {id: "brown_D", value: 45},
-        {id: "redviscose_E", value: 35},
-        {id: "blueviscose_F", value: 35},
-        {id: "ownfabric_G", value: 0}
+        {id: "brown_C", value: 45},
+        {id: "ownfabric_D", value: 0}
         
     ];
     
@@ -228,8 +225,8 @@ $(document).ready(function(){
         $(".example4thumbnail").addClass("not-selected");
         $(".example5thumbnail").addClass("not-selected");
         
-        $("#halattiExampleText").html("Keskipitkä helma (B), keskipitkät hihat (A). Kankaana ohut silkkivilla. Vyö D, selkäkoru A.");
-        $("#halattiExampleTextMobile").html("Keskipitkä helma (B), keskipitkät hihat (A). Kankaana ohut silkkivilla. Vyö D, selkäkoru A.");
+        $("#halattiExampleText").html("Keskipitkä helma (B), keskipitkät leveät hihat (A). Kankaana ohut silkkivilla. Vyö D, selkäkoru A.");
+        $("#halattiExampleTextMobile").html("Keskipitkä helma (B), keskipitkät leveät hihat (A). Kankaana ohut silkkivilla. Vyö D, selkäkoru A.");
     };
     function changeExamplePic2Value() {
         $(".example2").removeClass("hidden");
@@ -244,8 +241,8 @@ $(document).ready(function(){
         $(".example4thumbnail").addClass("not-selected");
         $(".example5thumbnail").addClass("not-selected");
         
-        $("#halattiExampleText").html("Lyhyt helma (A), keskipitkät hihat (A). Kangas A, vuoritettu. Vyö D.");
-        $("#halattiExampleTextMobile").html("Lyhyt helma (A), keskipitkät hihat (A). Kangas A, vuoritettu. Vyö D.");
+        $("#halattiExampleText").html("Lyhyt helma (A), keskipitkät leveät hihat (A). Kangas A, vuoritettu. Vyö D.");
+        $("#halattiExampleTextMobile").html("Lyhyt helma (A), keskipitkät leveät hihat (A). Kangas A, vuoritettu. Vyö D.");
     };
     function changeExamplePic3Value() {
         $(".example3").removeClass("hidden");
@@ -260,8 +257,8 @@ $(document).ready(function(){
         $(".example4thumbnail").addClass("not-selected");
         $(".example5thumbnail").addClass("not-selected");
         
-        $("#halattiExampleText").html("Keskipitkä helma (B) kapeilla pitkillä hihoilla (D), kangas E, vuoritettu, Selkäkoru D ilman korulukkoa. Vyön sijaan solki ja viimeisessä kuvassa taakse sidottu naru.");
-        $("#halattiExampleTextMobile").html("Keskipitkä helma (B) kapeilla pitkillä hihoilla (D), kangas E, vuoritettu, Selkäkoru D ilman korulukkoa. Vyön sijaan solki ja viimeisessä kuvassa taakse sidottu naru.");
+        $("#halattiExampleText").html("Keskipitkä helma (B) kapeilla keskipitkillä hihoilla (C), sininen pukuvilla, vuoritettu, Selkäkoru A. Erikoistoiveena pitsikaulus.");
+        $("#halattiExampleTextMobile").html("Keskipitkä helma (B) kapeilla keskipitkillä hihoilla (C), sininen pukuvilla, vuoritettu, Selkäkoru A. Erikoistoiveena pitsikaulus.");
     };
     
     function changeExamplePic4Value() {
@@ -307,7 +304,7 @@ $(document).ready(function(){
     document.getElementById("examplePic2Thumbnail").addEventListener("click", changeExamplePic2Value);
     document.getElementById("examplePic3Thumbnail").addEventListener("click", changeExamplePic3Value);
     document.getElementById("examplePic4Thumbnail").addEventListener("click", changeExamplePic4Value);
-    document.getElementById("examplePic5Thumbnail").addEventListener("click", changeExamplePic5Value);
+    //document.getElementById("examplePic5Thumbnail").addEventListener("click", changeExamplePic5Value);
     
     $("#halattiForm").on('input', '.priceOption', calculateSum);
     
