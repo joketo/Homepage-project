@@ -1,4 +1,11 @@
 $(document).ready(function () {
+
+    $(".openSannaHalattiImages").click(function(){
+        api_images = ['images/halatti/sannatakaa.jpg', 'images/halatti/sannakatselee.jpg', 'images/halatti/sanna_ikkunalla.jpg'];
+    api_titles = ['Halatti made from light wool', 'Halatti made from light wool', 'Halatti made from light wool',];
+    api_descriptions = ['', '', '']
+    $.prettyPhoto.open(api_images,api_titles,api_descriptions);
+    });
     
     $(".open019Images").click(function(){
         api_images = ['CLOTHES/tilaus19etu.jpg', 'CLOTHES/tilaus19taka.jpg'];
