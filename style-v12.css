@@ -43,6 +43,10 @@ display: none !important;
 .authorimage {
     margin-top: 21px;
 }
+.authorimage img {
+    height: 100%;
+    max-height: 487px;
+}
 .wahtera-color {
     color: #d68f33;
 }
@@ -532,21 +536,34 @@ ul.navigation {
     padding: 0;    
     margin-bottom: 0;
     font-size: 1.1em;
-    position: absolute;
     margin-left: auto;
     margin-right: auto;
-    top: 173px;
     left: 0;
     right: 0;
     width: 990px;
-    margin-bottom: 30px;
     z-index: 3;
 }
 ul.just-one-nav {
     text-align: center;
 }
+#navbar {
+    overflow: hidden;
+    z-index: 1;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fdfcf8;
+}
+.sticky + .content {
+    padding-top: 265px;
+}
 ul.fin-navigation {
     width: 419px;
+}
+ul.frontpage-navigation {
+    width: 383px;
 }
 ul.old-gallery-navigation {
     width: 212px;
@@ -896,9 +913,25 @@ h1.frontpagetext{
     font-family: theFont;
     text-align: center;
 }
-footer {
-    overflow: hidden;
+.scrollTop {
+    color: #d68f33;
+    font-size: 4em;
 }
+.btn-primary {
+    color: #fff;
+    background: #d68f33 !important;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    display: inline-block;
+    -moz-transition: 0.3s ease-in-out all;
+    -o-transition: 0.3s ease-in-out all;
+    -webkit-transition: 0.3s ease-in-out all;
+    transition: 0.3s ease-in-out all;
+  }
+  .btn-primary:hover {
+    background: #edb05f !important;
+  }
 footer div {
     text-align: center;
     display: inline-block;
@@ -969,6 +1002,7 @@ footer img {
     font-size: 1.5em;
 }
 .commission-block {
+    margin: 30px 0;
     font-weight: 300;
 }
 .frontpage-image {
@@ -1404,6 +1438,7 @@ button:hover {
     }
     .authorimage img {
         max-height: 900px !important;
+        width: 633px;
     }
    
   .contact-container {
@@ -1429,7 +1464,8 @@ button:hover {
         margin-right: 5%;
     }
     .commission-block {
-        padding: 0 4% !important;
+        padding-left: 4% !important;
+        padding-right: 4% !important;
     }
     .order-coat-text {
         padding-left: 2% !important;

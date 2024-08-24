@@ -1,191 +1,204 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="style-v11.css">
 
-        <link rel="icon" type="image/png" href="favicon.png">
-        <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet"> 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+    <link rel="stylesheet" type="text/css" href="style-v12.css">
 
-        <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet"> 
-        
-         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <title>Wahtera Ateljee - Tilaa unelmiesi takki omilla mitoilla</title>
-        <script src="ResponsiveSlides/responsiveslides.min.js"></script>
-        <script>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+
+    <script src="jquery/jquery.min.js"></script>
+    <script src="js/frontpage.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Wahtera Ateljee - Uniikit ompelutyöt ja ompeluopetusta</title>
+    <script src="ResponsiveSlides/responsiveslides.min.js"></script>
+    <script>
         $(function () {
             $("#slider").responsiveSlides({
-            auto: false,
-            pager: false,
-            nav: true,
-            speed: 500,
-            namespace: "slider-callback",
-            //maxwidth: "550px"
-        });
+                auto: false,
+                pager: false,
+                nav: true,
+                speed: 500,
+                namespace: "slider-callback",
+                //maxwidth: "550px"
+            });
             $("#slider2").responsiveSlides({
-            auto: false,
-            pager: false,
-            nav: true,
-            speed: 500,
-            namespace: "slider-callback",
-            //maxwidth: "550px"
+                auto: false,
+                pager: false,
+                nav: true,
+                speed: 500,
+                namespace: "slider-callback",
+                //maxwidth: "550px"
+            });
+            $("#slider3").responsiveSlides({
+                auto: false,
+                pager: false,
+                nav: true,
+                speed: 500,
+                namespace: "slider-callback",
+                // maxwidth: "550px"
+            });
         });
-      $("#slider3").responsiveSlides({
-        auto: false,
-        pager: false,
-        nav: true,
-        speed: 500,
-        namespace: "slider-callback",
-       // maxwidth: "550px"
-      });
-        });
-        </script>
-    </head>
+    </script>
+</head>
 
-    <body class="frontpage">
+<body class="frontpage" id="landing">
 
-       <!--Start smartphone / tablet navigation-->
-         <div class="mobile-container">
-            <div class="mapletree"></div>
-            <!-- Top Navigation Menu -->
-            <div class="topnav">
-                <img src="images/wahtera_colorful.png" class="wahtera-icon-mobile"/>
-                <div class="brand-text-container">
-                    <div style="width: 40%; text-align: center;">
-                        Mittatilaustyöt<br>
-                        Ompeluopetusta
-                    </div>
+    <!--Start smartphone / tablet navigation-->
+    <div class="mobile-container">
+        <div class="mapletree"></div>
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <img src="images/wahtera_colorful.png" class="wahtera-icon-mobile" />
+            <div class="brand-text-container">
+                <div style="width: 40%; text-align: center;">
+                    Mittatilaustyöt<br>
+                    Ompeluopetusta
                 </div>
-                 <div id="myLinks">
-                    <a href="index.html" style="color: #d68f33;">Etusivu</a>
-                    <a href="gallery.html">Portfolio</a>
-                    <a href="ukk.html">About</a>
-                 </div>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>
             </div>
+            <div id="myLinks">
+                
+                <li><a href="#landing"><span style="font-size: 1.5em;">H</span>ome</a></li>
+                <li><a href="#story"><span style="font-size: 1.5em;">T</span>arina</a></li>
+                <li><a href="#events"><span style="font-size: 1.5em;">U</span>utiset</a></li>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myNavFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </div>
-        <script>
-            function myFunction() {
-                var x = document.getElementById("myLinks");
-                if (x.style.display === "block") {
-                    x.style.display = "none";
-                } else {
-                    x.style.display = "block";
-                }
+    </div>
+    <script>
+        function myNavFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
             }
-        </script>
-        <!-- End smartphone / tablet look for navigation -->
+        }
+    </script>
+    <!-- End smartphone / tablet look for navigation -->
 
-        <div class="desktop-view">
-            <div>
-                <img src="images/lehtia-left.png" height = 190px />
-                <img style="float: right;" src="images/lehtia-right.png" height = 190px />
-            </div>
-             <div class = "logo"  style="position: absolute; left: 48%; top: 8px;">
-                    <img style="position: relative; left: -50%;" src="images/wahtera_colorful.png" height = 180px /> 
-            </div>
+    <div class="desktop-view">
+        <div>
+            <img src="images/lehtia-left.png" height=190px />
+            <img style="float: right;" src="images/lehtia-right.png" height=190px />
+        </div>
+        <div class="logo" style="position: absolute; left: 48%; top: 8px;">
+            <img style="position: relative; left: -50%;" src="images/wahtera_colorful.png" height=180px />
+        </div>
 
-           <ul class ="navigation fin-navigation">
-                <li><a href="index.html" style="color: #d68f33;"><span style="font-size: 1.5em;">E</span>tusivu</a></li>
-                <li><a href="gallery.html"><span style="font-size: 1.5em;">P</span>ortfolio</a></li> 
-                <li><a href="ukk.html"><span style="font-size: 1.5em;">A</span>bout</a></li> 
+        <div id="navbar">
+            <ul class="navigation frontpage-navigation">
+                <li id="homeNav"><a href="#landing"><span style="font-size: 1.5em;">H</span>ome</a></li>
+                <li id="storyNav"><a href="#story"><span style="font-size: 1.5em;">T</span>arina</a></li>
+                <li id="eventsNav"><a href="#events"><span style="font-size: 1.5em;">U</span>utiset</a></li>
             </ul>
         </div>
-        
-        
-        <div class = "commission-page">
-            
-           <div class="commission-block" style="overflow: hidden;"> 
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <h2 class="show-your-style-text">Wahteran toiminta on toistaiseksi päättynyt.</h2>
-                      <!-- <div class="col-md-12 announcement">Mittatilaustyöt ovat väliaikaisesti tauolla.</div>-->
-                </div>   
-            </div>
-            
-            <div style="margin: 15px 10em; display: block; overflow:hidden;">
-                
-              <!--  <div class="frontpage-image-container col-md-4 col-sm-12">
-                    <a href="services.html">
-                        <img class="frontpage-image hidden-sm hidden-xs" src="images/frontpage/nappi.jpg"/>
-                        <img class="frontpage-image visible-sm visible-xs" src="images/frontpage/nappi-mobile.jpg"/>
-                        <span class="frontpage-image-title">Mittatilaustyöt</span>
-                    </a>
-                </div>
-                
-          
-                
-                <div class="frontpage-image-container col-md-6 col-sm-12">
-                    <a href="gallery.html">
-                        <img class="frontpage-image hidden-sm hidden-xs" src="images/frontpage/halattitaka.jpg"/>
-                        <img class="frontpage-image visible-sm visible-xs" src="images/frontpage/halattitaka-mobile.jpg"/>
-                        <span class="frontpage-image-title">Galleria</span>
-                    </a>
-                </div>
+    </div>
 
-                   -->
+
+    <div class="commission-page content">
+
+        <div class="commission-block col-md-12 col-sm-12 col-xs-12">
+
+            <h2 class="show-your-style-text">Uniikkeja ompelutöitä, opetusta ja käsityökokeiluja</h2>
+            <div class="col-md-12 coat-images" style="margin-bottom: 15px;">
+                <img class="frontpage-image" src="CLOTHES/004takaaliehu2.jpg" />
+                <img class="frontpage-image" src="images/frontpage/halattitaka.jpg" />
+                <img class="frontpage-image hidden-xs hidden-sm" src="CLOTHES/katatakki_nappi.jpg" />
+                <img class="frontpage-image" src="images/frontpage/ellinmekkoback.jpg" />
+            </div>
+            <div class="col-md-12 col-sm-12 col-xs-12 order-coat-text" style="margin-top:10px;">
+                <div style="text-align: center;">Lisää töitäni voit nähdä <a href="gallery.html"
+                        class="btn-primary">Galleriassa</a></div>
+            </div>
+        </div>
+
+        <!-- <div style="margin: 15px 10em; display: block; overflow:hidden;">
                 <div class="coat-images col-md-12 col-sm-12">
                         <img class="frontpage-image hidden-sm hidden-xs" src="images/frontpage/ompelu.jpg"/>
                         <img class="frontpage-image visible-sm visible-xs" src="images/frontpage/ompelu-mobile.jpg"/>
                 </div>
+            </div>-->
+        <div id="story" class="col-md-12 col-sm-12 col-xs-12" style="text-align: center;">- - - - - - - - - - - - - - - - - - - -</div>
+
+        <div class="commission-block col-md-12 col-sm-12 col-xs-12" style="margin-bottom:20px; padding-top:20px;">
+            <div class="col-md-4 col-sm-12 authorimage">
+                <img class="frontpage-image hidden-sm hidden-xs center-image" src="images/author4.jpg"/>
+                <img class="frontpage-image visible-sm visible-xs center-image" src="images/frontpage/author-mobile.jpg"/>
             </div>
-          <!-- <div class="col-md-12 coat-images" style="margin-bottom: 15px;">
-                <img class="frontpage-image" src="images/halattitaka.jpg"/>
-                <img class="frontpage-image hidden-xs hidden-sm" src="images/nappi.jpg"/>
-                <img class="frontpage-image" src="images/kolmionappi.jpg"/>
-                <img class="frontpage-image" src="images/halatti-detail.jpg"/>
+            <div class="col-md-8 col-sm-12 col-xs-12 order-coat-text" style="margin-top:10px;">
+                <h2 style="text-align: start;">Wahteran tarina</h2>
+                <div>
+                    Olen ensimmäiseltä ammatiltani UI-painotteinen ohjelmistokehittäjä, mutta valmistuin myös
+                    käsityönopettajaksi vuonna 2019. Halusin kokeilla pitkäaikaisen ompeluharrastukseni rajoja ja
+                    perustin Wahteran vuoden 2020 alussa kotiompelimona. Tarjontaani sisältyi myös ompelun
+                    yksityisopetusta.
+                </div>
+
+                <div class="marginTop10px">
+                    Laitoin yritystoimintani tauolle vuoden 2024 alussa voidakseni keskittyä paremmin omiin
+                    intohimoprojekteihini sekä käsityökurssien
+                    ohjaamiseen. Jatkossa minua voi bongata vetämässä käsityöpajoja erilaisissa tapahtumissa sekä
+                    kansalaisopistojen kurssiohjaajana.
+                </div>
+
+                <img style="width:100%; max-width: 130px;" class="marginTop10px" src="images/allekirjoitus2.png" />
             </div>
-            
-            <div class="commission-block center-text"> 
-                <div class="col-md-12 col-sm-12 col-xs-12">
-            <h3 class="center-text">Halatti on nyt julkaistu!</h3>
-                    <div class="marginBottom15px">Halatin leikkaus taipuu moneen. Lue lisää <a href="halatti.html" class="wahtera-color">tilaussivulta</a>.</div>
-                </div>   
-                <div class="responsive-slider">
-                    <ul class="rslides" id="slider">
-                        <li>
-                            <img src="images/halatti/halattisolki_taka_57.jpg" alt="">
-                            <p class="caption">Ilman vyötä malli on rennon väljä. Paksu kangasvalinta tekee halatista takkimaisen.</p>
-                        </li>
-                    </ul>
-                </div>
-                
-                <div class="responsive-slider">
-                    <ul class="rslides" id="slider2">
-                        <li>
-                            <img src="images/halatti/halattisolkietu_57.jpg" alt="">
-                            <p class="caption">Vyön sijaan halattiin voi valita soljen tai erikoistoiveena vaikka napituksen.</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="responsive-slider">
-                    <ul class="rslides" id="slider3">
-                        <li>
-                            <img src="images/halatti/halattisolki-backtied_57.jpg" alt="">
-                            <p class="caption">Selän voi myös kiristää nauhalla, jolloin leikkaus on edestä istuvampi.</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        -->
         </div>
 
-        
+        <div id="events" class="col-md-12 col-sm-12 col-xs-12" style="text-align: center;">- - - - - - - - - - - - - - - - - - - -</div>
+
+        <div class="commission-block col-md-12 col-sm-12 col-xs-12" style="margin-bottom:20px;">
+            <div class="col-md-12 col-sm-12 col-xs-12 order-coat-text" style="margin-top:10px;">
+                <h2>Uutiset</h2>
+                <div class="marginTop10px col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                        Elokuu 2024
+                    </div>
+                    <div class="col-md-9 col-sm-9 col-xs-9">
+                        Olen Traconissa! Tervetuloa ompelupajaan "Keskiaikainen pussukka" <a
+                            href="https://kompassi.eu/events/tracon2024/programme">linkki ohjelmaan</a>
+                    </div>
+                </div>
+                <div class="marginTop10px col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                        Syksy 2024 / Kevät 2025
+                    </div>
+                    <div class="col-md-9 col-sm-9 col-xs-9">
+                        Pidän lasten kuvataidekerhoa Kannelmäen koululla perjantaisin syyskuusta 2024 alkaen.
+                        Ilmoittautuminen ryhmään Lasifaasin sivuilla: <a
+                            href="https://studiolasifaasi.com/kuviskerhot">https://studiolasifaasi.com/kuviskerhot</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="hidden-lg col-xs-12" style="text-align: center;">
+        <a href="#landing" class="scrollTop"><i class="fa fa-angle-up"></i></a>
+    </div>
+
     <footer>
         <div>
             <p>Ateljee Wahtera, Helsinki</p>
             <p style="display: inline-block">johanna@wahtera.fi</p>
-           <!-- <p type="button" style="display: inline-block;" class="rekisteriseloste-button" data-toggle="modal" data-target="#myModal">| Rekisteriseloste</p> -->
-         
+            <!-- <p type="button" style="display: inline-block;" class="rekisteriseloste-button" data-toggle="modal" data-target="#myModal">| Rekisteriseloste</p> -->
+
             <!-- Modal -->
             <div id="myModal" class="modal fade" role="dialog">
                 <div class="modal-dialog">
 
-                <!-- Modal content-->
+                    <!-- Modal content-->
                     <div class="modal-content" style="text-align: start;">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -197,34 +210,40 @@
                             Wahtera tmi<br>
                             Y-tunnus 3108132-5<br>
                             Sähköposti johanna@wahtera.fi<br>
-                            
+
                             <h3>Rekisteriasioita hoitava henkilö</h3>
                             Johanna Wahtera<br>
                             Sähköposti johanna@wahtera.fi
-                            
+
                             <h3>Rekisterin nimi</h3>
                             Wahteran asiakasrekisteri
 
                             <h3>Rekisterin pitämisen peruste</h3>
-                            Henkilö on tilannut Wahteralta tuotteita tai palveluita tai muuten antanut yhteystietonsa yhteydenpitoa varten.
-                            
+                            Henkilö on tilannut Wahteralta tuotteita tai palveluita tai muuten antanut yhteystietonsa
+                            yhteydenpitoa varten.
+
                             <h3>Rekisterin käyttötarkoitus</h3>
-                            Rekisterin käyttötarkoitus on mahdollistaa Wahteran asiakkaiden tilausten arkistointi ja yhteydenpito asiakkaiden kanssa koskien heidän tilaustaan tai tilauksiaan. Tietoja ei luovuteta ulkopuolisille tahoille eikä niitä käytetä mainontaan.
-                            
+                            Rekisterin käyttötarkoitus on mahdollistaa Wahteran asiakkaiden tilausten arkistointi ja
+                            yhteydenpito asiakkaiden kanssa koskien heidän tilaustaan tai tilauksiaan. Tietoja ei
+                            luovuteta ulkopuolisille tahoille eikä niitä käytetä mainontaan.
+
                             <h3>Rekisterin sisältämät tiedot</h3>
                             <ul>
-                            <li>Henkilön etu- ja sukunimi</li>
-                            <li>Sähköpostiosoite</li>
-                            <li>Tiedot käsitellyistä tilauksista</li>
-                            <li>Mittatilaustuotteiden asiakasmitat</li>
+                                <li>Henkilön etu- ja sukunimi</li>
+                                <li>Sähköpostiosoite</li>
+                                <li>Tiedot käsitellyistä tilauksista</li>
+                                <li>Mittatilaustuotteiden asiakasmitat</li>
                             </ul>
-                            
+
                             <h3>Tietojen luovutus</h3>
-                            Tietoja ei luovuteta Wahteran ulkopuoliseen käyttöön. Henkilötiedot hävitetään henkilön pyynnöstä.
+                            Tietoja ei luovuteta Wahteran ulkopuoliseen käyttöön. Henkilötiedot hävitetään henkilön
+                            pyynnöstä.
 
                             <h3>Rekisterin suojaus</h3>
-                            Rekisteriä ei luovuteta sivullisille. Rekisteriä, joka ei ole sähköisessä muodossa, säilytetään lukitussa tilassa, johon pääsy on rajattu vain välttämättömille henkilöille heidän työtehtäviensä edellyttämässä laajuudessa.
-                            
+                            Rekisteriä ei luovuteta sivullisille. Rekisteriä, joka ei ole sähköisessä muodossa,
+                            säilytetään lukitussa tilassa, johon pääsy on rajattu vain välttämättömille henkilöille
+                            heidän työtehtäviensä edellyttämässä laajuudessa.
+
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-default" data-dismiss="modal">Sulje</button>
@@ -232,14 +251,15 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
         <div>
-            <a href="https://www.instagram.com/jkwahtera/" title="Wahtera on instagram"><img src="glyph-logo_May2016.png"/></a>
+            <a href="https://www.instagram.com/jkwahtera/" title="Wahtera on instagram"><img
+                    src="glyph-logo_May2016.png" /></a>
         </div>
     </footer>
 
-    </body>
+</body>
 
-    
+
 </html>
